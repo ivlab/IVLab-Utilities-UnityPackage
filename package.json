@@ -1,0 +1,7 @@
+{
+    "name": "com.ivlab.utilities",
+    "displayName": "IVLab Utilities",
+    "version": "0.0.1",
+    "unity": "2019.3",
+    "description": "A collection of useful scripts for building unity projects in the Interactive Visualization Lab."
+}
