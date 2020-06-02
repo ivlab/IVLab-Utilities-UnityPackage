@@ -2,7 +2,7 @@
 
 ## Installation:
 
-### Non-development Package use
+### Non-development (read-only) Package use
 - In Unity, open Window -> Package Manager. 
 - Click the ```+``` button
 - Select ```Add package from git URL```
