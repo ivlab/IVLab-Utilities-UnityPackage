@@ -11,11 +11,11 @@
 - To switch to a new version or branch, just repeat the above steps. 
 
 ### Development use in a git-managed project
-- Navigate your terminal or Git tool into your version-controlled Unity project's Assets folder. 
-- Add this repository as a submodule: ```<projectpath>/Assets > git submodule add git@github.umn.edu:ivlab-cs/IVLab-Utilities-UnityPackage.git IVLab-Utilities```
+- Navigate your terminal or Git tool into your version-controlled Unity project's main folder. 
+- Add this repository as a submodule: ```git submodule add git@github.umn.edu:ivlab-cs/IVLab-Utilities-UnityPackage.git Assets/IVLab-Utilities; git submodule update --init --recursive```
 - See https://git-scm.com/book/en/v2/Git-Tools-Submodules for more details on working with Submodules. 
 
 ### Development use in a non git-managed project
-- Navigate your terminal or Git tool into your non version-controlled Unity project's Assets folder. 
-- Clone this repository into the Assets folder: ```<project path>/Assets > git clone git@github.umn.edu:ivlab-cs/IVLab-Utilities-UnityPackage.git IVLab-Utilities```
+- Navigate your terminal or Git tool into your non version-controlled Unity project's main folder. 
+- Clone this repository into the Assets folder: ```git clone git@github.umn.edu:ivlab-cs/IVLab-Utilities-UnityPackage.git Assets/IVLab-Utilities```
 
