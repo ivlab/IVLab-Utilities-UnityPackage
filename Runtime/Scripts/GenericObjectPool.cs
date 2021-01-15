@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace IVLab.Utilities.GenericObjectPool
+namespace IVLab.Utilities
 {
     public class GenericObjectPool : Singleton<GenericObjectPool>
     {
