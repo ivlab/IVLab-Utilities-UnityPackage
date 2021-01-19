@@ -37,7 +37,7 @@ namespace IVLab.Utilities
                     {
                         m_Instance = (T)FindObjectOfType(typeof(T));
                     }
-                    catch (UnityEngine.UnityException e)
+                    catch (UnityEngine.UnityException)
                     {
                         Debug.LogError("Make sure you call " + typeof(T).Name + "." + nameof(GetInstance) + "()" + " in some  Unity Thread method, e.g. Awake() or Start()");
                         return default;
