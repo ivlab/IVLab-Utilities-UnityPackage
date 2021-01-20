@@ -14,5 +14,8 @@ namespace IVLab.Utilities.SpaceTransforms
         // Data need this transform to be maintained in case the meshes are
         // edited destructively
         public Matrix4x4 DataTransform { get; set; } = Matrix4x4.identity;
+
+        // The current bounds for the data
+        public Bounds DataBounds { get; set; } = new Bounds();
     }
 }
