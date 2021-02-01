@@ -43,6 +43,10 @@ namespace IVLab.Utilities
             byte[] integerBytes = new byte[4];
             s.Read(integerBytes, 0, integerBytes.Length);
 
+            if (System.BitConverter.IsLittleEndian)
+            {
+                System.Array.Reverse(integerBytes);
+            }
 
             int integer = System.BitConverter.ToInt32(integerBytes, 0);
 
@@ -64,6 +68,11 @@ namespace IVLab.Utilities
 
             }
 
+            if (System.BitConverter.IsLittleEndian)
+            {
+                System.Array.Reverse(integerBytes);
+            }
+
             int integer = System.BitConverter.ToInt32(integerBytes, 0);
 
             return integer;
@@ -71,12 +80,20 @@ namespace IVLab.Utilities
         public static void WriteIntToStream(Stream s, int value)
         {
             byte[] integerBytes = BitConverter.GetBytes(value);
+            if (System.BitConverter.IsLittleEndian)
+            {
+                System.Array.Reverse(integerBytes);
+            }
             s.Write(integerBytes, 0, integerBytes.Length);
 
         }
         public static async Task WriteIntToStreamAsync(Stream s, int value, CancellationToken cancellationToken)
         {
             byte[] integerBytes = BitConverter.GetBytes(value);
+            if (System.BitConverter.IsLittleEndian)
+            {
+                System.Array.Reverse(integerBytes);
+            }
             await s.WriteAsync(integerBytes, 0, integerBytes.Length, cancellationToken);
 
         }
