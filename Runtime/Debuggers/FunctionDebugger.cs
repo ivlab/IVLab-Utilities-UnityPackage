@@ -3,13 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-[AttributeUsage(AttributeTargets.Method )]
-public class FunctionDebuggerAttribute : Attribute
+namespace IVLab.Utilities
 {
+    [AttributeUsage(AttributeTargets.Method)]
+    public class FunctionDebuggerAttribute : Attribute
+    {
 
-}
+    }
 
-public class FunctionDebugger : MonoBehaviour
-{
+    public class FunctionDebugger : MonoBehaviour
+    {
+    }
 }
