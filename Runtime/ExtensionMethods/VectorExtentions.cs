@@ -16,4 +16,8 @@ public static class VectorExtentions
     {
         return new Vector3(1 / vec.x, 1 / vec.y, 1 / vec.z);
     }
+    public static Vector4 ToHomogeneous(this Vector3 vector)
+    {
+        return new Vector4(vector.x, vector.y, vector.z, 1.0f);
+    }
 }

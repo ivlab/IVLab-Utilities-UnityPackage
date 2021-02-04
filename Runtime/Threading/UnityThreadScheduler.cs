@@ -104,6 +104,21 @@ namespace IVLab.Utilities
                 throw job.exception;
         }
 
+        void KickoffJob(UnityThreadJob job, UnityMethod method)
+        {
+            job.stopwatch = System.Diagnostics.Stopwatch.StartNew(); //creates and start the instance of Stopwatch
+
+            lock (queuedJobsPerMethod[method])
+            {
+                queuedJobsPerMethod[method].Enqueue(job);
+            }
+            //Debug.Log(job.GetHashCode() +  " Queued @ " + job.stopwatch.ElapsedMilliseconds + " ms");
+            //Debug.Log(job.GetHashCode() + " Done @ " + job.stopwatch.ElapsedMilliseconds + " ms");
+
+            if (job.exception != null)
+                throw job.exception;
+        }
+
         public async Task<T> RunMainThreadWork<T>(UnityMethod method, System.Func<T> work)
         {
             var funcJob = new UnityThreadJobFunc<T>();
@@ -130,6 +145,19 @@ namespace IVLab.Utilities
         public async Task RunMainThreadWork(System.Action work)
         {
             await RunMainThreadWork(UnityMethod.LateUpdate, work);
+        }
+
+        public void KickoffMainThreadWork(UnityMethod method, System.Action work)
+        {
+            var actionJob = new UnityhreadJobAction();
+            actionJob.work = work;
+            KickoffJob(actionJob, method);
+            return;
+        }
+
+        public void KickoffMainThreadWork(System.Action work)
+        {
+            KickoffMainThreadWork(UnityMethod.LateUpdate, work);
         }
 
 
