@@ -10,6 +10,7 @@ public class BoundsOutline : MonoBehaviour
         return go.AddComponent<BoundsOutline>();
     }
     public Bounds ToOutline { get; set; }
+    public Color WireColor { get; set; } = Color.white;
     // private void OnGUI()
     // {
     //     _bounds = BoundedObject?.ToOutline ?? default;
@@ -20,6 +21,7 @@ public class BoundsOutline : MonoBehaviour
     {
         Gizmos.matrix = transform.localToWorldMatrix;
         if(ToOutline != null)
+        Gizmos.color = WireColor;
         Gizmos.DrawWireCube(ToOutline.center, ToOutline.size);
     }
 
