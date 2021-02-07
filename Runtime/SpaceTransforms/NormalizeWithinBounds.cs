@@ -59,7 +59,9 @@ namespace IVLab.Utilities
 
             // If the new bounds would exceed the size of the current data
             // bounds, reassign the data transform
-            bool expand = thisDataSpaceBounds.size.MaxComponent() > dataSpaceBoundsAll.size.MaxComponent();
+            bool expand = thisDataSpaceBounds.size.x > dataSpaceBoundsAll.size.x ||
+                thisDataSpaceBounds.size.y > dataSpaceBoundsAll.size.y ||
+                thisDataSpaceBounds.size.z > dataSpaceBoundsAll.size.z;
             if (expand)
             {
                 boundsAll.Encapsulate(containedBounds);
