@@ -20,11 +20,11 @@ namespace IVLab.Utilities
         /// </summary>
         public static void Normalize(Bounds container, Bounds toBeContained, out Matrix4x4 transform, out Bounds contained)
         {
-            // Squash the data into our maxAutoScaleMeters dimensions
+            // Squash the data into the smallest dimension of the data
             float maxAxisOfData = toBeContained.size.MaxComponent();
-            float maxAxisOfContainer = container.size.MaxComponent();
+            float minAxisOfContainer = container.size.MinComponent();
 
-            float scaleFactor = maxAxisOfContainer / maxAxisOfData;
+            float scaleFactor = minAxisOfContainer / maxAxisOfData;
 
             // Find the translation required
             Vector3 offset = container.center - toBeContained.center;
