@@ -20,11 +20,12 @@ namespace IVLab.Utilities
         /// </summary>
         public static void Normalize(Bounds container, Bounds toBeContained, out Matrix4x4 transform, out Bounds contained)
         {
-            // Squash the data into the smallest dimension of the data
-            float maxAxisOfData = toBeContained.size.MaxComponent();
-            float minAxisOfContainer = container.size.MinComponent();
+            // Match the biggest axis of the data with the smallest axis of the container
+            float xScaleFactor = container.size.x / toBeContained.size.x;
+            float yScaleFactor = container.size.y / toBeContained.size.y;
+            float zScaleFactor = container.size.z / toBeContained.size.z;
 
-            float scaleFactor = minAxisOfContainer / maxAxisOfData;
+            float scaleFactor = Mathf.Min(Mathf.Min(xScaleFactor, yScaleFactor), zScaleFactor);
 
             // Find the translation required
             Vector3 offset = container.center - toBeContained.center;
