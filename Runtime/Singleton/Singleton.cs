@@ -16,7 +16,7 @@ namespace IVLab.Utilities
         private static object m_Lock = new object();
         private static T m_Instance;
 
-        private static Thread mainThread = Thread.CurrentThread;
+        private static Thread mainThread;
 
         public static T GetInstance()
         {
@@ -73,6 +73,7 @@ namespace IVLab.Utilities
         protected virtual void Awake()
         {
             // First chance we get, assign the instance
+            mainThread = Thread.CurrentThread;
             GetInstance();
         }
 
