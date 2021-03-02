@@ -16,7 +16,7 @@ namespace IVLab.Utilities
         private static object m_Lock = new object();
         private static T m_Instance;
 
-        private static Thread mainThread;
+        private static Thread mainThread = Thread.CurrentThread;
 
         public static T GetInstance()
         {
