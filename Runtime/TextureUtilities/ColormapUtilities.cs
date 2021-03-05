@@ -95,6 +95,32 @@ namespace IVLab.Utilities {
 
     public class ColormapUtilities
     {
+        public static Texture2D ColormapFromXML(string xmlText, int texWidth, int texHeight)
+        {
+            // Read XML file and produce a Texture2D
+            XmlDocument doc = new XmlDocument();
+            doc.LoadXml(xmlText);
+
+            XmlNode colormapNode = doc.DocumentElement.SelectSingleNode("/ColorMaps/ColorMap");
+            if (colormapNode == null)
+                colormapNode = doc.DocumentElement.SelectSingleNode("/ColorMap");
+
+            ColormapInternal colormap = new ColormapInternal();
+            foreach (XmlNode pointNode in colormapNode.SelectNodes("Point"))
+            {
+                float x = float.Parse(pointNode.Attributes.GetNamedItem("x").Value);
+                float r = float.Parse(pointNode.Attributes.GetNamedItem("r").Value);
+                float g = float.Parse(pointNode.Attributes.GetNamedItem("g").Value);
+                float b = float.Parse(pointNode.Attributes.GetNamedItem("b").Value);
+
+                Color toAdd = new Color(r, g, b, 1.0f);
+                colormap.AddControlPoint(x, toAdd);
+            }
+
+            // Create and return the image
+            return CreateTextureFromColormap(colormap, texWidth, texHeight);
+        }
+
         public static Texture2D ColormapFromFile(string filePath, int texWidth=1024, int texHeight=100)
         {
             string extention = Path.GetExtension(filePath);
@@ -109,30 +135,8 @@ namespace IVLab.Utilities {
             }
             else if (extention.ToUpper() == ".XML")
             {
-                // Read XML file and produce a Texture2D
-                XmlDocument doc = new XmlDocument();
-                doc.Load(filePath);
-
-                XmlNode colormapNode = doc.DocumentElement.SelectSingleNode("/ColorMaps/ColorMap");
-                if (colormapNode == null)
-                    colormapNode = doc.DocumentElement.SelectSingleNode("/ColorMap");
-                string name = colormapNode.Attributes.GetNamedItem("name") != null ? colormapNode.Attributes.GetNamedItem("name").Value : Path.GetFileName(filePath);
-
-                ColormapInternal colormap = new ColormapInternal();
-
-                foreach (XmlNode pointNode in colormapNode.SelectNodes("Point"))
-                {
-                    float x = float.Parse(pointNode.Attributes.GetNamedItem("x").Value);
-                    float r = float.Parse(pointNode.Attributes.GetNamedItem("r").Value);
-                    float g = float.Parse(pointNode.Attributes.GetNamedItem("g").Value);
-                    float b = float.Parse(pointNode.Attributes.GetNamedItem("b").Value);
-
-                    Color toAdd = new Color(r, g, b, 1.0f);
-                    colormap.AddControlPoint(x, toAdd);
-                }
-
-                // Create and return the image
-                image = CreateTextureFromColormap(colormap, texWidth, texHeight);
+                string xmlText = File.ReadAllText(filePath);
+                image = ColormapFromXML(xmlText, texWidth, texHeight);
             }
             else
             {
