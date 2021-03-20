@@ -51,7 +51,7 @@ namespace IVLab.Utilities.GenericObjectPool
         }
 
         // Update is called once per frame
-        void OnGUI()
+        void Update()
         {
             poolName = PoolName;
 
