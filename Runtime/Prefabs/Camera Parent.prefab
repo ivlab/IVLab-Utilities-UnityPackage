@@ -160,6 +160,7 @@ GameObject:
   - component: {fileID: 7730492164762745985}
   - component: {fileID: 7730492164762745990}
   - component: {fileID: 7730492164762745991}
+  - component: {fileID: 963194226}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -233,6 +234,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7730492164762745988}
   m_Enabled: 1
+--- !u!114 &963194226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7730492164762745988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c757bd99d164945ac69180d705f011, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7730492162861281031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -304,6 +317,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: pan_arrow
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 244ca46bd62efbb4c8392acaea8e0525, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 244ca46bd62efbb4c8392acaea8e0525, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 244ca46bd62efbb4c8392acaea8e0525, type: 3}
 --- !u!1 &7460582750924608086 stripped
@@ -323,9 +344,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7730492164762745985}
     m_Modifications:
+    - target: {fileID: 1170360742171730, guid: 552cfaf1330ae344c982ca53f2c273df, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258950196695900, guid: 552cfaf1330ae344c982ca53f2c273df, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1272668862266602, guid: 552cfaf1330ae344c982ca53f2c273df, type: 3}
       propertyPath: m_Name
       value: LeftHandAxis
+      objectReference: {fileID: 0}
+    - target: {fileID: 1272668862266602, guid: 552cfaf1330ae344c982ca53f2c273df, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342314051014414, guid: 552cfaf1330ae344c982ca53f2c273df, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4143267793826096, guid: 552cfaf1330ae344c982ca53f2c273df, type: 3}
       propertyPath: m_RootOrder
@@ -474,6 +511,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: rotation_axes
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 25d53f6f3eb6a1643a8266d4041a9d36, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 25d53f6f3eb6a1643a8266d4041a9d36, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25d53f6f3eb6a1643a8266d4041a9d36, type: 3}
 --- !u!1 &7460582750192422818 stripped
@@ -556,6 +601,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c2f2d74a039d3046b53348321b6b466, type: 3}
       propertyPath: m_Name
       value: truck_arrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c2f2d74a039d3046b53348321b6b466, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 1c2f2d74a039d3046b53348321b6b466, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c2f2d74a039d3046b53348321b6b466, type: 3}
