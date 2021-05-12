@@ -93,10 +93,10 @@ namespace IVLab.Utilities
                 ctrlPressed = false;
             }
 
-            var pan = Input.GetMouseButton(2) && !shiftPressed && !ctrlPressed;
+            var pan = (Input.GetMouseButton(2) && !shiftPressed && !ctrlPressed) || (Input.GetMouseButton(0) && shiftPressed && ctrlPressed);
             var rotate = Input.GetMouseButton(0) && shiftPressed && !ctrlPressed;
             var orbit = Input.GetMouseButton(0) && !shiftPressed && !ctrlPressed;
-            var zoom = Input.GetMouseButton(1) || (Input.GetMouseButton(0) && ctrlPressed);
+            var zoom = Input.GetMouseButton(1) || (Input.GetMouseButton(0) && ctrlPressed && !shiftPressed);
 
             // This doesn't seem to work in Unity (mouse scroll)
             // var zoomWheel = Input.mouseScrollDelta.y > 0;
