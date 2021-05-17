@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class ClickAndDragCamera : MonoBehaviour
 {
-    public float rotationSpeed = 0.00005f;
+    public float rotationSpeed = 0.00001f;
     public float panSpeed = 0.00005f;
 
     float truck;
