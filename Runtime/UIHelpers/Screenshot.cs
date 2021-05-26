@@ -6,6 +6,17 @@ namespace IVLab.Utilities
     [RequireComponent(typeof(Camera))]
     public class Screenshot : MonoBehaviour
     {
+        private ScreenshotParams screenshotOnLateUpdate = null;
+
+        private class ScreenshotParams
+        {
+            public string filePath;
+            public int width;
+            public int height;
+            public bool transparentBackground;
+            public int jpgQuality;
+        }
+
         // transparent background only applies to non-jpg images (jpgQuality != -1)
         public byte[] CaptureView(int width, int height, bool transparentBackground, int jpgQuality)
         {
@@ -58,6 +69,35 @@ namespace IVLab.Utilities
         {
             byte[] bytes = CaptureView(width, height, transparentBackground, jpgQuality);
             File.WriteAllBytes(filepath, bytes);
+        }
+
+        /// <summary>
+        ///     Save a screenshot but run the screenshot in LateUpdate() instead of *right now*
+        /// </summary>
+        public void SaveScreenshotOnLateUpdate(string filepath, int width, int height, bool transparentBackground, int jpgQuality=-1)
+        {
+            screenshotOnLateUpdate = new ScreenshotParams {
+                filePath = filepath,
+                width = width,
+                height = height,
+                transparentBackground = transparentBackground,
+                jpgQuality = jpgQuality
+            };
+        }
+
+        void LateUpdate()
+        {
+            if (screenshotOnLateUpdate != null)
+            {
+                SaveScreenshot(
+                    screenshotOnLateUpdate.filePath,
+                    screenshotOnLateUpdate.width,
+                    screenshotOnLateUpdate.height,
+                    screenshotOnLateUpdate.transparentBackground,
+                    screenshotOnLateUpdate.jpgQuality
+                );
+                screenshotOnLateUpdate = null;
+            }
         }
     }
 }
