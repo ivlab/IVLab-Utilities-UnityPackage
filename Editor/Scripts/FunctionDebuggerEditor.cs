@@ -10,6 +10,12 @@ using IVLab.Utilities;
 
 namespace IVLab.Utilities
 {
+    /// <summary>
+    ///     Enables a user to run methods of a MonoBehaviour by clicking a GUI
+    ///     button in the Unity editor. <br>
+    ///
+    ///     Use as an attribute: `[FunctionDebugger]`
+    /// </summary>
     [CustomEditor(typeof(FunctionDebugger))]
     public class FunctionDebuggerEditor : Editor
     {

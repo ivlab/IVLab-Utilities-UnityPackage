@@ -1,7 +1,7 @@
 {
     "name": "edu.umn.cs.ivlab.utilities",
     "displayName": "IVLab Utilities",
-    "version": "0.0.7",
+    "version": "0.1.0",
     "unity": "2020.1",
     "description": "A collection of useful scripts for building unity projects in the Interactive Visualization Lab."
 }
