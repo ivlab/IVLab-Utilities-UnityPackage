@@ -455,10 +455,32 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "resources/IVLAB.svg.meta",
+      "output": {
+        "resource": {
+          "relative_path": "resources/IVLAB.svg.meta"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "resources/favicon.ico",
       "output": {
         "resource": {
           "relative_path": "resources/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/favicon.ico.meta",
+      "output": {
+        "resource": {
+          "relative_path": "resources/favicon.ico.meta"
         }
       },
       "is_incremental": false,
@@ -480,17 +502,19 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 34,
-          "skipped_file_count": 34
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
