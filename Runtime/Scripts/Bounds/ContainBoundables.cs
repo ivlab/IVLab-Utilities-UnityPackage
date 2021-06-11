@@ -1,8 +1,7 @@
 ﻿using IVLab.Utilities;
-using IVLab.Utilities.GenericObjectPool;
 using UnityEngine;
 
-namespace IVLab.Utilities.Bounds
+namespace IVLab.Utilities
 {
 /// <summary>
 /// Contain several Bounds objects within a new bounds object

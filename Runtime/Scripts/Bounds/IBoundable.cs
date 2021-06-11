@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace IVLab.Utilities.Bounds
+namespace IVLab.Utilities
 {
     public interface IBoundable
     {

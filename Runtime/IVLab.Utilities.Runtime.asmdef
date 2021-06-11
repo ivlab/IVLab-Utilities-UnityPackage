@@ -1,10 +1,9 @@
 {
-    "name": "IVLab.Utilities.Editor",
+    "name": "IVLab.Utilities.Runtime",
     "references": [
-        "IVLab.Utilities.Runtime"
+        "IVLab.Utilities"
     ],
     "includePlatforms": [
-	"Editor"
     ],
     "allowUnsafeCode": false,
     "overrideReferences": false,
