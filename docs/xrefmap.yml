@@ -1,0 +1,1493 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: IVLab.Utilities
+  name: IVLab.Utilities
+  href: api/IVLab.Utilities.html
+  commentId: N:IVLab.Utilities
+  fullName: IVLab.Utilities
+  nameWithType: IVLab.Utilities
+- uid: IVLab.Utilities.Boundable
+  name: Boundable
+  href: api/IVLab.Utilities.Boundable.html
+  commentId: T:IVLab.Utilities.Boundable
+  fullName: IVLab.Utilities.Boundable
+  nameWithType: Boundable
+- uid: IVLab.Utilities.Boundable.EncapsulateAll(IEnumerable{IVLab.Utilities.IBoundable})
+  name: EncapsulateAll(IEnumerable<IBoundable>)
+  href: api/IVLab.Utilities.Boundable.html#IVLab_Utilities_Boundable_EncapsulateAll_IEnumerable_IVLab_Utilities_IBoundable__
+  commentId: M:IVLab.Utilities.Boundable.EncapsulateAll(IEnumerable{IVLab.Utilities.IBoundable})
+  name.vb: EncapsulateAll(IEnumerable(Of IBoundable))
+  fullName: IVLab.Utilities.Boundable.EncapsulateAll(IEnumerable<IVLab.Utilities.IBoundable>)
+  fullName.vb: IVLab.Utilities.Boundable.EncapsulateAll(IEnumerable(Of IVLab.Utilities.IBoundable))
+  nameWithType: Boundable.EncapsulateAll(IEnumerable<IBoundable>)
+  nameWithType.vb: Boundable.EncapsulateAll(IEnumerable(Of IBoundable))
+- uid: IVLab.Utilities.Boundable.EncapsulateAll*
+  name: EncapsulateAll
+  href: api/IVLab.Utilities.Boundable.html#IVLab_Utilities_Boundable_EncapsulateAll_
+  commentId: Overload:IVLab.Utilities.Boundable.EncapsulateAll
+  isSpec: "True"
+  fullName: IVLab.Utilities.Boundable.EncapsulateAll
+  nameWithType: Boundable.EncapsulateAll
+- uid: IVLab.Utilities.BoundsExtentions
+  name: BoundsExtentions
+  href: api/IVLab.Utilities.BoundsExtentions.html
+  commentId: T:IVLab.Utilities.BoundsExtentions
+  fullName: IVLab.Utilities.BoundsExtentions
+  nameWithType: BoundsExtentions
+- uid: IVLab.Utilities.BoundsExtentions.MaxDimension(Bounds)
+  name: MaxDimension(Bounds)
+  href: api/IVLab.Utilities.BoundsExtentions.html#IVLab_Utilities_BoundsExtentions_MaxDimension_Bounds_
+  commentId: M:IVLab.Utilities.BoundsExtentions.MaxDimension(Bounds)
+  fullName: IVLab.Utilities.BoundsExtentions.MaxDimension(Bounds)
+  nameWithType: BoundsExtentions.MaxDimension(Bounds)
+- uid: IVLab.Utilities.BoundsExtentions.MaxDimension*
+  name: MaxDimension
+  href: api/IVLab.Utilities.BoundsExtentions.html#IVLab_Utilities_BoundsExtentions_MaxDimension_
+  commentId: Overload:IVLab.Utilities.BoundsExtentions.MaxDimension
+  isSpec: "True"
+  fullName: IVLab.Utilities.BoundsExtentions.MaxDimension
+  nameWithType: BoundsExtentions.MaxDimension
+- uid: IVLab.Utilities.BoundsOutline
+  name: BoundsOutline
+  href: api/IVLab.Utilities.BoundsOutline.html
+  commentId: T:IVLab.Utilities.BoundsOutline
+  fullName: IVLab.Utilities.BoundsOutline
+  nameWithType: BoundsOutline
+- uid: IVLab.Utilities.BoundsOutline.Init(GameObject)
+  name: Init(GameObject)
+  href: api/IVLab.Utilities.BoundsOutline.html#IVLab_Utilities_BoundsOutline_Init_GameObject_
+  commentId: M:IVLab.Utilities.BoundsOutline.Init(GameObject)
+  fullName: IVLab.Utilities.BoundsOutline.Init(GameObject)
+  nameWithType: BoundsOutline.Init(GameObject)
+- uid: IVLab.Utilities.BoundsOutline.Init*
+  name: Init
+  href: api/IVLab.Utilities.BoundsOutline.html#IVLab_Utilities_BoundsOutline_Init_
+  commentId: Overload:IVLab.Utilities.BoundsOutline.Init
+  isSpec: "True"
+  fullName: IVLab.Utilities.BoundsOutline.Init
+  nameWithType: BoundsOutline.Init
+- uid: IVLab.Utilities.BoundsOutline.ToOutline
+  name: ToOutline
+  href: api/IVLab.Utilities.BoundsOutline.html#IVLab_Utilities_BoundsOutline_ToOutline
+  commentId: P:IVLab.Utilities.BoundsOutline.ToOutline
+  fullName: IVLab.Utilities.BoundsOutline.ToOutline
+  nameWithType: BoundsOutline.ToOutline
+- uid: IVLab.Utilities.BoundsOutline.ToOutline*
+  name: ToOutline
+  href: api/IVLab.Utilities.BoundsOutline.html#IVLab_Utilities_BoundsOutline_ToOutline_
+  commentId: Overload:IVLab.Utilities.BoundsOutline.ToOutline
+  isSpec: "True"
+  fullName: IVLab.Utilities.BoundsOutline.ToOutline
+  nameWithType: BoundsOutline.ToOutline
+- uid: IVLab.Utilities.BoundsOutline.WireColor
+  name: WireColor
+  href: api/IVLab.Utilities.BoundsOutline.html#IVLab_Utilities_BoundsOutline_WireColor
+  commentId: P:IVLab.Utilities.BoundsOutline.WireColor
+  fullName: IVLab.Utilities.BoundsOutline.WireColor
+  nameWithType: BoundsOutline.WireColor
+- uid: IVLab.Utilities.BoundsOutline.WireColor*
+  name: WireColor
+  href: api/IVLab.Utilities.BoundsOutline.html#IVLab_Utilities_BoundsOutline_WireColor_
+  commentId: Overload:IVLab.Utilities.BoundsOutline.WireColor
+  isSpec: "True"
+  fullName: IVLab.Utilities.BoundsOutline.WireColor
+  nameWithType: BoundsOutline.WireColor
+- uid: IVLab.Utilities.ByteCompression
+  name: ByteCompression
+  href: api/IVLab.Utilities.ByteCompression.html
+  commentId: T:IVLab.Utilities.ByteCompression
+  fullName: IVLab.Utilities.ByteCompression
+  nameWithType: ByteCompression
+- uid: IVLab.Utilities.ByteCompression.Compress(System.Byte[])
+  name: Compress(Byte[])
+  href: api/IVLab.Utilities.ByteCompression.html#IVLab_Utilities_ByteCompression_Compress_System_Byte___
+  commentId: M:IVLab.Utilities.ByteCompression.Compress(System.Byte[])
+  name.vb: Compress(Byte())
+  fullName: IVLab.Utilities.ByteCompression.Compress(System.Byte[])
+  fullName.vb: IVLab.Utilities.ByteCompression.Compress(System.Byte())
+  nameWithType: ByteCompression.Compress(Byte[])
+  nameWithType.vb: ByteCompression.Compress(Byte())
+- uid: IVLab.Utilities.ByteCompression.Compress*
+  name: Compress
+  href: api/IVLab.Utilities.ByteCompression.html#IVLab_Utilities_ByteCompression_Compress_
+  commentId: Overload:IVLab.Utilities.ByteCompression.Compress
+  isSpec: "True"
+  fullName: IVLab.Utilities.ByteCompression.Compress
+  nameWithType: ByteCompression.Compress
+- uid: IVLab.Utilities.ByteCompression.CompressAsync(System.Byte[],CancellationToken)
+  name: CompressAsync(Byte[], CancellationToken)
+  href: api/IVLab.Utilities.ByteCompression.html#IVLab_Utilities_ByteCompression_CompressAsync_System_Byte___CancellationToken_
+  commentId: M:IVLab.Utilities.ByteCompression.CompressAsync(System.Byte[],CancellationToken)
+  name.vb: CompressAsync(Byte(), CancellationToken)
+  fullName: IVLab.Utilities.ByteCompression.CompressAsync(System.Byte[], CancellationToken)
+  fullName.vb: IVLab.Utilities.ByteCompression.CompressAsync(System.Byte(), CancellationToken)
+  nameWithType: ByteCompression.CompressAsync(Byte[], CancellationToken)
+  nameWithType.vb: ByteCompression.CompressAsync(Byte(), CancellationToken)
+- uid: IVLab.Utilities.ByteCompression.CompressAsync*
+  name: CompressAsync
+  href: api/IVLab.Utilities.ByteCompression.html#IVLab_Utilities_ByteCompression_CompressAsync_
+  commentId: Overload:IVLab.Utilities.ByteCompression.CompressAsync
+  isSpec: "True"
+  fullName: IVLab.Utilities.ByteCompression.CompressAsync
+  nameWithType: ByteCompression.CompressAsync
+- uid: IVLab.Utilities.ByteCompression.Decompress(System.Byte[])
+  name: Decompress(Byte[])
+  href: api/IVLab.Utilities.ByteCompression.html#IVLab_Utilities_ByteCompression_Decompress_System_Byte___
+  commentId: M:IVLab.Utilities.ByteCompression.Decompress(System.Byte[])
+  name.vb: Decompress(Byte())
+  fullName: IVLab.Utilities.ByteCompression.Decompress(System.Byte[])
+  fullName.vb: IVLab.Utilities.ByteCompression.Decompress(System.Byte())
+  nameWithType: ByteCompression.Decompress(Byte[])
+  nameWithType.vb: ByteCompression.Decompress(Byte())
+- uid: IVLab.Utilities.ByteCompression.Decompress*
+  name: Decompress
+  href: api/IVLab.Utilities.ByteCompression.html#IVLab_Utilities_ByteCompression_Decompress_
+  commentId: Overload:IVLab.Utilities.ByteCompression.Decompress
+  isSpec: "True"
+  fullName: IVLab.Utilities.ByteCompression.Decompress
+  nameWithType: ByteCompression.Decompress
+- uid: IVLab.Utilities.ByteCompression.DecompressAsync(System.Byte[],CancellationToken)
+  name: DecompressAsync(Byte[], CancellationToken)
+  href: api/IVLab.Utilities.ByteCompression.html#IVLab_Utilities_ByteCompression_DecompressAsync_System_Byte___CancellationToken_
+  commentId: M:IVLab.Utilities.ByteCompression.DecompressAsync(System.Byte[],CancellationToken)
+  name.vb: DecompressAsync(Byte(), CancellationToken)
+  fullName: IVLab.Utilities.ByteCompression.DecompressAsync(System.Byte[], CancellationToken)
+  fullName.vb: IVLab.Utilities.ByteCompression.DecompressAsync(System.Byte(), CancellationToken)
+  nameWithType: ByteCompression.DecompressAsync(Byte[], CancellationToken)
+  nameWithType.vb: ByteCompression.DecompressAsync(Byte(), CancellationToken)
+- uid: IVLab.Utilities.ByteCompression.DecompressAsync*
+  name: DecompressAsync
+  href: api/IVLab.Utilities.ByteCompression.html#IVLab_Utilities_ByteCompression_DecompressAsync_
+  commentId: Overload:IVLab.Utilities.ByteCompression.DecompressAsync
+  isSpec: "True"
+  fullName: IVLab.Utilities.ByteCompression.DecompressAsync
+  nameWithType: ByteCompression.DecompressAsync
+- uid: IVLab.Utilities.ByteMethods
+  name: ByteMethods
+  href: api/IVLab.Utilities.ByteMethods.html
+  commentId: T:IVLab.Utilities.ByteMethods
+  fullName: IVLab.Utilities.ByteMethods
+  nameWithType: ByteMethods
+- uid: IVLab.Utilities.ByteMethods.ByteArrayToObject(System.Byte[])
+  name: ByteArrayToObject(Byte[])
+  href: api/IVLab.Utilities.ByteMethods.html#IVLab_Utilities_ByteMethods_ByteArrayToObject_System_Byte___
+  commentId: M:IVLab.Utilities.ByteMethods.ByteArrayToObject(System.Byte[])
+  name.vb: ByteArrayToObject(Byte())
+  fullName: IVLab.Utilities.ByteMethods.ByteArrayToObject(System.Byte[])
+  fullName.vb: IVLab.Utilities.ByteMethods.ByteArrayToObject(System.Byte())
+  nameWithType: ByteMethods.ByteArrayToObject(Byte[])
+  nameWithType.vb: ByteMethods.ByteArrayToObject(Byte())
+- uid: IVLab.Utilities.ByteMethods.ByteArrayToObject*
+  name: ByteArrayToObject
+  href: api/IVLab.Utilities.ByteMethods.html#IVLab_Utilities_ByteMethods_ByteArrayToObject_
+  commentId: Overload:IVLab.Utilities.ByteMethods.ByteArrayToObject
+  isSpec: "True"
+  fullName: IVLab.Utilities.ByteMethods.ByteArrayToObject
+  nameWithType: ByteMethods.ByteArrayToObject
+- uid: IVLab.Utilities.ByteMethods.ObjectToByteArray(System.Object)
+  name: ObjectToByteArray(Object)
+  href: api/IVLab.Utilities.ByteMethods.html#IVLab_Utilities_ByteMethods_ObjectToByteArray_System_Object_
+  commentId: M:IVLab.Utilities.ByteMethods.ObjectToByteArray(System.Object)
+  fullName: IVLab.Utilities.ByteMethods.ObjectToByteArray(System.Object)
+  nameWithType: ByteMethods.ObjectToByteArray(Object)
+- uid: IVLab.Utilities.ByteMethods.ObjectToByteArray*
+  name: ObjectToByteArray
+  href: api/IVLab.Utilities.ByteMethods.html#IVLab_Utilities_ByteMethods_ObjectToByteArray_
+  commentId: Overload:IVLab.Utilities.ByteMethods.ObjectToByteArray
+  isSpec: "True"
+  fullName: IVLab.Utilities.ByteMethods.ObjectToByteArray
+  nameWithType: ByteMethods.ObjectToByteArray
+- uid: IVLab.Utilities.CameraFrustumGizmo
+  name: CameraFrustumGizmo
+  href: api/IVLab.Utilities.CameraFrustumGizmo.html
+  commentId: T:IVLab.Utilities.CameraFrustumGizmo
+  fullName: IVLab.Utilities.CameraFrustumGizmo
+  nameWithType: CameraFrustumGizmo
+- uid: IVLab.Utilities.CameraFrustumGizmo.OnDrawGizmos
+  name: OnDrawGizmos()
+  href: api/IVLab.Utilities.CameraFrustumGizmo.html#IVLab_Utilities_CameraFrustumGizmo_OnDrawGizmos
+  commentId: M:IVLab.Utilities.CameraFrustumGizmo.OnDrawGizmos
+  fullName: IVLab.Utilities.CameraFrustumGizmo.OnDrawGizmos()
+  nameWithType: CameraFrustumGizmo.OnDrawGizmos()
+- uid: IVLab.Utilities.CameraFrustumGizmo.OnDrawGizmos*
+  name: OnDrawGizmos
+  href: api/IVLab.Utilities.CameraFrustumGizmo.html#IVLab_Utilities_CameraFrustumGizmo_OnDrawGizmos_
+  commentId: Overload:IVLab.Utilities.CameraFrustumGizmo.OnDrawGizmos
+  isSpec: "True"
+  fullName: IVLab.Utilities.CameraFrustumGizmo.OnDrawGizmos
+  nameWithType: CameraFrustumGizmo.OnDrawGizmos
+- uid: IVLab.Utilities.ClickAndDragCamera
+  name: ClickAndDragCamera
+  href: api/IVLab.Utilities.ClickAndDragCamera.html
+  commentId: T:IVLab.Utilities.ClickAndDragCamera
+  fullName: IVLab.Utilities.ClickAndDragCamera
+  nameWithType: ClickAndDragCamera
+- uid: IVLab.Utilities.ClickAndDragCamera.axesWidget
+  name: axesWidget
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_axesWidget
+  commentId: F:IVLab.Utilities.ClickAndDragCamera.axesWidget
+  fullName: IVLab.Utilities.ClickAndDragCamera.axesWidget
+  nameWithType: ClickAndDragCamera.axesWidget
+- uid: IVLab.Utilities.ClickAndDragCamera.Orbit(System.Single)
+  name: Orbit(Single)
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_Orbit_System_Single_
+  commentId: M:IVLab.Utilities.ClickAndDragCamera.Orbit(System.Single)
+  fullName: IVLab.Utilities.ClickAndDragCamera.Orbit(System.Single)
+  nameWithType: ClickAndDragCamera.Orbit(Single)
+- uid: IVLab.Utilities.ClickAndDragCamera.Orbit*
+  name: Orbit
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_Orbit_
+  commentId: Overload:IVLab.Utilities.ClickAndDragCamera.Orbit
+  isSpec: "True"
+  fullName: IVLab.Utilities.ClickAndDragCamera.Orbit
+  nameWithType: ClickAndDragCamera.Orbit
+- uid: IVLab.Utilities.ClickAndDragCamera.panSpeed
+  name: panSpeed
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_panSpeed
+  commentId: F:IVLab.Utilities.ClickAndDragCamera.panSpeed
+  fullName: IVLab.Utilities.ClickAndDragCamera.panSpeed
+  nameWithType: ClickAndDragCamera.panSpeed
+- uid: IVLab.Utilities.ClickAndDragCamera.panWidget
+  name: panWidget
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_panWidget
+  commentId: F:IVLab.Utilities.ClickAndDragCamera.panWidget
+  fullName: IVLab.Utilities.ClickAndDragCamera.panWidget
+  nameWithType: ClickAndDragCamera.panWidget
+- uid: IVLab.Utilities.ClickAndDragCamera.Rotate(System.Single)
+  name: Rotate(Single)
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_Rotate_System_Single_
+  commentId: M:IVLab.Utilities.ClickAndDragCamera.Rotate(System.Single)
+  fullName: IVLab.Utilities.ClickAndDragCamera.Rotate(System.Single)
+  nameWithType: ClickAndDragCamera.Rotate(Single)
+- uid: IVLab.Utilities.ClickAndDragCamera.Rotate*
+  name: Rotate
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_Rotate_
+  commentId: Overload:IVLab.Utilities.ClickAndDragCamera.Rotate
+  isSpec: "True"
+  fullName: IVLab.Utilities.ClickAndDragCamera.Rotate
+  nameWithType: ClickAndDragCamera.Rotate
+- uid: IVLab.Utilities.ClickAndDragCamera.rotationSpeed
+  name: rotationSpeed
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_rotationSpeed
+  commentId: F:IVLab.Utilities.ClickAndDragCamera.rotationSpeed
+  fullName: IVLab.Utilities.ClickAndDragCamera.rotationSpeed
+  nameWithType: ClickAndDragCamera.rotationSpeed
+- uid: IVLab.Utilities.ClickAndDragCamera.rotationWidget
+  name: rotationWidget
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_rotationWidget
+  commentId: F:IVLab.Utilities.ClickAndDragCamera.rotationWidget
+  fullName: IVLab.Utilities.ClickAndDragCamera.rotationWidget
+  nameWithType: ClickAndDragCamera.rotationWidget
+- uid: IVLab.Utilities.ClickAndDragCamera.showWidgets
+  name: showWidgets
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_showWidgets
+  commentId: F:IVLab.Utilities.ClickAndDragCamera.showWidgets
+  fullName: IVLab.Utilities.ClickAndDragCamera.showWidgets
+  nameWithType: ClickAndDragCamera.showWidgets
+- uid: IVLab.Utilities.ClickAndDragCamera.Tilt(System.Single)
+  name: Tilt(Single)
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_Tilt_System_Single_
+  commentId: M:IVLab.Utilities.ClickAndDragCamera.Tilt(System.Single)
+  fullName: IVLab.Utilities.ClickAndDragCamera.Tilt(System.Single)
+  nameWithType: ClickAndDragCamera.Tilt(Single)
+- uid: IVLab.Utilities.ClickAndDragCamera.Tilt*
+  name: Tilt
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_Tilt_
+  commentId: Overload:IVLab.Utilities.ClickAndDragCamera.Tilt
+  isSpec: "True"
+  fullName: IVLab.Utilities.ClickAndDragCamera.Tilt
+  nameWithType: ClickAndDragCamera.Tilt
+- uid: IVLab.Utilities.ClickAndDragCamera.truckWidget
+  name: truckWidget
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_truckWidget
+  commentId: F:IVLab.Utilities.ClickAndDragCamera.truckWidget
+  fullName: IVLab.Utilities.ClickAndDragCamera.truckWidget
+  nameWithType: ClickAndDragCamera.truckWidget
+- uid: IVLab.Utilities.ClickAndDragCamera.weightedControl
+  name: weightedControl
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_weightedControl
+  commentId: F:IVLab.Utilities.ClickAndDragCamera.weightedControl
+  fullName: IVLab.Utilities.ClickAndDragCamera.weightedControl
+  nameWithType: ClickAndDragCamera.weightedControl
+- uid: IVLab.Utilities.ClickAndDragCamera.Zoom(System.Single)
+  name: Zoom(Single)
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_Zoom_System_Single_
+  commentId: M:IVLab.Utilities.ClickAndDragCamera.Zoom(System.Single)
+  fullName: IVLab.Utilities.ClickAndDragCamera.Zoom(System.Single)
+  nameWithType: ClickAndDragCamera.Zoom(Single)
+- uid: IVLab.Utilities.ClickAndDragCamera.Zoom*
+  name: Zoom
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_Zoom_
+  commentId: Overload:IVLab.Utilities.ClickAndDragCamera.Zoom
+  isSpec: "True"
+  fullName: IVLab.Utilities.ClickAndDragCamera.Zoom
+  nameWithType: ClickAndDragCamera.Zoom
+- uid: IVLab.Utilities.ClickAndDragCamera.zoomSpeed
+  name: zoomSpeed
+  href: api/IVLab.Utilities.ClickAndDragCamera.html#IVLab_Utilities_ClickAndDragCamera_zoomSpeed
+  commentId: F:IVLab.Utilities.ClickAndDragCamera.zoomSpeed
+  fullName: IVLab.Utilities.ClickAndDragCamera.zoomSpeed
+  nameWithType: ClickAndDragCamera.zoomSpeed
+- uid: IVLab.Utilities.ClickAndDragRotation
+  name: ClickAndDragRotation
+  href: api/IVLab.Utilities.ClickAndDragRotation.html
+  commentId: T:IVLab.Utilities.ClickAndDragRotation
+  fullName: IVLab.Utilities.ClickAndDragRotation
+  nameWithType: ClickAndDragRotation
+- uid: IVLab.Utilities.ClickAndDragRotation.Orbit(System.Single)
+  name: Orbit(Single)
+  href: api/IVLab.Utilities.ClickAndDragRotation.html#IVLab_Utilities_ClickAndDragRotation_Orbit_System_Single_
+  commentId: M:IVLab.Utilities.ClickAndDragRotation.Orbit(System.Single)
+  fullName: IVLab.Utilities.ClickAndDragRotation.Orbit(System.Single)
+  nameWithType: ClickAndDragRotation.Orbit(Single)
+- uid: IVLab.Utilities.ClickAndDragRotation.Orbit*
+  name: Orbit
+  href: api/IVLab.Utilities.ClickAndDragRotation.html#IVLab_Utilities_ClickAndDragRotation_Orbit_
+  commentId: Overload:IVLab.Utilities.ClickAndDragRotation.Orbit
+  isSpec: "True"
+  fullName: IVLab.Utilities.ClickAndDragRotation.Orbit
+  nameWithType: ClickAndDragRotation.Orbit
+- uid: IVLab.Utilities.ClickAndDragRotation.Tilt(System.Single)
+  name: Tilt(Single)
+  href: api/IVLab.Utilities.ClickAndDragRotation.html#IVLab_Utilities_ClickAndDragRotation_Tilt_System_Single_
+  commentId: M:IVLab.Utilities.ClickAndDragRotation.Tilt(System.Single)
+  fullName: IVLab.Utilities.ClickAndDragRotation.Tilt(System.Single)
+  nameWithType: ClickAndDragRotation.Tilt(Single)
+- uid: IVLab.Utilities.ClickAndDragRotation.Tilt*
+  name: Tilt
+  href: api/IVLab.Utilities.ClickAndDragRotation.html#IVLab_Utilities_ClickAndDragRotation_Tilt_
+  commentId: Overload:IVLab.Utilities.ClickAndDragRotation.Tilt
+  isSpec: "True"
+  fullName: IVLab.Utilities.ClickAndDragRotation.Tilt
+  nameWithType: ClickAndDragRotation.Tilt
+- uid: IVLab.Utilities.ColormapUtilities
+  name: ColormapUtilities
+  href: api/IVLab.Utilities.ColormapUtilities.html
+  commentId: T:IVLab.Utilities.ColormapUtilities
+  fullName: IVLab.Utilities.ColormapUtilities
+  nameWithType: ColormapUtilities
+- uid: IVLab.Utilities.ColormapUtilities.ColormapFromFile(System.String,System.Int32,System.Int32)
+  name: ColormapFromFile(String, Int32, Int32)
+  href: api/IVLab.Utilities.ColormapUtilities.html#IVLab_Utilities_ColormapUtilities_ColormapFromFile_System_String_System_Int32_System_Int32_
+  commentId: M:IVLab.Utilities.ColormapUtilities.ColormapFromFile(System.String,System.Int32,System.Int32)
+  fullName: IVLab.Utilities.ColormapUtilities.ColormapFromFile(System.String, System.Int32, System.Int32)
+  nameWithType: ColormapUtilities.ColormapFromFile(String, Int32, Int32)
+- uid: IVLab.Utilities.ColormapUtilities.ColormapFromFile*
+  name: ColormapFromFile
+  href: api/IVLab.Utilities.ColormapUtilities.html#IVLab_Utilities_ColormapUtilities_ColormapFromFile_
+  commentId: Overload:IVLab.Utilities.ColormapUtilities.ColormapFromFile
+  isSpec: "True"
+  fullName: IVLab.Utilities.ColormapUtilities.ColormapFromFile
+  nameWithType: ColormapUtilities.ColormapFromFile
+- uid: IVLab.Utilities.ColormapUtilities.ColormapFromXML(System.String,System.Int32,System.Int32)
+  name: ColormapFromXML(String, Int32, Int32)
+  href: api/IVLab.Utilities.ColormapUtilities.html#IVLab_Utilities_ColormapUtilities_ColormapFromXML_System_String_System_Int32_System_Int32_
+  commentId: M:IVLab.Utilities.ColormapUtilities.ColormapFromXML(System.String,System.Int32,System.Int32)
+  fullName: IVLab.Utilities.ColormapUtilities.ColormapFromXML(System.String, System.Int32, System.Int32)
+  nameWithType: ColormapUtilities.ColormapFromXML(String, Int32, Int32)
+- uid: IVLab.Utilities.ColormapUtilities.ColormapFromXML*
+  name: ColormapFromXML
+  href: api/IVLab.Utilities.ColormapUtilities.html#IVLab_Utilities_ColormapUtilities_ColormapFromXML_
+  commentId: Overload:IVLab.Utilities.ColormapUtilities.ColormapFromXML
+  isSpec: "True"
+  fullName: IVLab.Utilities.ColormapUtilities.ColormapFromXML
+  nameWithType: ColormapUtilities.ColormapFromXML
+- uid: IVLab.Utilities.ColormapUtilities.SaveTextureAsPng(System.String,Texture2D)
+  name: SaveTextureAsPng(String, Texture2D)
+  href: api/IVLab.Utilities.ColormapUtilities.html#IVLab_Utilities_ColormapUtilities_SaveTextureAsPng_System_String_Texture2D_
+  commentId: M:IVLab.Utilities.ColormapUtilities.SaveTextureAsPng(System.String,Texture2D)
+  fullName: IVLab.Utilities.ColormapUtilities.SaveTextureAsPng(System.String, Texture2D)
+  nameWithType: ColormapUtilities.SaveTextureAsPng(String, Texture2D)
+- uid: IVLab.Utilities.ColormapUtilities.SaveTextureAsPng*
+  name: SaveTextureAsPng
+  href: api/IVLab.Utilities.ColormapUtilities.html#IVLab_Utilities_ColormapUtilities_SaveTextureAsPng_
+  commentId: Overload:IVLab.Utilities.ColormapUtilities.SaveTextureAsPng
+  isSpec: "True"
+  fullName: IVLab.Utilities.ColormapUtilities.SaveTextureAsPng
+  nameWithType: ColormapUtilities.SaveTextureAsPng
+- uid: IVLab.Utilities.ColorUtilities
+  name: ColorUtilities
+  href: api/IVLab.Utilities.ColorUtilities.html
+  commentId: T:IVLab.Utilities.ColorUtilities
+  fullName: IVLab.Utilities.ColorUtilities
+  nameWithType: ColorUtilities
+- uid: IVLab.Utilities.ColorUtilities.ColorToHex(Color)
+  name: ColorToHex(Color)
+  href: api/IVLab.Utilities.ColorUtilities.html#IVLab_Utilities_ColorUtilities_ColorToHex_Color_
+  commentId: M:IVLab.Utilities.ColorUtilities.ColorToHex(Color)
+  fullName: IVLab.Utilities.ColorUtilities.ColorToHex(Color)
+  nameWithType: ColorUtilities.ColorToHex(Color)
+- uid: IVLab.Utilities.ColorUtilities.ColorToHex*
+  name: ColorToHex
+  href: api/IVLab.Utilities.ColorUtilities.html#IVLab_Utilities_ColorUtilities_ColorToHex_
+  commentId: Overload:IVLab.Utilities.ColorUtilities.ColorToHex
+  isSpec: "True"
+  fullName: IVLab.Utilities.ColorUtilities.ColorToHex
+  nameWithType: ColorUtilities.ColorToHex
+- uid: IVLab.Utilities.ColorUtilities.HexToColor(System.String)
+  name: HexToColor(String)
+  href: api/IVLab.Utilities.ColorUtilities.html#IVLab_Utilities_ColorUtilities_HexToColor_System_String_
+  commentId: M:IVLab.Utilities.ColorUtilities.HexToColor(System.String)
+  fullName: IVLab.Utilities.ColorUtilities.HexToColor(System.String)
+  nameWithType: ColorUtilities.HexToColor(String)
+- uid: IVLab.Utilities.ColorUtilities.HexToColor*
+  name: HexToColor
+  href: api/IVLab.Utilities.ColorUtilities.html#IVLab_Utilities_ColorUtilities_HexToColor_
+  commentId: Overload:IVLab.Utilities.ColorUtilities.HexToColor
+  isSpec: "True"
+  fullName: IVLab.Utilities.ColorUtilities.HexToColor
+  nameWithType: ColorUtilities.HexToColor
+- uid: IVLab.Utilities.ContainBoundables
+  name: ContainBoundables
+  href: api/IVLab.Utilities.ContainBoundables.html
+  commentId: T:IVLab.Utilities.ContainBoundables
+  fullName: IVLab.Utilities.ContainBoundables
+  nameWithType: ContainBoundables
+- uid: IVLab.Utilities.ContainBoundables.AddGameObject(GameObject,System.Boolean)
+  name: AddGameObject(GameObject, Boolean)
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_AddGameObject_GameObject_System_Boolean_
+  commentId: M:IVLab.Utilities.ContainBoundables.AddGameObject(GameObject,System.Boolean)
+  fullName: IVLab.Utilities.ContainBoundables.AddGameObject(GameObject, System.Boolean)
+  nameWithType: ContainBoundables.AddGameObject(GameObject, Boolean)
+- uid: IVLab.Utilities.ContainBoundables.AddGameObject*
+  name: AddGameObject
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_AddGameObject_
+  commentId: Overload:IVLab.Utilities.ContainBoundables.AddGameObject
+  isSpec: "True"
+  fullName: IVLab.Utilities.ContainBoundables.AddGameObject
+  nameWithType: ContainBoundables.AddGameObject
+- uid: IVLab.Utilities.ContainBoundables.autoUpdate
+  name: autoUpdate
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_autoUpdate
+  commentId: F:IVLab.Utilities.ContainBoundables.autoUpdate
+  fullName: IVLab.Utilities.ContainBoundables.autoUpdate
+  nameWithType: ContainBoundables.autoUpdate
+- uid: IVLab.Utilities.ContainBoundables.Bounds
+  name: Bounds
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_Bounds
+  commentId: P:IVLab.Utilities.ContainBoundables.Bounds
+  fullName: IVLab.Utilities.ContainBoundables.Bounds
+  nameWithType: ContainBoundables.Bounds
+- uid: IVLab.Utilities.ContainBoundables.Bounds*
+  name: Bounds
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_Bounds_
+  commentId: Overload:IVLab.Utilities.ContainBoundables.Bounds
+  isSpec: "True"
+  fullName: IVLab.Utilities.ContainBoundables.Bounds
+  nameWithType: ContainBoundables.Bounds
+- uid: IVLab.Utilities.ContainBoundables.Init(GameObject)
+  name: Init(GameObject)
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_Init_GameObject_
+  commentId: M:IVLab.Utilities.ContainBoundables.Init(GameObject)
+  fullName: IVLab.Utilities.ContainBoundables.Init(GameObject)
+  nameWithType: ContainBoundables.Init(GameObject)
+- uid: IVLab.Utilities.ContainBoundables.Init*
+  name: Init
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_Init_
+  commentId: Overload:IVLab.Utilities.ContainBoundables.Init
+  isSpec: "True"
+  fullName: IVLab.Utilities.ContainBoundables.Init
+  nameWithType: ContainBoundables.Init
+- uid: IVLab.Utilities.ContainBoundables.ScaleObject
+  name: ScaleObject
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_ScaleObject
+  commentId: P:IVLab.Utilities.ContainBoundables.ScaleObject
+  fullName: IVLab.Utilities.ContainBoundables.ScaleObject
+  nameWithType: ContainBoundables.ScaleObject
+- uid: IVLab.Utilities.ContainBoundables.ScaleObject*
+  name: ScaleObject
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_ScaleObject_
+  commentId: Overload:IVLab.Utilities.ContainBoundables.ScaleObject
+  isSpec: "True"
+  fullName: IVLab.Utilities.ContainBoundables.ScaleObject
+  nameWithType: ContainBoundables.ScaleObject
+- uid: IVLab.Utilities.ContainBoundables.UpdateScale
+  name: UpdateScale()
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_UpdateScale
+  commentId: M:IVLab.Utilities.ContainBoundables.UpdateScale
+  fullName: IVLab.Utilities.ContainBoundables.UpdateScale()
+  nameWithType: ContainBoundables.UpdateScale()
+- uid: IVLab.Utilities.ContainBoundables.UpdateScale*
+  name: UpdateScale
+  href: api/IVLab.Utilities.ContainBoundables.html#IVLab_Utilities_ContainBoundables_UpdateScale_
+  commentId: Overload:IVLab.Utilities.ContainBoundables.UpdateScale
+  isSpec: "True"
+  fullName: IVLab.Utilities.ContainBoundables.UpdateScale
+  nameWithType: ContainBoundables.UpdateScale
+- uid: IVLab.Utilities.CUIColorPicker
+  name: CUIColorPicker
+  href: api/IVLab.Utilities.CUIColorPicker.html
+  commentId: T:IVLab.Utilities.CUIColorPicker
+  fullName: IVLab.Utilities.CUIColorPicker
+  nameWithType: CUIColorPicker
+- uid: IVLab.Utilities.CUIColorPicker.Color
+  name: Color
+  href: api/IVLab.Utilities.CUIColorPicker.html#IVLab_Utilities_CUIColorPicker_Color
+  commentId: P:IVLab.Utilities.CUIColorPicker.Color
+  fullName: IVLab.Utilities.CUIColorPicker.Color
+  nameWithType: CUIColorPicker.Color
+- uid: IVLab.Utilities.CUIColorPicker.Color*
+  name: Color
+  href: api/IVLab.Utilities.CUIColorPicker.html#IVLab_Utilities_CUIColorPicker_Color_
+  commentId: Overload:IVLab.Utilities.CUIColorPicker.Color
+  isSpec: "True"
+  fullName: IVLab.Utilities.CUIColorPicker.Color
+  nameWithType: CUIColorPicker.Color
+- uid: IVLab.Utilities.CUIColorPicker.SetOnValueChangeCallback(Action{Color})
+  name: SetOnValueChangeCallback(Action<Color>)
+  href: api/IVLab.Utilities.CUIColorPicker.html#IVLab_Utilities_CUIColorPicker_SetOnValueChangeCallback_Action_Color__
+  commentId: M:IVLab.Utilities.CUIColorPicker.SetOnValueChangeCallback(Action{Color})
+  name.vb: SetOnValueChangeCallback(Action(Of Color))
+  fullName: IVLab.Utilities.CUIColorPicker.SetOnValueChangeCallback(Action<Color>)
+  fullName.vb: IVLab.Utilities.CUIColorPicker.SetOnValueChangeCallback(Action(Of Color))
+  nameWithType: CUIColorPicker.SetOnValueChangeCallback(Action<Color>)
+  nameWithType.vb: CUIColorPicker.SetOnValueChangeCallback(Action(Of Color))
+- uid: IVLab.Utilities.CUIColorPicker.SetOnValueChangeCallback*
+  name: SetOnValueChangeCallback
+  href: api/IVLab.Utilities.CUIColorPicker.html#IVLab_Utilities_CUIColorPicker_SetOnValueChangeCallback_
+  commentId: Overload:IVLab.Utilities.CUIColorPicker.SetOnValueChangeCallback
+  isSpec: "True"
+  fullName: IVLab.Utilities.CUIColorPicker.SetOnValueChangeCallback
+  nameWithType: CUIColorPicker.SetOnValueChangeCallback
+- uid: IVLab.Utilities.CUIColorPicker.SetRandomColor
+  name: SetRandomColor()
+  href: api/IVLab.Utilities.CUIColorPicker.html#IVLab_Utilities_CUIColorPicker_SetRandomColor
+  commentId: M:IVLab.Utilities.CUIColorPicker.SetRandomColor
+  fullName: IVLab.Utilities.CUIColorPicker.SetRandomColor()
+  nameWithType: CUIColorPicker.SetRandomColor()
+- uid: IVLab.Utilities.CUIColorPicker.SetRandomColor*
+  name: SetRandomColor
+  href: api/IVLab.Utilities.CUIColorPicker.html#IVLab_Utilities_CUIColorPicker_SetRandomColor_
+  commentId: Overload:IVLab.Utilities.CUIColorPicker.SetRandomColor
+  isSpec: "True"
+  fullName: IVLab.Utilities.CUIColorPicker.SetRandomColor
+  nameWithType: CUIColorPicker.SetRandomColor
+- uid: IVLab.Utilities.DataSpace
+  name: DataSpace
+  href: api/IVLab.Utilities.DataSpace.html
+  commentId: T:IVLab.Utilities.DataSpace
+  fullName: IVLab.Utilities.DataSpace
+  nameWithType: DataSpace
+- uid: IVLab.Utilities.DataSpace.DataBounds
+  name: DataBounds
+  href: api/IVLab.Utilities.DataSpace.html#IVLab_Utilities_DataSpace_DataBounds
+  commentId: P:IVLab.Utilities.DataSpace.DataBounds
+  fullName: IVLab.Utilities.DataSpace.DataBounds
+  nameWithType: DataSpace.DataBounds
+- uid: IVLab.Utilities.DataSpace.DataBounds*
+  name: DataBounds
+  href: api/IVLab.Utilities.DataSpace.html#IVLab_Utilities_DataSpace_DataBounds_
+  commentId: Overload:IVLab.Utilities.DataSpace.DataBounds
+  isSpec: "True"
+  fullName: IVLab.Utilities.DataSpace.DataBounds
+  nameWithType: DataSpace.DataBounds
+- uid: IVLab.Utilities.DataSpace.DataTransform
+  name: DataTransform
+  href: api/IVLab.Utilities.DataSpace.html#IVLab_Utilities_DataSpace_DataTransform
+  commentId: P:IVLab.Utilities.DataSpace.DataTransform
+  fullName: IVLab.Utilities.DataSpace.DataTransform
+  nameWithType: DataSpace.DataTransform
+- uid: IVLab.Utilities.DataSpace.DataTransform*
+  name: DataTransform
+  href: api/IVLab.Utilities.DataSpace.html#IVLab_Utilities_DataSpace_DataTransform_
+  commentId: Overload:IVLab.Utilities.DataSpace.DataTransform
+  isSpec: "True"
+  fullName: IVLab.Utilities.DataSpace.DataTransform
+  nameWithType: DataSpace.DataTransform
+- uid: IVLab.Utilities.DictionaryExtentions
+  name: DictionaryExtentions
+  href: api/IVLab.Utilities.DictionaryExtentions.html
+  commentId: T:IVLab.Utilities.DictionaryExtentions
+  fullName: IVLab.Utilities.DictionaryExtentions
+  nameWithType: DictionaryExtentions
+- uid: IVLab.Utilities.DictionaryExtentions.TryGetValue*
+  name: TryGetValue
+  href: api/IVLab.Utilities.DictionaryExtentions.html#IVLab_Utilities_DictionaryExtentions_TryGetValue_
+  commentId: Overload:IVLab.Utilities.DictionaryExtentions.TryGetValue
+  isSpec: "True"
+  fullName: IVLab.Utilities.DictionaryExtentions.TryGetValue
+  nameWithType: DictionaryExtentions.TryGetValue
+- uid: IVLab.Utilities.DictionaryExtentions.TryGetValue``2(Dictionary{``0,``1},``0)
+  name: TryGetValue<T1, T2>(Dictionary<T1, T2>, T1)
+  href: api/IVLab.Utilities.DictionaryExtentions.html#IVLab_Utilities_DictionaryExtentions_TryGetValue__2_Dictionary___0___1____0_
+  commentId: M:IVLab.Utilities.DictionaryExtentions.TryGetValue``2(Dictionary{``0,``1},``0)
+  name.vb: TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
+  fullName: IVLab.Utilities.DictionaryExtentions.TryGetValue<T1, T2>(Dictionary<T1, T2>, T1)
+  fullName.vb: IVLab.Utilities.DictionaryExtentions.TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
+  nameWithType: DictionaryExtentions.TryGetValue<T1, T2>(Dictionary<T1, T2>, T1)
+  nameWithType.vb: DictionaryExtentions.TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
+- uid: IVLab.Utilities.EscapeToQuit
+  name: EscapeToQuit
+  href: api/IVLab.Utilities.EscapeToQuit.html
+  commentId: T:IVLab.Utilities.EscapeToQuit
+  fullName: IVLab.Utilities.EscapeToQuit
+  nameWithType: EscapeToQuit
+- uid: IVLab.Utilities.EscapeToQuit.Update
+  name: Update()
+  href: api/IVLab.Utilities.EscapeToQuit.html#IVLab_Utilities_EscapeToQuit_Update
+  commentId: M:IVLab.Utilities.EscapeToQuit.Update
+  fullName: IVLab.Utilities.EscapeToQuit.Update()
+  nameWithType: EscapeToQuit.Update()
+- uid: IVLab.Utilities.EscapeToQuit.Update*
+  name: Update
+  href: api/IVLab.Utilities.EscapeToQuit.html#IVLab_Utilities_EscapeToQuit_Update_
+  commentId: Overload:IVLab.Utilities.EscapeToQuit.Update
+  isSpec: "True"
+  fullName: IVLab.Utilities.EscapeToQuit.Update
+  nameWithType: EscapeToQuit.Update
+- uid: IVLab.Utilities.FunctionDebugger
+  name: FunctionDebugger
+  href: api/IVLab.Utilities.FunctionDebugger.html
+  commentId: T:IVLab.Utilities.FunctionDebugger
+  fullName: IVLab.Utilities.FunctionDebugger
+  nameWithType: FunctionDebugger
+- uid: IVLab.Utilities.FunctionDebuggerAttribute
+  name: FunctionDebuggerAttribute
+  href: api/IVLab.Utilities.FunctionDebuggerAttribute.html
+  commentId: T:IVLab.Utilities.FunctionDebuggerAttribute
+  fullName: IVLab.Utilities.FunctionDebuggerAttribute
+  nameWithType: FunctionDebuggerAttribute
+- uid: IVLab.Utilities.GenericObjectPool
+  name: GenericObjectPool
+  href: api/IVLab.Utilities.GenericObjectPool.html
+  commentId: T:IVLab.Utilities.GenericObjectPool
+  fullName: IVLab.Utilities.GenericObjectPool
+  nameWithType: GenericObjectPool
+- uid: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String,Action{GameObject})
+  name: GetObjectFromPool(String, Action<GameObject>)
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_GetObjectFromPool_System_String_Action_GameObject__
+  commentId: M:IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String,Action{GameObject})
+  name.vb: GetObjectFromPool(String, Action(Of GameObject))
+  fullName: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String, Action<GameObject>)
+  fullName.vb: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String, Action(Of GameObject))
+  nameWithType: GenericObjectPool.GetObjectFromPool(String, Action<GameObject>)
+  nameWithType.vb: GenericObjectPool.GetObjectFromPool(String, Action(Of GameObject))
+- uid: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String,Transform)
+  name: GetObjectFromPool(String, Transform)
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_GetObjectFromPool_System_String_Transform_
+  commentId: M:IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String,Transform)
+  fullName: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String, Transform)
+  nameWithType: GenericObjectPool.GetObjectFromPool(String, Transform)
+- uid: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String,Transform,Action{GameObject})
+  name: GetObjectFromPool(String, Transform, Action<GameObject>)
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_GetObjectFromPool_System_String_Transform_Action_GameObject__
+  commentId: M:IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String,Transform,Action{GameObject})
+  name.vb: GetObjectFromPool(String, Transform, Action(Of GameObject))
+  fullName: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String, Transform, Action<GameObject>)
+  fullName.vb: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(System.String, Transform, Action(Of GameObject))
+  nameWithType: GenericObjectPool.GetObjectFromPool(String, Transform, Action<GameObject>)
+  nameWithType.vb: GenericObjectPool.GetObjectFromPool(String, Transform, Action(Of GameObject))
+- uid: IVLab.Utilities.GenericObjectPool.GetObjectFromPool*
+  name: GetObjectFromPool
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_GetObjectFromPool_
+  commentId: Overload:IVLab.Utilities.GenericObjectPool.GetObjectFromPool
+  isSpec: "True"
+  fullName: IVLab.Utilities.GenericObjectPool.GetObjectFromPool
+  nameWithType: GenericObjectPool.GetObjectFromPool
+- uid: IVLab.Utilities.GenericObjectPool.GetObjectFromPool``1(Action{GameObject})
+  name: GetObjectFromPool<T>(Action<GameObject>)
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_GetObjectFromPool__1_Action_GameObject__
+  commentId: M:IVLab.Utilities.GenericObjectPool.GetObjectFromPool``1(Action{GameObject})
+  name.vb: GetObjectFromPool(Of T)(Action(Of GameObject))
+  fullName: IVLab.Utilities.GenericObjectPool.GetObjectFromPool<T>(Action<GameObject>)
+  fullName.vb: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(Of T)(Action(Of GameObject))
+  nameWithType: GenericObjectPool.GetObjectFromPool<T>(Action<GameObject>)
+  nameWithType.vb: GenericObjectPool.GetObjectFromPool(Of T)(Action(Of GameObject))
+- uid: IVLab.Utilities.GenericObjectPool.GetObjectFromPool``1(System.String,Action{GameObject})
+  name: GetObjectFromPool<T>(String, Action<GameObject>)
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_GetObjectFromPool__1_System_String_Action_GameObject__
+  commentId: M:IVLab.Utilities.GenericObjectPool.GetObjectFromPool``1(System.String,Action{GameObject})
+  name.vb: GetObjectFromPool(Of T)(String, Action(Of GameObject))
+  fullName: IVLab.Utilities.GenericObjectPool.GetObjectFromPool<T>(System.String, Action<GameObject>)
+  fullName.vb: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(Of T)(System.String, Action(Of GameObject))
+  nameWithType: GenericObjectPool.GetObjectFromPool<T>(String, Action<GameObject>)
+  nameWithType.vb: GenericObjectPool.GetObjectFromPool(Of T)(String, Action(Of GameObject))
+- uid: IVLab.Utilities.GenericObjectPool.GetObjectFromPool``1(System.String,Transform,Action{GameObject})
+  name: GetObjectFromPool<T>(String, Transform, Action<GameObject>)
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_GetObjectFromPool__1_System_String_Transform_Action_GameObject__
+  commentId: M:IVLab.Utilities.GenericObjectPool.GetObjectFromPool``1(System.String,Transform,Action{GameObject})
+  name.vb: GetObjectFromPool(Of T)(String, Transform, Action(Of GameObject))
+  fullName: IVLab.Utilities.GenericObjectPool.GetObjectFromPool<T>(System.String, Transform, Action<GameObject>)
+  fullName.vb: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(Of T)(System.String, Transform, Action(Of GameObject))
+  nameWithType: GenericObjectPool.GetObjectFromPool<T>(String, Transform, Action<GameObject>)
+  nameWithType.vb: GenericObjectPool.GetObjectFromPool(Of T)(String, Transform, Action(Of GameObject))
+- uid: IVLab.Utilities.GenericObjectPool.GetObjectFromPool``1(Transform)
+  name: GetObjectFromPool<T>(Transform)
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_GetObjectFromPool__1_Transform_
+  commentId: M:IVLab.Utilities.GenericObjectPool.GetObjectFromPool``1(Transform)
+  name.vb: GetObjectFromPool(Of T)(Transform)
+  fullName: IVLab.Utilities.GenericObjectPool.GetObjectFromPool<T>(Transform)
+  fullName.vb: IVLab.Utilities.GenericObjectPool.GetObjectFromPool(Of T)(Transform)
+  nameWithType: GenericObjectPool.GetObjectFromPool<T>(Transform)
+  nameWithType.vb: GenericObjectPool.GetObjectFromPool(Of T)(Transform)
+- uid: IVLab.Utilities.GenericObjectPool.ReturnObjectToPool(GameObject)
+  name: ReturnObjectToPool(GameObject)
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_ReturnObjectToPool_GameObject_
+  commentId: M:IVLab.Utilities.GenericObjectPool.ReturnObjectToPool(GameObject)
+  fullName: IVLab.Utilities.GenericObjectPool.ReturnObjectToPool(GameObject)
+  nameWithType: GenericObjectPool.ReturnObjectToPool(GameObject)
+- uid: IVLab.Utilities.GenericObjectPool.ReturnObjectToPool(IVLab.Utilities.PooledObject)
+  name: ReturnObjectToPool(PooledObject)
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_ReturnObjectToPool_IVLab_Utilities_PooledObject_
+  commentId: M:IVLab.Utilities.GenericObjectPool.ReturnObjectToPool(IVLab.Utilities.PooledObject)
+  fullName: IVLab.Utilities.GenericObjectPool.ReturnObjectToPool(IVLab.Utilities.PooledObject)
+  nameWithType: GenericObjectPool.ReturnObjectToPool(PooledObject)
+- uid: IVLab.Utilities.GenericObjectPool.ReturnObjectToPool*
+  name: ReturnObjectToPool
+  href: api/IVLab.Utilities.GenericObjectPool.html#IVLab_Utilities_GenericObjectPool_ReturnObjectToPool_
+  commentId: Overload:IVLab.Utilities.GenericObjectPool.ReturnObjectToPool
+  isSpec: "True"
+  fullName: IVLab.Utilities.GenericObjectPool.ReturnObjectToPool
+  nameWithType: GenericObjectPool.ReturnObjectToPool
+- uid: IVLab.Utilities.IBoundable
+  name: IBoundable
+  href: api/IVLab.Utilities.IBoundable.html
+  commentId: T:IVLab.Utilities.IBoundable
+  fullName: IVLab.Utilities.IBoundable
+  nameWithType: IBoundable
+- uid: IVLab.Utilities.IBoundable.Bounds
+  name: Bounds
+  href: api/IVLab.Utilities.IBoundable.html#IVLab_Utilities_IBoundable_Bounds
+  commentId: P:IVLab.Utilities.IBoundable.Bounds
+  fullName: IVLab.Utilities.IBoundable.Bounds
+  nameWithType: IBoundable.Bounds
+- uid: IVLab.Utilities.IBoundable.Bounds*
+  name: Bounds
+  href: api/IVLab.Utilities.IBoundable.html#IVLab_Utilities_IBoundable_Bounds_
+  commentId: Overload:IVLab.Utilities.IBoundable.Bounds
+  isSpec: "True"
+  fullName: IVLab.Utilities.IBoundable.Bounds
+  nameWithType: IBoundable.Bounds
+- uid: IVLab.Utilities.NormalizeMeshScale
+  name: NormalizeMeshScale
+  href: api/IVLab.Utilities.NormalizeMeshScale.html
+  commentId: T:IVLab.Utilities.NormalizeMeshScale
+  fullName: IVLab.Utilities.NormalizeMeshScale
+  nameWithType: NormalizeMeshScale
+- uid: IVLab.Utilities.NormalizeMeshScale.adjustToCenter
+  name: adjustToCenter
+  href: api/IVLab.Utilities.NormalizeMeshScale.html#IVLab_Utilities_NormalizeMeshScale_adjustToCenter
+  commentId: F:IVLab.Utilities.NormalizeMeshScale.adjustToCenter
+  fullName: IVLab.Utilities.NormalizeMeshScale.adjustToCenter
+  nameWithType: NormalizeMeshScale.adjustToCenter
+- uid: IVLab.Utilities.NormalizeMeshScale.normalizedScaleMeters
+  name: normalizedScaleMeters
+  href: api/IVLab.Utilities.NormalizeMeshScale.html#IVLab_Utilities_NormalizeMeshScale_normalizedScaleMeters
+  commentId: F:IVLab.Utilities.NormalizeMeshScale.normalizedScaleMeters
+  fullName: IVLab.Utilities.NormalizeMeshScale.normalizedScaleMeters
+  nameWithType: NormalizeMeshScale.normalizedScaleMeters
+- uid: IVLab.Utilities.NormalizeMeshScale.rotateToTable
+  name: rotateToTable
+  href: api/IVLab.Utilities.NormalizeMeshScale.html#IVLab_Utilities_NormalizeMeshScale_rotateToTable
+  commentId: F:IVLab.Utilities.NormalizeMeshScale.rotateToTable
+  fullName: IVLab.Utilities.NormalizeMeshScale.rotateToTable
+  nameWithType: NormalizeMeshScale.rotateToTable
+- uid: IVLab.Utilities.NormalizeWithinBounds
+  name: NormalizeWithinBounds
+  href: api/IVLab.Utilities.NormalizeWithinBounds.html
+  commentId: T:IVLab.Utilities.NormalizeWithinBounds
+  fullName: IVLab.Utilities.NormalizeWithinBounds
+  nameWithType: NormalizeWithinBounds
+- uid: IVLab.Utilities.NormalizeWithinBounds.Normalize(Bounds,Bounds,Matrix4x4@,Bounds@)
+  name: Normalize(Bounds, Bounds, out Matrix4x4, out Bounds)
+  href: api/IVLab.Utilities.NormalizeWithinBounds.html#IVLab_Utilities_NormalizeWithinBounds_Normalize_Bounds_Bounds_Matrix4x4__Bounds__
+  commentId: M:IVLab.Utilities.NormalizeWithinBounds.Normalize(Bounds,Bounds,Matrix4x4@,Bounds@)
+  name.vb: Normalize(Bounds, Bounds, ByRef Matrix4x4, ByRef Bounds)
+  fullName: IVLab.Utilities.NormalizeWithinBounds.Normalize(Bounds, Bounds, out Matrix4x4, out Bounds)
+  fullName.vb: IVLab.Utilities.NormalizeWithinBounds.Normalize(Bounds, Bounds, ByRef Matrix4x4, ByRef Bounds)
+  nameWithType: NormalizeWithinBounds.Normalize(Bounds, Bounds, out Matrix4x4, out Bounds)
+  nameWithType.vb: NormalizeWithinBounds.Normalize(Bounds, Bounds, ByRef Matrix4x4, ByRef Bounds)
+- uid: IVLab.Utilities.NormalizeWithinBounds.Normalize*
+  name: Normalize
+  href: api/IVLab.Utilities.NormalizeWithinBounds.html#IVLab_Utilities_NormalizeWithinBounds_Normalize_
+  commentId: Overload:IVLab.Utilities.NormalizeWithinBounds.Normalize
+  isSpec: "True"
+  fullName: IVLab.Utilities.NormalizeWithinBounds.Normalize
+  nameWithType: NormalizeWithinBounds.Normalize
+- uid: IVLab.Utilities.NormalizeWithinBounds.NormalizeAndExpand(Bounds,Bounds,Bounds@,Matrix4x4@,Bounds@)
+  name: NormalizeAndExpand(Bounds, Bounds, ref Bounds, ref Matrix4x4, ref Bounds)
+  href: api/IVLab.Utilities.NormalizeWithinBounds.html#IVLab_Utilities_NormalizeWithinBounds_NormalizeAndExpand_Bounds_Bounds_Bounds__Matrix4x4__Bounds__
+  commentId: M:IVLab.Utilities.NormalizeWithinBounds.NormalizeAndExpand(Bounds,Bounds,Bounds@,Matrix4x4@,Bounds@)
+  name.vb: NormalizeAndExpand(Bounds, Bounds, ByRef Bounds, ByRef Matrix4x4, ByRef Bounds)
+  fullName: IVLab.Utilities.NormalizeWithinBounds.NormalizeAndExpand(Bounds, Bounds, ref Bounds, ref Matrix4x4, ref Bounds)
+  fullName.vb: IVLab.Utilities.NormalizeWithinBounds.NormalizeAndExpand(Bounds, Bounds, ByRef Bounds, ByRef Matrix4x4, ByRef Bounds)
+  nameWithType: NormalizeWithinBounds.NormalizeAndExpand(Bounds, Bounds, ref Bounds, ref Matrix4x4, ref Bounds)
+  nameWithType.vb: NormalizeWithinBounds.NormalizeAndExpand(Bounds, Bounds, ByRef Bounds, ByRef Matrix4x4, ByRef Bounds)
+- uid: IVLab.Utilities.NormalizeWithinBounds.NormalizeAndExpand*
+  name: NormalizeAndExpand
+  href: api/IVLab.Utilities.NormalizeWithinBounds.html#IVLab_Utilities_NormalizeWithinBounds_NormalizeAndExpand_
+  commentId: Overload:IVLab.Utilities.NormalizeWithinBounds.NormalizeAndExpand
+  isSpec: "True"
+  fullName: IVLab.Utilities.NormalizeWithinBounds.NormalizeAndExpand
+  nameWithType: NormalizeWithinBounds.NormalizeAndExpand
+- uid: IVLab.Utilities.ObjectRecycler
+  name: ObjectRecycler
+  href: api/IVLab.Utilities.ObjectRecycler.html
+  commentId: T:IVLab.Utilities.ObjectRecycler
+  fullName: IVLab.Utilities.ObjectRecycler
+  nameWithType: ObjectRecycler
+- uid: IVLab.Utilities.ObjectRecycler.Recycle(GameObject,System.Boolean)
+  name: Recycle(GameObject, Boolean)
+  href: api/IVLab.Utilities.ObjectRecycler.html#IVLab_Utilities_ObjectRecycler_Recycle_GameObject_System_Boolean_
+  commentId: M:IVLab.Utilities.ObjectRecycler.Recycle(GameObject,System.Boolean)
+  fullName: IVLab.Utilities.ObjectRecycler.Recycle(GameObject, System.Boolean)
+  nameWithType: ObjectRecycler.Recycle(GameObject, Boolean)
+- uid: IVLab.Utilities.ObjectRecycler.Recycle(MonoBehaviour,System.Boolean)
+  name: Recycle(MonoBehaviour, Boolean)
+  href: api/IVLab.Utilities.ObjectRecycler.html#IVLab_Utilities_ObjectRecycler_Recycle_MonoBehaviour_System_Boolean_
+  commentId: M:IVLab.Utilities.ObjectRecycler.Recycle(MonoBehaviour,System.Boolean)
+  fullName: IVLab.Utilities.ObjectRecycler.Recycle(MonoBehaviour, System.Boolean)
+  nameWithType: ObjectRecycler.Recycle(MonoBehaviour, Boolean)
+- uid: IVLab.Utilities.ObjectRecycler.Recycle*
+  name: Recycle
+  href: api/IVLab.Utilities.ObjectRecycler.html#IVLab_Utilities_ObjectRecycler_Recycle_
+  commentId: Overload:IVLab.Utilities.ObjectRecycler.Recycle
+  isSpec: "True"
+  fullName: IVLab.Utilities.ObjectRecycler.Recycle
+  nameWithType: ObjectRecycler.Recycle
+- uid: IVLab.Utilities.ObjectRecycler.RecycleChildren(GameObject,System.Boolean)
+  name: RecycleChildren(GameObject, Boolean)
+  href: api/IVLab.Utilities.ObjectRecycler.html#IVLab_Utilities_ObjectRecycler_RecycleChildren_GameObject_System_Boolean_
+  commentId: M:IVLab.Utilities.ObjectRecycler.RecycleChildren(GameObject,System.Boolean)
+  fullName: IVLab.Utilities.ObjectRecycler.RecycleChildren(GameObject, System.Boolean)
+  nameWithType: ObjectRecycler.RecycleChildren(GameObject, Boolean)
+- uid: IVLab.Utilities.ObjectRecycler.RecycleChildren*
+  name: RecycleChildren
+  href: api/IVLab.Utilities.ObjectRecycler.html#IVLab_Utilities_ObjectRecycler_RecycleChildren_
+  commentId: Overload:IVLab.Utilities.ObjectRecycler.RecycleChildren
+  isSpec: "True"
+  fullName: IVLab.Utilities.ObjectRecycler.RecycleChildren
+  nameWithType: ObjectRecycler.RecycleChildren
+- uid: IVLab.Utilities.PooledObject
+  name: PooledObject
+  href: api/IVLab.Utilities.PooledObject.html
+  commentId: T:IVLab.Utilities.PooledObject
+  fullName: IVLab.Utilities.PooledObject
+  nameWithType: PooledObject
+- uid: IVLab.Utilities.PooledObject.Create(System.String,Transform)
+  name: Create(String, Transform)
+  href: api/IVLab.Utilities.PooledObject.html#IVLab_Utilities_PooledObject_Create_System_String_Transform_
+  commentId: M:IVLab.Utilities.PooledObject.Create(System.String,Transform)
+  fullName: IVLab.Utilities.PooledObject.Create(System.String, Transform)
+  nameWithType: PooledObject.Create(String, Transform)
+- uid: IVLab.Utilities.PooledObject.Create*
+  name: Create
+  href: api/IVLab.Utilities.PooledObject.html#IVLab_Utilities_PooledObject_Create_
+  commentId: Overload:IVLab.Utilities.PooledObject.Create
+  isSpec: "True"
+  fullName: IVLab.Utilities.PooledObject.Create
+  nameWithType: PooledObject.Create
+- uid: IVLab.Utilities.PooledObject.IsPoolable(GameObject)
+  name: IsPoolable(GameObject)
+  href: api/IVLab.Utilities.PooledObject.html#IVLab_Utilities_PooledObject_IsPoolable_GameObject_
+  commentId: M:IVLab.Utilities.PooledObject.IsPoolable(GameObject)
+  fullName: IVLab.Utilities.PooledObject.IsPoolable(GameObject)
+  nameWithType: PooledObject.IsPoolable(GameObject)
+- uid: IVLab.Utilities.PooledObject.IsPoolable*
+  name: IsPoolable
+  href: api/IVLab.Utilities.PooledObject.html#IVLab_Utilities_PooledObject_IsPoolable_
+  commentId: Overload:IVLab.Utilities.PooledObject.IsPoolable
+  isSpec: "True"
+  fullName: IVLab.Utilities.PooledObject.IsPoolable
+  nameWithType: PooledObject.IsPoolable
+- uid: IVLab.Utilities.PooledObject.MakePoolable(GameObject,System.String)
+  name: MakePoolable(GameObject, String)
+  href: api/IVLab.Utilities.PooledObject.html#IVLab_Utilities_PooledObject_MakePoolable_GameObject_System_String_
+  commentId: M:IVLab.Utilities.PooledObject.MakePoolable(GameObject,System.String)
+  fullName: IVLab.Utilities.PooledObject.MakePoolable(GameObject, System.String)
+  nameWithType: PooledObject.MakePoolable(GameObject, String)
+- uid: IVLab.Utilities.PooledObject.MakePoolable*
+  name: MakePoolable
+  href: api/IVLab.Utilities.PooledObject.html#IVLab_Utilities_PooledObject_MakePoolable_
+  commentId: Overload:IVLab.Utilities.PooledObject.MakePoolable
+  isSpec: "True"
+  fullName: IVLab.Utilities.PooledObject.MakePoolable
+  nameWithType: PooledObject.MakePoolable
+- uid: IVLab.Utilities.PooledObject.PoolName
+  name: PoolName
+  href: api/IVLab.Utilities.PooledObject.html#IVLab_Utilities_PooledObject_PoolName
+  commentId: P:IVLab.Utilities.PooledObject.PoolName
+  fullName: IVLab.Utilities.PooledObject.PoolName
+  nameWithType: PooledObject.PoolName
+- uid: IVLab.Utilities.PooledObject.PoolName*
+  name: PoolName
+  href: api/IVLab.Utilities.PooledObject.html#IVLab_Utilities_PooledObject_PoolName_
+  commentId: Overload:IVLab.Utilities.PooledObject.PoolName
+  isSpec: "True"
+  fullName: IVLab.Utilities.PooledObject.PoolName
+  nameWithType: PooledObject.PoolName
+- uid: IVLab.Utilities.RoomSpace
+  name: RoomSpace
+  href: api/IVLab.Utilities.RoomSpace.html
+  commentId: T:IVLab.Utilities.RoomSpace
+  fullName: IVLab.Utilities.RoomSpace
+  nameWithType: RoomSpace
+- uid: IVLab.Utilities.Screenshot
+  name: Screenshot
+  href: api/IVLab.Utilities.Screenshot.html
+  commentId: T:IVLab.Utilities.Screenshot
+  fullName: IVLab.Utilities.Screenshot
+  nameWithType: Screenshot
+- uid: IVLab.Utilities.Screenshot.CaptureView(System.Int32,System.Int32,System.Boolean,System.Int32)
+  name: CaptureView(Int32, Int32, Boolean, Int32)
+  href: api/IVLab.Utilities.Screenshot.html#IVLab_Utilities_Screenshot_CaptureView_System_Int32_System_Int32_System_Boolean_System_Int32_
+  commentId: M:IVLab.Utilities.Screenshot.CaptureView(System.Int32,System.Int32,System.Boolean,System.Int32)
+  fullName: IVLab.Utilities.Screenshot.CaptureView(System.Int32, System.Int32, System.Boolean, System.Int32)
+  nameWithType: Screenshot.CaptureView(Int32, Int32, Boolean, Int32)
+- uid: IVLab.Utilities.Screenshot.CaptureView*
+  name: CaptureView
+  href: api/IVLab.Utilities.Screenshot.html#IVLab_Utilities_Screenshot_CaptureView_
+  commentId: Overload:IVLab.Utilities.Screenshot.CaptureView
+  isSpec: "True"
+  fullName: IVLab.Utilities.Screenshot.CaptureView
+  nameWithType: Screenshot.CaptureView
+- uid: IVLab.Utilities.Screenshot.SaveScreenshot(System.String,System.Int32,System.Int32,System.Boolean,System.Int32)
+  name: SaveScreenshot(String, Int32, Int32, Boolean, Int32)
+  href: api/IVLab.Utilities.Screenshot.html#IVLab_Utilities_Screenshot_SaveScreenshot_System_String_System_Int32_System_Int32_System_Boolean_System_Int32_
+  commentId: M:IVLab.Utilities.Screenshot.SaveScreenshot(System.String,System.Int32,System.Int32,System.Boolean,System.Int32)
+  fullName: IVLab.Utilities.Screenshot.SaveScreenshot(System.String, System.Int32, System.Int32, System.Boolean, System.Int32)
+  nameWithType: Screenshot.SaveScreenshot(String, Int32, Int32, Boolean, Int32)
+- uid: IVLab.Utilities.Screenshot.SaveScreenshot*
+  name: SaveScreenshot
+  href: api/IVLab.Utilities.Screenshot.html#IVLab_Utilities_Screenshot_SaveScreenshot_
+  commentId: Overload:IVLab.Utilities.Screenshot.SaveScreenshot
+  isSpec: "True"
+  fullName: IVLab.Utilities.Screenshot.SaveScreenshot
+  nameWithType: Screenshot.SaveScreenshot
+- uid: IVLab.Utilities.Screenshot.SaveScreenshotOnLateUpdate(System.String,System.Int32,System.Int32,System.Boolean,System.Int32)
+  name: SaveScreenshotOnLateUpdate(String, Int32, Int32, Boolean, Int32)
+  href: api/IVLab.Utilities.Screenshot.html#IVLab_Utilities_Screenshot_SaveScreenshotOnLateUpdate_System_String_System_Int32_System_Int32_System_Boolean_System_Int32_
+  commentId: M:IVLab.Utilities.Screenshot.SaveScreenshotOnLateUpdate(System.String,System.Int32,System.Int32,System.Boolean,System.Int32)
+  fullName: IVLab.Utilities.Screenshot.SaveScreenshotOnLateUpdate(System.String, System.Int32, System.Int32, System.Boolean, System.Int32)
+  nameWithType: Screenshot.SaveScreenshotOnLateUpdate(String, Int32, Int32, Boolean, Int32)
+- uid: IVLab.Utilities.Screenshot.SaveScreenshotOnLateUpdate*
+  name: SaveScreenshotOnLateUpdate
+  href: api/IVLab.Utilities.Screenshot.html#IVLab_Utilities_Screenshot_SaveScreenshotOnLateUpdate_
+  commentId: Overload:IVLab.Utilities.Screenshot.SaveScreenshotOnLateUpdate
+  isSpec: "True"
+  fullName: IVLab.Utilities.Screenshot.SaveScreenshotOnLateUpdate
+  nameWithType: Screenshot.SaveScreenshotOnLateUpdate
+- uid: IVLab.Utilities.Singleton`1
+  name: Singleton<T>
+  href: api/IVLab.Utilities.Singleton-1.html
+  commentId: T:IVLab.Utilities.Singleton`1
+  name.vb: Singleton(Of T)
+  fullName: IVLab.Utilities.Singleton<T>
+  fullName.vb: IVLab.Utilities.Singleton(Of T)
+  nameWithType: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+- uid: IVLab.Utilities.Singleton`1.Awake
+  name: Awake()
+  href: api/IVLab.Utilities.Singleton-1.html#IVLab_Utilities_Singleton_1_Awake
+  commentId: M:IVLab.Utilities.Singleton`1.Awake
+  fullName: IVLab.Utilities.Singleton<T>.Awake()
+  fullName.vb: IVLab.Utilities.Singleton(Of T).Awake()
+  nameWithType: Singleton<T>.Awake()
+  nameWithType.vb: Singleton(Of T).Awake()
+- uid: IVLab.Utilities.Singleton`1.Awake*
+  name: Awake
+  href: api/IVLab.Utilities.Singleton-1.html#IVLab_Utilities_Singleton_1_Awake_
+  commentId: Overload:IVLab.Utilities.Singleton`1.Awake
+  isSpec: "True"
+  fullName: IVLab.Utilities.Singleton<T>.Awake
+  fullName.vb: IVLab.Utilities.Singleton(Of T).Awake
+  nameWithType: Singleton<T>.Awake
+  nameWithType.vb: Singleton(Of T).Awake
+- uid: IVLab.Utilities.Singleton`1.GetInstance
+  name: GetInstance()
+  href: api/IVLab.Utilities.Singleton-1.html#IVLab_Utilities_Singleton_1_GetInstance
+  commentId: M:IVLab.Utilities.Singleton`1.GetInstance
+  fullName: IVLab.Utilities.Singleton<T>.GetInstance()
+  fullName.vb: IVLab.Utilities.Singleton(Of T).GetInstance()
+  nameWithType: Singleton<T>.GetInstance()
+  nameWithType.vb: Singleton(Of T).GetInstance()
+- uid: IVLab.Utilities.Singleton`1.GetInstance*
+  name: GetInstance
+  href: api/IVLab.Utilities.Singleton-1.html#IVLab_Utilities_Singleton_1_GetInstance_
+  commentId: Overload:IVLab.Utilities.Singleton`1.GetInstance
+  isSpec: "True"
+  fullName: IVLab.Utilities.Singleton<T>.GetInstance
+  fullName.vb: IVLab.Utilities.Singleton(Of T).GetInstance
+  nameWithType: Singleton<T>.GetInstance
+  nameWithType.vb: Singleton(Of T).GetInstance
+- uid: IVLab.Utilities.Singleton`1.Instance
+  name: Instance
+  href: api/IVLab.Utilities.Singleton-1.html#IVLab_Utilities_Singleton_1_Instance
+  commentId: P:IVLab.Utilities.Singleton`1.Instance
+  fullName: IVLab.Utilities.Singleton<T>.Instance
+  fullName.vb: IVLab.Utilities.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: IVLab.Utilities.Singleton`1.Instance*
+  name: Instance
+  href: api/IVLab.Utilities.Singleton-1.html#IVLab_Utilities_Singleton_1_Instance_
+  commentId: Overload:IVLab.Utilities.Singleton`1.Instance
+  isSpec: "True"
+  fullName: IVLab.Utilities.Singleton<T>.Instance
+  fullName.vb: IVLab.Utilities.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: IVLab.Utilities.StreamMethods
+  name: StreamMethods
+  href: api/IVLab.Utilities.StreamMethods.html
+  commentId: T:IVLab.Utilities.StreamMethods
+  fullName: IVLab.Utilities.StreamMethods
+  nameWithType: StreamMethods
+- uid: IVLab.Utilities.StreamMethods.ReadBytesFromStream(System.IO.Stream)
+  name: ReadBytesFromStream(Stream)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadBytesFromStream_System_IO_Stream_
+  commentId: M:IVLab.Utilities.StreamMethods.ReadBytesFromStream(System.IO.Stream)
+  fullName: IVLab.Utilities.StreamMethods.ReadBytesFromStream(System.IO.Stream)
+  nameWithType: StreamMethods.ReadBytesFromStream(Stream)
+- uid: IVLab.Utilities.StreamMethods.ReadBytesFromStream*
+  name: ReadBytesFromStream
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadBytesFromStream_
+  commentId: Overload:IVLab.Utilities.StreamMethods.ReadBytesFromStream
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.ReadBytesFromStream
+  nameWithType: StreamMethods.ReadBytesFromStream
+- uid: IVLab.Utilities.StreamMethods.ReadBytesFromStreamAsync(System.IO.Stream,CancellationToken)
+  name: ReadBytesFromStreamAsync(Stream, CancellationToken)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadBytesFromStreamAsync_System_IO_Stream_CancellationToken_
+  commentId: M:IVLab.Utilities.StreamMethods.ReadBytesFromStreamAsync(System.IO.Stream,CancellationToken)
+  fullName: IVLab.Utilities.StreamMethods.ReadBytesFromStreamAsync(System.IO.Stream, CancellationToken)
+  nameWithType: StreamMethods.ReadBytesFromStreamAsync(Stream, CancellationToken)
+- uid: IVLab.Utilities.StreamMethods.ReadBytesFromStreamAsync*
+  name: ReadBytesFromStreamAsync
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadBytesFromStreamAsync_
+  commentId: Overload:IVLab.Utilities.StreamMethods.ReadBytesFromStreamAsync
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.ReadBytesFromStreamAsync
+  nameWithType: StreamMethods.ReadBytesFromStreamAsync
+- uid: IVLab.Utilities.StreamMethods.ReadIntFromStream(System.IO.Stream)
+  name: ReadIntFromStream(Stream)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadIntFromStream_System_IO_Stream_
+  commentId: M:IVLab.Utilities.StreamMethods.ReadIntFromStream(System.IO.Stream)
+  fullName: IVLab.Utilities.StreamMethods.ReadIntFromStream(System.IO.Stream)
+  nameWithType: StreamMethods.ReadIntFromStream(Stream)
+- uid: IVLab.Utilities.StreamMethods.ReadIntFromStream*
+  name: ReadIntFromStream
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadIntFromStream_
+  commentId: Overload:IVLab.Utilities.StreamMethods.ReadIntFromStream
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.ReadIntFromStream
+  nameWithType: StreamMethods.ReadIntFromStream
+- uid: IVLab.Utilities.StreamMethods.ReadIntFromStreamAsync(System.IO.Stream,CancellationToken)
+  name: ReadIntFromStreamAsync(Stream, CancellationToken)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadIntFromStreamAsync_System_IO_Stream_CancellationToken_
+  commentId: M:IVLab.Utilities.StreamMethods.ReadIntFromStreamAsync(System.IO.Stream,CancellationToken)
+  fullName: IVLab.Utilities.StreamMethods.ReadIntFromStreamAsync(System.IO.Stream, CancellationToken)
+  nameWithType: StreamMethods.ReadIntFromStreamAsync(Stream, CancellationToken)
+- uid: IVLab.Utilities.StreamMethods.ReadIntFromStreamAsync*
+  name: ReadIntFromStreamAsync
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadIntFromStreamAsync_
+  commentId: Overload:IVLab.Utilities.StreamMethods.ReadIntFromStreamAsync
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.ReadIntFromStreamAsync
+  nameWithType: StreamMethods.ReadIntFromStreamAsync
+- uid: IVLab.Utilities.StreamMethods.ReadObjectFromStream(System.IO.Stream)
+  name: ReadObjectFromStream(Stream)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadObjectFromStream_System_IO_Stream_
+  commentId: M:IVLab.Utilities.StreamMethods.ReadObjectFromStream(System.IO.Stream)
+  fullName: IVLab.Utilities.StreamMethods.ReadObjectFromStream(System.IO.Stream)
+  nameWithType: StreamMethods.ReadObjectFromStream(Stream)
+- uid: IVLab.Utilities.StreamMethods.ReadObjectFromStream*
+  name: ReadObjectFromStream
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadObjectFromStream_
+  commentId: Overload:IVLab.Utilities.StreamMethods.ReadObjectFromStream
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.ReadObjectFromStream
+  nameWithType: StreamMethods.ReadObjectFromStream
+- uid: IVLab.Utilities.StreamMethods.ReadObjectFromStreamAsync(System.IO.Stream,CancellationToken)
+  name: ReadObjectFromStreamAsync(Stream, CancellationToken)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadObjectFromStreamAsync_System_IO_Stream_CancellationToken_
+  commentId: M:IVLab.Utilities.StreamMethods.ReadObjectFromStreamAsync(System.IO.Stream,CancellationToken)
+  fullName: IVLab.Utilities.StreamMethods.ReadObjectFromStreamAsync(System.IO.Stream, CancellationToken)
+  nameWithType: StreamMethods.ReadObjectFromStreamAsync(Stream, CancellationToken)
+- uid: IVLab.Utilities.StreamMethods.ReadObjectFromStreamAsync*
+  name: ReadObjectFromStreamAsync
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadObjectFromStreamAsync_
+  commentId: Overload:IVLab.Utilities.StreamMethods.ReadObjectFromStreamAsync
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.ReadObjectFromStreamAsync
+  nameWithType: StreamMethods.ReadObjectFromStreamAsync
+- uid: IVLab.Utilities.StreamMethods.ReadStringFromStream(System.IO.Stream)
+  name: ReadStringFromStream(Stream)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadStringFromStream_System_IO_Stream_
+  commentId: M:IVLab.Utilities.StreamMethods.ReadStringFromStream(System.IO.Stream)
+  fullName: IVLab.Utilities.StreamMethods.ReadStringFromStream(System.IO.Stream)
+  nameWithType: StreamMethods.ReadStringFromStream(Stream)
+- uid: IVLab.Utilities.StreamMethods.ReadStringFromStream*
+  name: ReadStringFromStream
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadStringFromStream_
+  commentId: Overload:IVLab.Utilities.StreamMethods.ReadStringFromStream
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.ReadStringFromStream
+  nameWithType: StreamMethods.ReadStringFromStream
+- uid: IVLab.Utilities.StreamMethods.ReadStringFromStreamAsync(System.IO.Stream,CancellationToken)
+  name: ReadStringFromStreamAsync(Stream, CancellationToken)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadStringFromStreamAsync_System_IO_Stream_CancellationToken_
+  commentId: M:IVLab.Utilities.StreamMethods.ReadStringFromStreamAsync(System.IO.Stream,CancellationToken)
+  fullName: IVLab.Utilities.StreamMethods.ReadStringFromStreamAsync(System.IO.Stream, CancellationToken)
+  nameWithType: StreamMethods.ReadStringFromStreamAsync(Stream, CancellationToken)
+- uid: IVLab.Utilities.StreamMethods.ReadStringFromStreamAsync*
+  name: ReadStringFromStreamAsync
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_ReadStringFromStreamAsync_
+  commentId: Overload:IVLab.Utilities.StreamMethods.ReadStringFromStreamAsync
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.ReadStringFromStreamAsync
+  nameWithType: StreamMethods.ReadStringFromStreamAsync
+- uid: IVLab.Utilities.StreamMethods.WriteBytestoStream(System.IO.Stream,System.Byte[])
+  name: WriteBytestoStream(Stream, Byte[])
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteBytestoStream_System_IO_Stream_System_Byte___
+  commentId: M:IVLab.Utilities.StreamMethods.WriteBytestoStream(System.IO.Stream,System.Byte[])
+  name.vb: WriteBytestoStream(Stream, Byte())
+  fullName: IVLab.Utilities.StreamMethods.WriteBytestoStream(System.IO.Stream, System.Byte[])
+  fullName.vb: IVLab.Utilities.StreamMethods.WriteBytestoStream(System.IO.Stream, System.Byte())
+  nameWithType: StreamMethods.WriteBytestoStream(Stream, Byte[])
+  nameWithType.vb: StreamMethods.WriteBytestoStream(Stream, Byte())
+- uid: IVLab.Utilities.StreamMethods.WriteBytestoStream*
+  name: WriteBytestoStream
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteBytestoStream_
+  commentId: Overload:IVLab.Utilities.StreamMethods.WriteBytestoStream
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.WriteBytestoStream
+  nameWithType: StreamMethods.WriteBytestoStream
+- uid: IVLab.Utilities.StreamMethods.WriteBytestoStreamAsync(System.IO.Stream,System.Byte[],CancellationToken)
+  name: WriteBytestoStreamAsync(Stream, Byte[], CancellationToken)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteBytestoStreamAsync_System_IO_Stream_System_Byte___CancellationToken_
+  commentId: M:IVLab.Utilities.StreamMethods.WriteBytestoStreamAsync(System.IO.Stream,System.Byte[],CancellationToken)
+  name.vb: WriteBytestoStreamAsync(Stream, Byte(), CancellationToken)
+  fullName: IVLab.Utilities.StreamMethods.WriteBytestoStreamAsync(System.IO.Stream, System.Byte[], CancellationToken)
+  fullName.vb: IVLab.Utilities.StreamMethods.WriteBytestoStreamAsync(System.IO.Stream, System.Byte(), CancellationToken)
+  nameWithType: StreamMethods.WriteBytestoStreamAsync(Stream, Byte[], CancellationToken)
+  nameWithType.vb: StreamMethods.WriteBytestoStreamAsync(Stream, Byte(), CancellationToken)
+- uid: IVLab.Utilities.StreamMethods.WriteBytestoStreamAsync*
+  name: WriteBytestoStreamAsync
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteBytestoStreamAsync_
+  commentId: Overload:IVLab.Utilities.StreamMethods.WriteBytestoStreamAsync
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.WriteBytestoStreamAsync
+  nameWithType: StreamMethods.WriteBytestoStreamAsync
+- uid: IVLab.Utilities.StreamMethods.WriteIntToStream(System.IO.Stream,System.Int32)
+  name: WriteIntToStream(Stream, Int32)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteIntToStream_System_IO_Stream_System_Int32_
+  commentId: M:IVLab.Utilities.StreamMethods.WriteIntToStream(System.IO.Stream,System.Int32)
+  fullName: IVLab.Utilities.StreamMethods.WriteIntToStream(System.IO.Stream, System.Int32)
+  nameWithType: StreamMethods.WriteIntToStream(Stream, Int32)
+- uid: IVLab.Utilities.StreamMethods.WriteIntToStream*
+  name: WriteIntToStream
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteIntToStream_
+  commentId: Overload:IVLab.Utilities.StreamMethods.WriteIntToStream
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.WriteIntToStream
+  nameWithType: StreamMethods.WriteIntToStream
+- uid: IVLab.Utilities.StreamMethods.WriteIntToStreamAsync(System.IO.Stream,System.Int32,CancellationToken)
+  name: WriteIntToStreamAsync(Stream, Int32, CancellationToken)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteIntToStreamAsync_System_IO_Stream_System_Int32_CancellationToken_
+  commentId: M:IVLab.Utilities.StreamMethods.WriteIntToStreamAsync(System.IO.Stream,System.Int32,CancellationToken)
+  fullName: IVLab.Utilities.StreamMethods.WriteIntToStreamAsync(System.IO.Stream, System.Int32, CancellationToken)
+  nameWithType: StreamMethods.WriteIntToStreamAsync(Stream, Int32, CancellationToken)
+- uid: IVLab.Utilities.StreamMethods.WriteIntToStreamAsync*
+  name: WriteIntToStreamAsync
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteIntToStreamAsync_
+  commentId: Overload:IVLab.Utilities.StreamMethods.WriteIntToStreamAsync
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.WriteIntToStreamAsync
+  nameWithType: StreamMethods.WriteIntToStreamAsync
+- uid: IVLab.Utilities.StreamMethods.WriteObjectToStream(System.IO.Stream,System.Object)
+  name: WriteObjectToStream(Stream, Object)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteObjectToStream_System_IO_Stream_System_Object_
+  commentId: M:IVLab.Utilities.StreamMethods.WriteObjectToStream(System.IO.Stream,System.Object)
+  fullName: IVLab.Utilities.StreamMethods.WriteObjectToStream(System.IO.Stream, System.Object)
+  nameWithType: StreamMethods.WriteObjectToStream(Stream, Object)
+- uid: IVLab.Utilities.StreamMethods.WriteObjectToStream*
+  name: WriteObjectToStream
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteObjectToStream_
+  commentId: Overload:IVLab.Utilities.StreamMethods.WriteObjectToStream
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.WriteObjectToStream
+  nameWithType: StreamMethods.WriteObjectToStream
+- uid: IVLab.Utilities.StreamMethods.WriteObjectToStreamAsync(System.IO.Stream,System.Object,CancellationToken)
+  name: WriteObjectToStreamAsync(Stream, Object, CancellationToken)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteObjectToStreamAsync_System_IO_Stream_System_Object_CancellationToken_
+  commentId: M:IVLab.Utilities.StreamMethods.WriteObjectToStreamAsync(System.IO.Stream,System.Object,CancellationToken)
+  fullName: IVLab.Utilities.StreamMethods.WriteObjectToStreamAsync(System.IO.Stream, System.Object, CancellationToken)
+  nameWithType: StreamMethods.WriteObjectToStreamAsync(Stream, Object, CancellationToken)
+- uid: IVLab.Utilities.StreamMethods.WriteObjectToStreamAsync*
+  name: WriteObjectToStreamAsync
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteObjectToStreamAsync_
+  commentId: Overload:IVLab.Utilities.StreamMethods.WriteObjectToStreamAsync
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.WriteObjectToStreamAsync
+  nameWithType: StreamMethods.WriteObjectToStreamAsync
+- uid: IVLab.Utilities.StreamMethods.WriteStringToStream(System.IO.Stream,System.String)
+  name: WriteStringToStream(Stream, String)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteStringToStream_System_IO_Stream_System_String_
+  commentId: M:IVLab.Utilities.StreamMethods.WriteStringToStream(System.IO.Stream,System.String)
+  fullName: IVLab.Utilities.StreamMethods.WriteStringToStream(System.IO.Stream, System.String)
+  nameWithType: StreamMethods.WriteStringToStream(Stream, String)
+- uid: IVLab.Utilities.StreamMethods.WriteStringToStream*
+  name: WriteStringToStream
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteStringToStream_
+  commentId: Overload:IVLab.Utilities.StreamMethods.WriteStringToStream
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.WriteStringToStream
+  nameWithType: StreamMethods.WriteStringToStream
+- uid: IVLab.Utilities.StreamMethods.WriteStringToStreamAsync(System.IO.Stream,System.String,CancellationToken)
+  name: WriteStringToStreamAsync(Stream, String, CancellationToken)
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteStringToStreamAsync_System_IO_Stream_System_String_CancellationToken_
+  commentId: M:IVLab.Utilities.StreamMethods.WriteStringToStreamAsync(System.IO.Stream,System.String,CancellationToken)
+  fullName: IVLab.Utilities.StreamMethods.WriteStringToStreamAsync(System.IO.Stream, System.String, CancellationToken)
+  nameWithType: StreamMethods.WriteStringToStreamAsync(Stream, String, CancellationToken)
+- uid: IVLab.Utilities.StreamMethods.WriteStringToStreamAsync*
+  name: WriteStringToStreamAsync
+  href: api/IVLab.Utilities.StreamMethods.html#IVLab_Utilities_StreamMethods_WriteStringToStreamAsync_
+  commentId: Overload:IVLab.Utilities.StreamMethods.WriteStringToStreamAsync
+  isSpec: "True"
+  fullName: IVLab.Utilities.StreamMethods.WriteStringToStreamAsync
+  nameWithType: StreamMethods.WriteStringToStreamAsync
+- uid: IVLab.Utilities.TextureUtilities
+  name: TextureUtilities
+  href: api/IVLab.Utilities.TextureUtilities.html
+  commentId: T:IVLab.Utilities.TextureUtilities
+  fullName: IVLab.Utilities.TextureUtilities
+  nameWithType: TextureUtilities
+- uid: IVLab.Utilities.TextureUtilities.MakeTextureGradient(List{Texture2D})
+  name: MakeTextureGradient(List<Texture2D>)
+  href: api/IVLab.Utilities.TextureUtilities.html#IVLab_Utilities_TextureUtilities_MakeTextureGradient_List_Texture2D__
+  commentId: M:IVLab.Utilities.TextureUtilities.MakeTextureGradient(List{Texture2D})
+  name.vb: MakeTextureGradient(List(Of Texture2D))
+  fullName: IVLab.Utilities.TextureUtilities.MakeTextureGradient(List<Texture2D>)
+  fullName.vb: IVLab.Utilities.TextureUtilities.MakeTextureGradient(List(Of Texture2D))
+  nameWithType: TextureUtilities.MakeTextureGradient(List<Texture2D>)
+  nameWithType.vb: TextureUtilities.MakeTextureGradient(List(Of Texture2D))
+- uid: IVLab.Utilities.TextureUtilities.MakeTextureGradient(List{Texture2D},List{System.Single})
+  name: MakeTextureGradient(List<Texture2D>, List<Single>)
+  href: api/IVLab.Utilities.TextureUtilities.html#IVLab_Utilities_TextureUtilities_MakeTextureGradient_List_Texture2D__List_System_Single__
+  commentId: M:IVLab.Utilities.TextureUtilities.MakeTextureGradient(List{Texture2D},List{System.Single})
+  name.vb: MakeTextureGradient(List(Of Texture2D), List(Of Single))
+  fullName: IVLab.Utilities.TextureUtilities.MakeTextureGradient(List<Texture2D>, List<System.Single>)
+  fullName.vb: IVLab.Utilities.TextureUtilities.MakeTextureGradient(List(Of Texture2D), List(Of System.Single))
+  nameWithType: TextureUtilities.MakeTextureGradient(List<Texture2D>, List<Single>)
+  nameWithType.vb: TextureUtilities.MakeTextureGradient(List(Of Texture2D), List(Of Single))
+- uid: IVLab.Utilities.TextureUtilities.MakeTextureGradient*
+  name: MakeTextureGradient
+  href: api/IVLab.Utilities.TextureUtilities.html#IVLab_Utilities_TextureUtilities_MakeTextureGradient_
+  commentId: Overload:IVLab.Utilities.TextureUtilities.MakeTextureGradient
+  isSpec: "True"
+  fullName: IVLab.Utilities.TextureUtilities.MakeTextureGradient
+  nameWithType: TextureUtilities.MakeTextureGradient
+- uid: IVLab.Utilities.TextureUtilities.ScaleTexture(Texture2D,System.Int32,System.Int32)
+  name: ScaleTexture(Texture2D, Int32, Int32)
+  href: api/IVLab.Utilities.TextureUtilities.html#IVLab_Utilities_TextureUtilities_ScaleTexture_Texture2D_System_Int32_System_Int32_
+  commentId: M:IVLab.Utilities.TextureUtilities.ScaleTexture(Texture2D,System.Int32,System.Int32)
+  fullName: IVLab.Utilities.TextureUtilities.ScaleTexture(Texture2D, System.Int32, System.Int32)
+  nameWithType: TextureUtilities.ScaleTexture(Texture2D, Int32, Int32)
+- uid: IVLab.Utilities.TextureUtilities.ScaleTexture*
+  name: ScaleTexture
+  href: api/IVLab.Utilities.TextureUtilities.html#IVLab_Utilities_TextureUtilities_ScaleTexture_
+  commentId: Overload:IVLab.Utilities.TextureUtilities.ScaleTexture
+  isSpec: "True"
+  fullName: IVLab.Utilities.TextureUtilities.ScaleTexture
+  nameWithType: TextureUtilities.ScaleTexture
+- uid: IVLab.Utilities.TextureUtilities.TransposeTexture(Texture2D)
+  name: TransposeTexture(Texture2D)
+  href: api/IVLab.Utilities.TextureUtilities.html#IVLab_Utilities_TextureUtilities_TransposeTexture_Texture2D_
+  commentId: M:IVLab.Utilities.TextureUtilities.TransposeTexture(Texture2D)
+  fullName: IVLab.Utilities.TextureUtilities.TransposeTexture(Texture2D)
+  nameWithType: TextureUtilities.TransposeTexture(Texture2D)
+- uid: IVLab.Utilities.TextureUtilities.TransposeTexture*
+  name: TransposeTexture
+  href: api/IVLab.Utilities.TextureUtilities.html#IVLab_Utilities_TextureUtilities_TransposeTexture_
+  commentId: Overload:IVLab.Utilities.TextureUtilities.TransposeTexture
+  isSpec: "True"
+  fullName: IVLab.Utilities.TextureUtilities.TransposeTexture
+  nameWithType: TextureUtilities.TransposeTexture
+- uid: IVLab.Utilities.TransformDebugger
+  name: TransformDebugger
+  href: api/IVLab.Utilities.TransformDebugger.html
+  commentId: T:IVLab.Utilities.TransformDebugger
+  fullName: IVLab.Utilities.TransformDebugger
+  nameWithType: TransformDebugger
+- uid: IVLab.Utilities.TransformDebugger.localPosition
+  name: localPosition
+  href: api/IVLab.Utilities.TransformDebugger.html#IVLab_Utilities_TransformDebugger_localPosition
+  commentId: F:IVLab.Utilities.TransformDebugger.localPosition
+  fullName: IVLab.Utilities.TransformDebugger.localPosition
+  nameWithType: TransformDebugger.localPosition
+- uid: IVLab.Utilities.TransformDebugger.localRotation
+  name: localRotation
+  href: api/IVLab.Utilities.TransformDebugger.html#IVLab_Utilities_TransformDebugger_localRotation
+  commentId: F:IVLab.Utilities.TransformDebugger.localRotation
+  fullName: IVLab.Utilities.TransformDebugger.localRotation
+  nameWithType: TransformDebugger.localRotation
+- uid: IVLab.Utilities.TransformDebugger.localScale
+  name: localScale
+  href: api/IVLab.Utilities.TransformDebugger.html#IVLab_Utilities_TransformDebugger_localScale
+  commentId: F:IVLab.Utilities.TransformDebugger.localScale
+  fullName: IVLab.Utilities.TransformDebugger.localScale
+  nameWithType: TransformDebugger.localScale
+- uid: IVLab.Utilities.TransformDebugger.worldPosition
+  name: worldPosition
+  href: api/IVLab.Utilities.TransformDebugger.html#IVLab_Utilities_TransformDebugger_worldPosition
+  commentId: F:IVLab.Utilities.TransformDebugger.worldPosition
+  fullName: IVLab.Utilities.TransformDebugger.worldPosition
+  nameWithType: TransformDebugger.worldPosition
+- uid: IVLab.Utilities.TransformDebugger.worldRotation
+  name: worldRotation
+  href: api/IVLab.Utilities.TransformDebugger.html#IVLab_Utilities_TransformDebugger_worldRotation
+  commentId: F:IVLab.Utilities.TransformDebugger.worldRotation
+  fullName: IVLab.Utilities.TransformDebugger.worldRotation
+  nameWithType: TransformDebugger.worldRotation
+- uid: IVLab.Utilities.UnityThreadScheduler
+  name: UnityThreadScheduler
+  href: api/IVLab.Utilities.UnityThreadScheduler.html
+  commentId: T:IVLab.Utilities.UnityThreadScheduler
+  fullName: IVLab.Utilities.UnityThreadScheduler
+  nameWithType: UnityThreadScheduler
+- uid: IVLab.Utilities.UnityThreadScheduler.KickoffMainThreadWork(IVLab.Utilities.UnityThreadScheduler.UnityMethod,System.Action)
+  name: KickoffMainThreadWork(UnityThreadScheduler.UnityMethod, Action)
+  href: api/IVLab.Utilities.UnityThreadScheduler.html#IVLab_Utilities_UnityThreadScheduler_KickoffMainThreadWork_IVLab_Utilities_UnityThreadScheduler_UnityMethod_System_Action_
+  commentId: M:IVLab.Utilities.UnityThreadScheduler.KickoffMainThreadWork(IVLab.Utilities.UnityThreadScheduler.UnityMethod,System.Action)
+  fullName: IVLab.Utilities.UnityThreadScheduler.KickoffMainThreadWork(IVLab.Utilities.UnityThreadScheduler.UnityMethod, System.Action)
+  nameWithType: UnityThreadScheduler.KickoffMainThreadWork(UnityThreadScheduler.UnityMethod, Action)
+- uid: IVLab.Utilities.UnityThreadScheduler.KickoffMainThreadWork(System.Action)
+  name: KickoffMainThreadWork(Action)
+  href: api/IVLab.Utilities.UnityThreadScheduler.html#IVLab_Utilities_UnityThreadScheduler_KickoffMainThreadWork_System_Action_
+  commentId: M:IVLab.Utilities.UnityThreadScheduler.KickoffMainThreadWork(System.Action)
+  fullName: IVLab.Utilities.UnityThreadScheduler.KickoffMainThreadWork(System.Action)
+  nameWithType: UnityThreadScheduler.KickoffMainThreadWork(Action)
+- uid: IVLab.Utilities.UnityThreadScheduler.KickoffMainThreadWork*
+  name: KickoffMainThreadWork
+  href: api/IVLab.Utilities.UnityThreadScheduler.html#IVLab_Utilities_UnityThreadScheduler_KickoffMainThreadWork_
+  commentId: Overload:IVLab.Utilities.UnityThreadScheduler.KickoffMainThreadWork
+  isSpec: "True"
+  fullName: IVLab.Utilities.UnityThreadScheduler.KickoffMainThreadWork
+  nameWithType: UnityThreadScheduler.KickoffMainThreadWork
+- uid: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork(IVLab.Utilities.UnityThreadScheduler.UnityMethod,System.Action)
+  name: RunMainThreadWork(UnityThreadScheduler.UnityMethod, Action)
+  href: api/IVLab.Utilities.UnityThreadScheduler.html#IVLab_Utilities_UnityThreadScheduler_RunMainThreadWork_IVLab_Utilities_UnityThreadScheduler_UnityMethod_System_Action_
+  commentId: M:IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork(IVLab.Utilities.UnityThreadScheduler.UnityMethod,System.Action)
+  fullName: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork(IVLab.Utilities.UnityThreadScheduler.UnityMethod, System.Action)
+  nameWithType: UnityThreadScheduler.RunMainThreadWork(UnityThreadScheduler.UnityMethod, Action)
+- uid: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork(System.Action)
+  name: RunMainThreadWork(Action)
+  href: api/IVLab.Utilities.UnityThreadScheduler.html#IVLab_Utilities_UnityThreadScheduler_RunMainThreadWork_System_Action_
+  commentId: M:IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork(System.Action)
+  fullName: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork(System.Action)
+  nameWithType: UnityThreadScheduler.RunMainThreadWork(Action)
+- uid: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork*
+  name: RunMainThreadWork
+  href: api/IVLab.Utilities.UnityThreadScheduler.html#IVLab_Utilities_UnityThreadScheduler_RunMainThreadWork_
+  commentId: Overload:IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork
+  isSpec: "True"
+  fullName: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork
+  nameWithType: UnityThreadScheduler.RunMainThreadWork
+- uid: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork``1(IVLab.Utilities.UnityThreadScheduler.UnityMethod,System.Func{``0})
+  name: RunMainThreadWork<T>(UnityThreadScheduler.UnityMethod, Func<T>)
+  href: api/IVLab.Utilities.UnityThreadScheduler.html#IVLab_Utilities_UnityThreadScheduler_RunMainThreadWork__1_IVLab_Utilities_UnityThreadScheduler_UnityMethod_System_Func___0__
+  commentId: M:IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork``1(IVLab.Utilities.UnityThreadScheduler.UnityMethod,System.Func{``0})
+  name.vb: RunMainThreadWork(Of T)(UnityThreadScheduler.UnityMethod, Func(Of T))
+  fullName: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork<T>(IVLab.Utilities.UnityThreadScheduler.UnityMethod, System.Func<T>)
+  fullName.vb: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork(Of T)(IVLab.Utilities.UnityThreadScheduler.UnityMethod, System.Func(Of T))
+  nameWithType: UnityThreadScheduler.RunMainThreadWork<T>(UnityThreadScheduler.UnityMethod, Func<T>)
+  nameWithType.vb: UnityThreadScheduler.RunMainThreadWork(Of T)(UnityThreadScheduler.UnityMethod, Func(Of T))
+- uid: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork``1(System.Func{``0})
+  name: RunMainThreadWork<T>(Func<T>)
+  href: api/IVLab.Utilities.UnityThreadScheduler.html#IVLab_Utilities_UnityThreadScheduler_RunMainThreadWork__1_System_Func___0__
+  commentId: M:IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork``1(System.Func{``0})
+  name.vb: RunMainThreadWork(Of T)(Func(Of T))
+  fullName: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork<T>(System.Func<T>)
+  fullName.vb: IVLab.Utilities.UnityThreadScheduler.RunMainThreadWork(Of T)(System.Func(Of T))
+  nameWithType: UnityThreadScheduler.RunMainThreadWork<T>(Func<T>)
+  nameWithType.vb: UnityThreadScheduler.RunMainThreadWork(Of T)(Func(Of T))
+- uid: IVLab.Utilities.UnityThreadScheduler.UnityMethod
+  name: UnityThreadScheduler.UnityMethod
+  href: api/IVLab.Utilities.UnityThreadScheduler.UnityMethod.html
+  commentId: T:IVLab.Utilities.UnityThreadScheduler.UnityMethod
+  fullName: IVLab.Utilities.UnityThreadScheduler.UnityMethod
+  nameWithType: UnityThreadScheduler.UnityMethod
+- uid: IVLab.Utilities.UnityThreadScheduler.UnityMethod.FixedUpdate
+  name: FixedUpdate
+  href: api/IVLab.Utilities.UnityThreadScheduler.UnityMethod.html#IVLab_Utilities_UnityThreadScheduler_UnityMethod_FixedUpdate
+  commentId: F:IVLab.Utilities.UnityThreadScheduler.UnityMethod.FixedUpdate
+  fullName: IVLab.Utilities.UnityThreadScheduler.UnityMethod.FixedUpdate
+  nameWithType: UnityThreadScheduler.UnityMethod.FixedUpdate
+- uid: IVLab.Utilities.UnityThreadScheduler.UnityMethod.LateUpdate
+  name: LateUpdate
+  href: api/IVLab.Utilities.UnityThreadScheduler.UnityMethod.html#IVLab_Utilities_UnityThreadScheduler_UnityMethod_LateUpdate
+  commentId: F:IVLab.Utilities.UnityThreadScheduler.UnityMethod.LateUpdate
+  fullName: IVLab.Utilities.UnityThreadScheduler.UnityMethod.LateUpdate
+  nameWithType: UnityThreadScheduler.UnityMethod.LateUpdate
+- uid: IVLab.Utilities.UnityThreadScheduler.UnityMethod.Update
+  name: Update
+  href: api/IVLab.Utilities.UnityThreadScheduler.UnityMethod.html#IVLab_Utilities_UnityThreadScheduler_UnityMethod_Update
+  commentId: F:IVLab.Utilities.UnityThreadScheduler.UnityMethod.Update
+  fullName: IVLab.Utilities.UnityThreadScheduler.UnityMethod.Update
+  nameWithType: UnityThreadScheduler.UnityMethod.Update
+- uid: IVLab.Utilities.VectorExtentions
+  name: VectorExtentions
+  href: api/IVLab.Utilities.VectorExtentions.html
+  commentId: T:IVLab.Utilities.VectorExtentions
+  fullName: IVLab.Utilities.VectorExtentions
+  nameWithType: VectorExtentions
+- uid: IVLab.Utilities.VectorExtentions.MaxComponent(Vector3)
+  name: MaxComponent(Vector3)
+  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_MaxComponent_Vector3_
+  commentId: M:IVLab.Utilities.VectorExtentions.MaxComponent(Vector3)
+  fullName: IVLab.Utilities.VectorExtentions.MaxComponent(Vector3)
+  nameWithType: VectorExtentions.MaxComponent(Vector3)
+- uid: IVLab.Utilities.VectorExtentions.MaxComponent*
+  name: MaxComponent
+  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_MaxComponent_
+  commentId: Overload:IVLab.Utilities.VectorExtentions.MaxComponent
+  isSpec: "True"
+  fullName: IVLab.Utilities.VectorExtentions.MaxComponent
+  nameWithType: VectorExtentions.MaxComponent
+- uid: IVLab.Utilities.VectorExtentions.MinComponent(Vector3)
+  name: MinComponent(Vector3)
+  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_MinComponent_Vector3_
+  commentId: M:IVLab.Utilities.VectorExtentions.MinComponent(Vector3)
+  fullName: IVLab.Utilities.VectorExtentions.MinComponent(Vector3)
+  nameWithType: VectorExtentions.MinComponent(Vector3)
+- uid: IVLab.Utilities.VectorExtentions.MinComponent*
+  name: MinComponent
+  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_MinComponent_
+  commentId: Overload:IVLab.Utilities.VectorExtentions.MinComponent
+  isSpec: "True"
+  fullName: IVLab.Utilities.VectorExtentions.MinComponent
+  nameWithType: VectorExtentions.MinComponent
+- uid: IVLab.Utilities.VectorExtentions.Reciprocal(Vector3)
+  name: Reciprocal(Vector3)
+  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_Reciprocal_Vector3_
+  commentId: M:IVLab.Utilities.VectorExtentions.Reciprocal(Vector3)
+  fullName: IVLab.Utilities.VectorExtentions.Reciprocal(Vector3)
+  nameWithType: VectorExtentions.Reciprocal(Vector3)
+- uid: IVLab.Utilities.VectorExtentions.Reciprocal*
+  name: Reciprocal
+  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_Reciprocal_
+  commentId: Overload:IVLab.Utilities.VectorExtentions.Reciprocal
+  isSpec: "True"
+  fullName: IVLab.Utilities.VectorExtentions.Reciprocal
+  nameWithType: VectorExtentions.Reciprocal
+- uid: IVLab.Utilities.VectorExtentions.ToHomogeneous(Vector3)
+  name: ToHomogeneous(Vector3)
+  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_ToHomogeneous_Vector3_
+  commentId: M:IVLab.Utilities.VectorExtentions.ToHomogeneous(Vector3)
+  fullName: IVLab.Utilities.VectorExtentions.ToHomogeneous(Vector3)
+  nameWithType: VectorExtentions.ToHomogeneous(Vector3)
+- uid: IVLab.Utilities.VectorExtentions.ToHomogeneous*
+  name: ToHomogeneous
+  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_ToHomogeneous_
+  commentId: Overload:IVLab.Utilities.VectorExtentions.ToHomogeneous
+  isSpec: "True"
+  fullName: IVLab.Utilities.VectorExtentions.ToHomogeneous
+  nameWithType: VectorExtentions.ToHomogeneous
+- uid: IVLab.Utilities.VirtualSpace
+  name: VirtualSpace
+  href: api/IVLab.Utilities.VirtualSpace.html
+  commentId: T:IVLab.Utilities.VirtualSpace
+  fullName: IVLab.Utilities.VirtualSpace
+  nameWithType: VirtualSpace
