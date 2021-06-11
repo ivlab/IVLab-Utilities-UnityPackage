@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.Boundable.html",
-          "hash": "x16d1eieM8Xjjit/rv2L+LBlZKUVZGLk0Nspa1WKqXU="
+          "hash": "z1kOGwXI6Uo3RFNxj30orp4jYsxYBfyDhsEgAaWfszI="
         }
       },
       "is_incremental": false,
@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.BoundsExtentions.html",
-          "hash": "De6yXZ4gHVkDbkYjpBmRGvnTSL/h/X/iXjr1yXMGyZc="
+          "hash": "SLH23AbPOJA64tfk/oOkw+LKiQKbWnQIRr9jbRdl+jE="
         }
       },
       "is_incremental": false,
@@ -52,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.BoundsOutline.html",
-          "hash": "xxAEmnrv5RLbzWs/pz2MIcV5/0abM+TlkjxXsl3/q9o="
+          "hash": "rujHsVgTILQxSjYI8zx3FwzlgwS+qCrFBhpzmbTtCf0="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ByteCompression.html",
-          "hash": "VOFsCORdpkfU9UwfmsQZD0OYDmreNK93VYQploo7K8s="
+          "hash": "02nm0qCrcS5zffrbWlUDyerz7eDdH2PqRpTNVpkYiHo="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ByteMethods.html",
-          "hash": "JAb7BuI+6FLDhM0IlrKsT6HLKRjHpQCnwfZm2UQh1i4="
+          "hash": "VAizsP8g5oGn/wbAKERn/R4wFXksN5jRem6ubOECJt0="
         }
       },
       "is_incremental": false,
@@ -88,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.CUIColorPicker.html",
-          "hash": "WzWxf5aUDy5zLQWrvqGR/uv9Azu4JeRu9Jga/myOJU0="
+          "hash": "Fv8uEXqWNj3KkhugK6DdRE8lqAuubzrB16UE8zC4W5U="
         }
       },
       "is_incremental": false,
@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.CameraFrustumGizmo.html",
-          "hash": "c6DTgTz5CN2A3iN9MWTtVSaTmx5SQuJYlkfRcJmWGmY="
+          "hash": "2cvzaJAQs9PaP6xoBpxbpthdRj7lx4q3MH4tl3qmbL8="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ClickAndDragCamera.html",
-          "hash": "k+zvSu2BQS8mxkTGLFid4FJ95CJZH89vSCQBuyb2t0k="
+          "hash": "sm476vtukOynwaMwUrQIIIKF52ha7u1g16uBRnDnMYw="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ClickAndDragRotation.html",
-          "hash": "wv5VV45IlzQyylFkB0OuxatXZ380sYxEkuVbDVNeZKo="
+          "hash": "2qCh5l/nrUEg7V73RHE8woSdE/nTOAhEZH2DN9QP47I="
         }
       },
       "is_incremental": false,
@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ColorUtilities.html",
-          "hash": "CIAw0Tf+AhfDi/aW41/Sizx+eMJGHsQyi7AlZyv82e0="
+          "hash": "zzPeViQM1rZnkn1OyT6susNXDijzv2dhYDu+ratJXcA="
         }
       },
       "is_incremental": false,
@@ -148,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ColormapUtilities.html",
-          "hash": "ZsWw7Gqm0tS9HnDDdSJmWODE6ma2dVzc3YHB4QonM7Q="
+          "hash": "HJwfEacjWXKjXpi/EDgXO2Yi5vXr3MPg/Rk13Y9MxW0="
         }
       },
       "is_incremental": false,
@@ -160,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ContainBoundables.html",
-          "hash": "OUmndOhCpQoctYWMgd2BhzICzl0vmbrWn3iq7WFcaCg="
+          "hash": "Gcr8gavXYNfwgilgTgtXx2lPe/AB8N8emw7tcMBVrpA="
         }
       },
       "is_incremental": false,
@@ -172,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.DataSpace.html",
-          "hash": "PHPMhoRN/2+jktLVzkHO7h7zPUQ6+mn60GfECv4uQAk="
+          "hash": "7L/TwO/m84prXr67I5dKrmwkrDHck2I8MOm0QZoWEYQ="
         }
       },
       "is_incremental": false,
@@ -184,7 +184,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.DictionaryExtentions.html",
-          "hash": "229M4zETRZ0WA7f4OtK5S8S52D0XT1TssGP7QaFa1po="
+          "hash": "bhm5CQlUrj/dXxExoghV9LQ9KtoQLBNpR0cKuUG1+Ak="
         }
       },
       "is_incremental": false,
@@ -196,7 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.EscapeToQuit.html",
-          "hash": "c1NbuMcBd+CHMd/GvSFikKDaGQbYa2BsFKMMd40rgSw="
+          "hash": "n6GmQJhlv8x9KtcbcWCFVe1wHMrWl78iOx7TrELR4cw="
         }
       },
       "is_incremental": false,
@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.FunctionDebugger.html",
-          "hash": "NqvUfFi9H49MriPU68QJ/btGm6tQe7iTAzteua2XWhk="
+          "hash": "zJfvS+gfa7i3hRbVxEkRrq2XZz3r+KfhivSD57WjYCI="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.FunctionDebuggerAttribute.html",
-          "hash": "kD2z/+XUkiQxNKFxOEtamhsrGhs3wTBW2irbs+t3eY0="
+          "hash": "mz/xRkPHgGhgpiT5UsKCBBCM6qBoHnEt/QbdL5m3QYs="
         }
       },
       "is_incremental": false,
@@ -232,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.GenericObjectPool.html",
-          "hash": "EEtIjFpzsONtX8pCsJHiS0RJySvQS76rliVapYM70SI="
+          "hash": "40CcEX+/rOay1erVXWY1Jv+Pq4EYVn+Vxv8gSetXyDc="
         }
       },
       "is_incremental": false,
@@ -244,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.IBoundable.html",
-          "hash": "IocG+mPmBEWGhtLijgQ+6JxTaHwcEe2CbXNOs2Tsr2c="
+          "hash": "0dH1WS1fFvdo/YIBGBfwTLHZeM+SC+Yd1YjZDsHuu0g="
         }
       },
       "is_incremental": false,
@@ -256,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.NormalizeMeshScale.html",
-          "hash": "Rqbzs+92DR9sf7Suc51nL8e1lGJ7PAygB7QjswoIl9A="
+          "hash": "va0OtEe4Nz6aWempUegJgS1yWDfnJb/rgUynspyNEiM="
         }
       },
       "is_incremental": false,
@@ -268,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.NormalizeWithinBounds.html",
-          "hash": "ZAJc0LYOl3+hc4AoWAWsxQy2hOyXw2MWzfbjEHi7iek="
+          "hash": "6AWWTobYEklFNVWc4uV7YRBmD0xjTNly029J8nPd0Xw="
         }
       },
       "is_incremental": false,
@@ -280,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ObjectRecycler.html",
-          "hash": "AtiBeJUdjVUot18AISgJ192+mjEFiGgs9ZONakaTxFg="
+          "hash": "q2fFYam5Ov2JQlLsNdlHGhab6l8uMy137lUe7f87ayM="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.PooledObject.html",
-          "hash": "69HnplU3KPF2PwB2fO5qM/rkmfOxYBdCHHR94iHqdnI="
+          "hash": "B4jlQf/g+hWgNzNMjcotYdDR/FilzMbZdkz9gF6ba0s="
         }
       },
       "is_incremental": false,
@@ -304,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.RoomSpace.html",
-          "hash": "IOqUy8mLNvdX3thF8Bqn58SLwP3zv7If7VdelhOcSNY="
+          "hash": "XwH36feeEpznnXtKlVwQPvkHurFLmfxydW8pL1lYmEY="
         }
       },
       "is_incremental": false,
@@ -316,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.Screenshot.html",
-          "hash": "EzaaAu2egcpbjiYfV3yAGHtnXA8VAMwEaj5q+pQgISk="
+          "hash": "ZuAjWqan/FE+DcIse4o1GGDz2E7AeoP+0h9Bxr0EYQ0="
         }
       },
       "is_incremental": false,
@@ -328,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.Singleton-1.html",
-          "hash": "VHMmrptNkcJodVuV9QsfeE6Xc8CQ26ix1PZ5hNzL3xk="
+          "hash": "5BjbQOh7yDobT3m1lFNQGTeI0hmlBJxOmMO93TYd/cg="
         }
       },
       "is_incremental": false,
@@ -340,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.StreamMethods.html",
-          "hash": "jqZHqqCCfaEW7tY2slBZbY0OE+IQgzJD/p94EoJ/CqA="
+          "hash": "i4BU8cBelPoAZLL5IV6nfMikuQKP0ljCjleENNP4jDw="
         }
       },
       "is_incremental": false,
@@ -352,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.TextureUtilities.html",
-          "hash": "4TCyJZ4xsZ8aP3EQKMn22TYnrloc1DKNkv8Q9xxDfxU="
+          "hash": "lXLxgKTpEdvPxphzwr+Pb2xSWiKsgqrrdQ2/bVPkrTc="
         }
       },
       "is_incremental": false,
@@ -364,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.TransformDebugger.html",
-          "hash": "Hj5rB8qCDgkMHzOhrI4LT9VZewQonqdyn6qqEfuJfuA="
+          "hash": "bWmpKXau7Zm1aZpxkmhB3IldG6TKLWg9bRpIngGVzmc="
         }
       },
       "is_incremental": false,
@@ -376,7 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.UnityThreadScheduler.UnityMethod.html",
-          "hash": "igHHSl/I75/vsfbyE4rI53PthoNmBYxJjE//sya9SAs="
+          "hash": "XeBG92de2al300tNrAdy2wcC8d842n7BpingVlWJEDk="
         }
       },
       "is_incremental": false,
@@ -388,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.UnityThreadScheduler.html",
-          "hash": "cRVj8ZRgnXNnTTrs/0QZlZm4AhjBz7WMjzdqGJafrak="
+          "hash": "GgC9LL2oB6kZF6uuq3sFiZCSgDifPhEZGe8bqgpiLxk="
         }
       },
       "is_incremental": false,
@@ -400,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.VectorExtentions.html",
-          "hash": "+rk12wqHaNWaZJq2uSPRY+drv4ZE93nxnNTVDJNGbqM="
+          "hash": "+Qmf9eRH20hi6P1gi4aZcTBEmPXy3qK9IG1a8OQhfPM="
         }
       },
       "is_incremental": false,
@@ -412,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.VirtualSpace.html",
-          "hash": "xDKMkpzhtFsh8p2Eu0mjw31FWGXm2MuHbRlP0pcCSQM="
+          "hash": "chtE218QF09Xs1DVF4oAG+PgasBcVjpXg70IRKKBfE4="
         }
       },
       "is_incremental": false,
@@ -424,7 +424,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.html",
-          "hash": "7+cwx+7HhrNNzXx06EqFAg0EVTJU7DcWnXuo9KHObM4="
+          "hash": "P42SoCen9MG1hfTmN6GwQPS2oDYIqRu47WNTC4TqjYg="
         }
       },
       "is_incremental": false,
@@ -437,6 +437,28 @@
         ".html": {
           "relative_path": "api/toc.html",
           "hash": "Js3LpRnfZ8y13bnWGRSsZXD2+OohyVssG0dhBMAVuII="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/IVLAB.svg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/IVLAB.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "resources/favicon.ico"
         }
       },
       "is_incremental": false,
@@ -469,6 +491,13 @@
           "incrementalPhase": "build",
           "total_file_count": 34,
           "skipped_file_count": 34
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
