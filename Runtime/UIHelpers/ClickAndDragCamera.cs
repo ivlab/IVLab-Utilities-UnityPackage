@@ -6,7 +6,8 @@ using UnityEngine.EventSystems;
 public class ClickAndDragCamera : MonoBehaviour
 {
     public float rotationSpeed = 0.00001f;
-    public float panSpeed = 0.00005f;
+    public float panSpeed = 0.0005f;
+    public float zoomSpeed = 0.001f;
 
     float truck;
     Vector2 panAmt = Vector2.zero;
@@ -173,11 +174,11 @@ public class ClickAndDragCamera : MonoBehaviour
             {
                 if (weightedControl)
                 {
-                    panVelocity += new Vector3(0.0f, 0.0f, mouseDelta.y * panSpeed) * Time.deltaTime;
+                    panVelocity += new Vector3(0.0f, 0.0f, mouseDelta.y * zoomSpeed) * Time.deltaTime;
                 }
                 else
                 {
-                    panVelocity = new Vector3(0.0f, 0.0f, mouseDeltaInstant.y * panSpeed * speedMult * 20) * Time.deltaTime;
+                    panVelocity = new Vector3(0.0f, 0.0f, mouseDeltaInstant.y * zoomSpeed * speedMult * 20) * Time.deltaTime;
                 }
             }
         }

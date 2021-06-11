@@ -76,7 +76,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7730492163957673726}
   m_Layer: 0
-  m_Name: Camera Parent
+  m_Name: TrackballCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7730492163957673727}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.88441765, y: 1.1838808, z: 1.648088}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7730492164475173728}
@@ -145,10 +145,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1d9bade5f4d6da4b91a17075de86621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 0.00001
+  panSpeed: 0.00005
   rotationWidget: {fileID: 7460582750192422818}
   truckWidget: {fileID: 7460582750313089129}
   panWidget: {fileID: 7460582750924608086}
   axesWidget: {fileID: 7731762289068707249}
+  showWidgets: 1
+  weightedControl: 0
 --- !u!1 &7730492164762745988
 GameObject:
   m_ObjectHideFlags: 0
