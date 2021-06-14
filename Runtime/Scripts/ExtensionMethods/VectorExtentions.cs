@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace IVLab.Utilities {
 public static class VectorExtentions 
 {
     public static float MaxComponent(this Vector3 vec)
@@ -21,5 +20,4 @@ public static class VectorExtentions
     {
         return new Vector4(vector.x, vector.y, vector.z, 1.0f);
     }
-}
 }
