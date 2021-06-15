@@ -18,9 +18,9 @@ namespace IVLab.Utilities
         /// </summary>
         public static Color HexToColor(string hexColor)
         {
-            byte red = Convert.ToByte(hexColor.Substring(1, 2));
-            byte green = Convert.ToByte(hexColor.Substring(3, 2));
-            byte blue = Convert.ToByte(hexColor.Substring(5, 2));
+            byte red = Convert.ToByte("0x" + hexColor.Substring(1, 2), 16);
+            byte green = Convert.ToByte("0x" + hexColor.Substring(3, 2), 16);
+            byte blue = Convert.ToByte("0x" + hexColor.Substring(5, 2), 16);
             float redFloat = (float)red / (float)byte.MaxValue;
             float greenFloat = (float)green / (float)byte.MaxValue;
             float blueFloat = (float)blue / (float)byte.MaxValue;
