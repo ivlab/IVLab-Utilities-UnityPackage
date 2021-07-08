@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ByteCompression
+    <title>Class XROMMCoordinates
    | IVLab Unity Utilities </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ByteCompression
+    <meta name="title" content="Class XROMMCoordinates
    | IVLab Unity Utilities ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -78,36 +78,48 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="IVLab.Utilities.ByteCompression">
+            <article class="content wrap" id="_content" data-uid="IVLab.Utilities.XROMMCoordinates">
   
   
-  <h1 id="IVLab_Utilities_ByteCompression" data-uid="IVLab.Utilities.ByteCompression" class="text-break">Class ByteCompression
+  <h1 id="IVLab_Utilities_XROMMCoordinates" data-uid="IVLab.Utilities.XROMMCoordinates" class="text-break">Class XROMMCoordinates
   </h1>
-  <div class="markdown level0 summary"><p>Compression/decopression (gzip) methods for byte arrays</p>
+  <div class="markdown level0 summary"><p>Uses the CoordConversion class to provide routines for converting from XROMM coordinates
+to Unity coordinates.</p>
+<p>XROMM coordinates are:
+Right-Handed
+Up = +Z
+Forward = +Y
+Right = +X</p>
+<p>Unity coordinates are:
+Left-Handed
+Up = +Y
+Forward = +Z
+Right = +X</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ByteCompression</span></div>
+    <div class="level1"><span class="xref">XROMMCoordinates</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="IVLab.Utilities.html">IVLab.Utilities</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="IVLab_Utilities_ByteCompression_syntax">Syntax</h5>
+  <h5 id="IVLab_Utilities_XROMMCoordinates_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ByteCompression</code></pre>
+    <pre><code class="lang-csharp hljs">public class XROMMCoordinates</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="IVLab_Utilities_ByteCompression_Compress_" data-uid="IVLab.Utilities.ByteCompression.Compress*"></a>
-  <h4 id="IVLab_Utilities_ByteCompression_Compress_System_Byte___" data-uid="IVLab.Utilities.ByteCompression.Compress(System.Byte[])">Compress(Byte[])</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="IVLab_Utilities_XROMMCoordinates_FromUnity_" data-uid="IVLab.Utilities.XROMMCoordinates.FromUnity*"></a>
+  <h4 id="IVLab_Utilities_XROMMCoordinates_FromUnity_Matrix4x4_" data-uid="IVLab.Utilities.XROMMCoordinates.FromUnity(Matrix4x4)">FromUnity(Matrix4x4)</h4>
+  <div class="markdown level1 summary"><p>Converts a rigid body transformation matrix in Unity coordinates to XROMM coordinates.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static byte[] Compress(byte[] buffer)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Matrix4x4 FromUnity(Matrix4x4 unityMat)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,9 +132,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td><span class="parametername">buffer</span></td>
-        <td></td>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">unityMat</span></td>
+        <td><p>Matrix in Unity coordinates</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -136,20 +149,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td></td>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><p>XROMM version of the matrix</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="IVLab_Utilities_ByteCompression_CompressAsync_" data-uid="IVLab.Utilities.ByteCompression.CompressAsync*"></a>
-  <h4 id="IVLab_Utilities_ByteCompression_CompressAsync_System_Byte___CancellationToken_" data-uid="IVLab.Utilities.ByteCompression.CompressAsync(System.Byte[],CancellationToken)">CompressAsync(Byte[], CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="IVLab_Utilities_XROMMCoordinates_FromUnity_" data-uid="IVLab.Utilities.XROMMCoordinates.FromUnity*"></a>
+  <h4 id="IVLab_Utilities_XROMMCoordinates_FromUnity_Quaternion_" data-uid="IVLab.Utilities.XROMMCoordinates.FromUnity(Quaternion)">FromUnity(Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Converts a quaternion in Unity coordinates to XROMM coordinates.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;byte[]&gt; CompressAsync(byte[] buffer, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Quaternion FromUnity(Quaternion unityQuat)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,14 +177,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td><span class="parametername">buffer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">unityQuat</span></td>
+        <td><p>Quaternion in Unity coordinates</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -183,20 +194,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]&gt;</td>
-        <td></td>
+        <td><span class="xref">Quaternion</span></td>
+        <td><p>XROMM version of the quaternion</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="IVLab_Utilities_ByteCompression_Decompress_" data-uid="IVLab.Utilities.ByteCompression.Decompress*"></a>
-  <h4 id="IVLab_Utilities_ByteCompression_Decompress_System_Byte___" data-uid="IVLab.Utilities.ByteCompression.Decompress(System.Byte[])">Decompress(Byte[])</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="IVLab_Utilities_XROMMCoordinates_FromUnity_" data-uid="IVLab.Utilities.XROMMCoordinates.FromUnity*"></a>
+  <h4 id="IVLab_Utilities_XROMMCoordinates_FromUnity_Vector3_" data-uid="IVLab.Utilities.XROMMCoordinates.FromUnity(Vector3)">FromUnity(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Converts a point or vector in Unity coordinates to XROMM coordinates.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static byte[] Decompress(byte[] gzBuffer)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector3 FromUnity(Vector3 unityVector)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -209,9 +222,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td><span class="parametername">gzBuffer</span></td>
-        <td></td>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">unityVector</span></td>
+        <td><p>Point or vector in Unity coordinates</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -225,20 +239,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td></td>
+        <td><span class="xref">Vector3</span></td>
+        <td><p>XROMM version of the point or vector</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="IVLab_Utilities_ByteCompression_DecompressAsync_" data-uid="IVLab.Utilities.ByteCompression.DecompressAsync*"></a>
-  <h4 id="IVLab_Utilities_ByteCompression_DecompressAsync_System_Byte___CancellationToken_" data-uid="IVLab.Utilities.ByteCompression.DecompressAsync(System.Byte[],CancellationToken)">DecompressAsync(Byte[], CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="IVLab_Utilities_XROMMCoordinates_ToUnity_" data-uid="IVLab.Utilities.XROMMCoordinates.ToUnity*"></a>
+  <h4 id="IVLab_Utilities_XROMMCoordinates_ToUnity_Matrix4x4_" data-uid="IVLab.Utilities.XROMMCoordinates.ToUnity(Matrix4x4)">ToUnity(Matrix4x4)</h4>
+  <div class="markdown level1 summary"><p>Converts a 4x4 rigid body transformation matrix defined in XROMM coordinates to Unity.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static async Task&lt;byte[]&gt; DecompressAsync(byte[] gzBuffer, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Matrix4x4 ToUnity(Matrix4x4 xrommMat)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,14 +267,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td><span class="parametername">gzBuffer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">xrommMat</span></td>
+        <td><p>Rigid body transformation matrix in XROMM coordinates</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -272,8 +284,99 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]&gt;</td>
-        <td></td>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><p>Unity matrix</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="IVLab_Utilities_XROMMCoordinates_ToUnity_" data-uid="IVLab.Utilities.XROMMCoordinates.ToUnity*"></a>
+  <h4 id="IVLab_Utilities_XROMMCoordinates_ToUnity_Quaternion_" data-uid="IVLab.Utilities.XROMMCoordinates.ToUnity(Quaternion)">ToUnity(Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Converts a quaternion from XROMM coordinates to Unity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion ToUnity(Quaternion xrommQuat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">xrommQuat</span></td>
+        <td><p>Quaternion in XROMM coordinates</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><p>Unity quaternion</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="IVLab_Utilities_XROMMCoordinates_ToUnity_" data-uid="IVLab.Utilities.XROMMCoordinates.ToUnity*"></a>
+  <h4 id="IVLab_Utilities_XROMMCoordinates_ToUnity_Vector3_" data-uid="IVLab.Utilities.XROMMCoordinates.ToUnity(Vector3)">ToUnity(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Converts a point or vector from XROMM coordinates to Unity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 ToUnity(Vector3 xrommVector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">xrommVector</span></td>
+        <td><p>Point or vector in XROMM coordinates</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><p>Unity point or vector</p>
+</td>
       </tr>
     </tbody>
   </table>

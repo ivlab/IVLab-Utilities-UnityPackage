@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "C:/Users/scoot/dev/Sandbox-herma582/Packages/IVLab-Utilities-UnityPackage/Documentation",
+  "source_base_path": "C:/Users/tias/Documents/IV-Lab/Package-Test-Sandbox/Packages/IVLab-Utilities-UnityPackage/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -24,11 +24,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.DictionaryExtentions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DictionaryExtentions.html",
+          "hash": "5nVttq3+fUTO93s9kFBTPH1TNUuMG4Bw9iZxOwk0qXQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.VectorExtentions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.VectorExtentions.html",
+          "hash": "+ylK6rvLmzzCKKdcYd0PxCwsJ3tChtQbyN3wnrNOo9c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "ZqOWQTSslmA/eSIflzuKVUyf8U64Hml8/5OwIOOoDaA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/IVLab.Utilities.Boundable.yml",
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.Boundable.html",
-          "hash": "z1kOGwXI6Uo3RFNxj30orp4jYsxYBfyDhsEgAaWfszI="
+          "hash": "Z1r92Y1TFqc34Kk2xwbdIpafqGRxpHVsMcwapLQev2k="
         }
       },
       "is_incremental": false,
@@ -40,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.BoundsExtentions.html",
-          "hash": "SLH23AbPOJA64tfk/oOkw+LKiQKbWnQIRr9jbRdl+jE="
+          "hash": "8hE0BD2OX3QXtaZA41CV5vHt0XfmURF+p6lPWOua3oI="
         }
       },
       "is_incremental": false,
@@ -52,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.BoundsOutline.html",
-          "hash": "rujHsVgTILQxSjYI8zx3FwzlgwS+qCrFBhpzmbTtCf0="
+          "hash": "vEswmNu7E7FVNQ1y+SFtzYKWHx9Zn7sYx20TYo8oYCU="
         }
       },
       "is_incremental": false,
@@ -64,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ByteCompression.html",
-          "hash": "02nm0qCrcS5zffrbWlUDyerz7eDdH2PqRpTNVpkYiHo="
+          "hash": "6+lKZEtin8StsrxmSRzYQt7kmm+LFURgFh81+sHbG0E="
         }
       },
       "is_incremental": false,
@@ -76,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ByteMethods.html",
-          "hash": "VAizsP8g5oGn/wbAKERn/R4wFXksN5jRem6ubOECJt0="
+          "hash": "T69yEYPbeKOdPdwVQLCmRMG1MVdt9qbNCh/rN3rM7tE="
         }
       },
       "is_incremental": false,
@@ -88,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.CUIColorPicker.html",
-          "hash": "Fv8uEXqWNj3KkhugK6DdRE8lqAuubzrB16UE8zC4W5U="
+          "hash": "zYLZ3ugegQyXRxg8oUDiOX7csOVDw4DMzd+QoCJ+ZNc="
         }
       },
       "is_incremental": false,
@@ -100,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.CameraFrustumGizmo.html",
-          "hash": "2cvzaJAQs9PaP6xoBpxbpthdRj7lx4q3MH4tl3qmbL8="
+          "hash": "t7lI5CGqjtAsEGTBH6qYn5VZO/hfRKG7XjUbsOEznRU="
         }
       },
       "is_incremental": false,
@@ -112,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ClickAndDragCamera.html",
-          "hash": "sm476vtukOynwaMwUrQIIIKF52ha7u1g16uBRnDnMYw="
+          "hash": "30nh27S2kDUR2ion0CvLd0LMYIss/7Pymjnyo1qNU5s="
         }
       },
       "is_incremental": false,
@@ -124,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ClickAndDragRotation.html",
-          "hash": "2qCh5l/nrUEg7V73RHE8woSdE/nTOAhEZH2DN9QP47I="
+          "hash": "rT5OdMF3Oj+f4bMekz5NBjyaU+ZMNFHjBW3CYuRTfmM="
         }
       },
       "is_incremental": false,
@@ -136,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ColorUtilities.html",
-          "hash": "zzPeViQM1rZnkn1OyT6susNXDijzv2dhYDu+ratJXcA="
+          "hash": "X3t4jSn6W0j+4sND9fp5aAyab5W8mcwr+QT4+5BHF08="
         }
       },
       "is_incremental": false,
@@ -148,7 +184,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ColormapUtilities.html",
-          "hash": "HJwfEacjWXKjXpi/EDgXO2Yi5vXr3MPg/Rk13Y9MxW0="
+          "hash": "St6DBub3H7FsAF7dDUxqfr/s1Z9+d0YRb1W0ha2NTTQ="
         }
       },
       "is_incremental": false,
@@ -160,7 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ContainBoundables.html",
-          "hash": "Gcr8gavXYNfwgilgTgtXx2lPe/AB8N8emw7tcMBVrpA="
+          "hash": "CO2dfOn3jFeMYnQyqrw/tgHpgG8X7K+sH/IHZuoxyQ0="
         }
       },
       "is_incremental": false,
@@ -172,19 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.DataSpace.html",
-          "hash": "7L/TwO/m84prXr67I5dKrmwkrDHck2I8MOm0QZoWEYQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/IVLab.Utilities.DictionaryExtentions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/IVLab.Utilities.DictionaryExtentions.html",
-          "hash": "bhm5CQlUrj/dXxExoghV9LQ9KtoQLBNpR0cKuUG1+Ak="
+          "hash": "qE69K9f/n0bfMVKeFtozLuP+N6lYaGjWrSftaJ/wOv4="
         }
       },
       "is_incremental": false,
@@ -196,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.EscapeToQuit.html",
-          "hash": "n6GmQJhlv8x9KtcbcWCFVe1wHMrWl78iOx7TrELR4cw="
+          "hash": "fCHJkOILiQxxJhS4rG4WhkPR01ItPv1L9PCAV8jHdTI="
         }
       },
       "is_incremental": false,
@@ -208,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.FunctionDebugger.html",
-          "hash": "zJfvS+gfa7i3hRbVxEkRrq2XZz3r+KfhivSD57WjYCI="
+          "hash": "gq3rjqGiIUh7l2jkBNiuWuTANUpTROdhDjK7mM5EXTM="
         }
       },
       "is_incremental": false,
@@ -220,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.FunctionDebuggerAttribute.html",
-          "hash": "mz/xRkPHgGhgpiT5UsKCBBCM6qBoHnEt/QbdL5m3QYs="
+          "hash": "HhzY6pV5beAU+4LuaXzlbcVwPAawLrM057acH/KNwMI="
         }
       },
       "is_incremental": false,
@@ -232,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.GenericObjectPool.html",
-          "hash": "40CcEX+/rOay1erVXWY1Jv+Pq4EYVn+Vxv8gSetXyDc="
+          "hash": "nxIGZUc63oyQGCcv5rKHKex911Qgyibqu4OKoSscWRo="
         }
       },
       "is_incremental": false,
@@ -244,7 +268,19 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.IBoundable.html",
-          "hash": "0dH1WS1fFvdo/YIBGBfwTLHZeM+SC+Yd1YjZDsHuu0g="
+          "hash": "1fTSbm0k1RIGuvxOBgS1XbtCecxMviG4EyyuAFyTBo8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IVLab.Utilities.LHtoRHConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IVLab.Utilities.LHtoRHConversion.html",
+          "hash": "Z2QDjPV47w3MEXN/Zu7n9Bq3C6TLo9oWiYWFxNT1ek0="
         }
       },
       "is_incremental": false,
@@ -256,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.NormalizeMeshScale.html",
-          "hash": "va0OtEe4Nz6aWempUegJgS1yWDfnJb/rgUynspyNEiM="
+          "hash": "wsY5nNGK7/Zuss7cFnaINeksJXJGpnzp1nrJuzj4BpA="
         }
       },
       "is_incremental": false,
@@ -268,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.NormalizeWithinBounds.html",
-          "hash": "6AWWTobYEklFNVWc4uV7YRBmD0xjTNly029J8nPd0Xw="
+          "hash": "rRsQeZyu+qzyfyVQKjnZR/YKwNC7BCGpoD36qKI6u9I="
         }
       },
       "is_incremental": false,
@@ -280,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.ObjectRecycler.html",
-          "hash": "q2fFYam5Ov2JQlLsNdlHGhab6l8uMy137lUe7f87ayM="
+          "hash": "zsmrrlGX2nueHIe3vSA20koG1awynYhwPfxfTtztnCU="
         }
       },
       "is_incremental": false,
@@ -292,7 +328,19 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.PooledObject.html",
-          "hash": "B4jlQf/g+hWgNzNMjcotYdDR/FilzMbZdkz9gF6ba0s="
+          "hash": "jp/MWRPk7+SNrkaITRtKYioCeXq63A02EtGnZ0zBISI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IVLab.Utilities.RHtoLHConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IVLab.Utilities.RHtoLHConversion.html",
+          "hash": "vS4/uVih+7faY7MXJyAaxXW78VmWxiJIOqe/Qi5t95M="
         }
       },
       "is_incremental": false,
@@ -304,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.RoomSpace.html",
-          "hash": "XwH36feeEpznnXtKlVwQPvkHurFLmfxydW8pL1lYmEY="
+          "hash": "ICH6jBZJKOmVbPrBNt/68yxSnZgeDppDbbCobcLdhlw="
         }
       },
       "is_incremental": false,
@@ -316,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.Screenshot.html",
-          "hash": "ZuAjWqan/FE+DcIse4o1GGDz2E7AeoP+0h9Bxr0EYQ0="
+          "hash": "Eg3+xKspGHL/1h79EmaA7eYhcnJezT+TUByCrdklNng="
         }
       },
       "is_incremental": false,
@@ -328,7 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.Singleton-1.html",
-          "hash": "5BjbQOh7yDobT3m1lFNQGTeI0hmlBJxOmMO93TYd/cg="
+          "hash": "C3Yi14AZY0pwUIRQDtM5OpAfia3WQAoBaNUYw+exQWo="
         }
       },
       "is_incremental": false,
@@ -340,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.StreamMethods.html",
-          "hash": "i4BU8cBelPoAZLL5IV6nfMikuQKP0ljCjleENNP4jDw="
+          "hash": "ykOzUehXdcJjanV/j64OD6D1M3f15fqu5vx0bJx+16E="
         }
       },
       "is_incremental": false,
@@ -352,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.TextureUtilities.html",
-          "hash": "lXLxgKTpEdvPxphzwr+Pb2xSWiKsgqrrdQ2/bVPkrTc="
+          "hash": "z/64DvE7ucfqE4qMZdiDKm9WxhFUanflI6vxIjvX88A="
         }
       },
       "is_incremental": false,
@@ -364,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.TransformDebugger.html",
-          "hash": "bWmpKXau7Zm1aZpxkmhB3IldG6TKLWg9bRpIngGVzmc="
+          "hash": "PMZ+KjPISl5W0lfNKXNXCi5R2HuV0U2fokaKjaOCvKY="
         }
       },
       "is_incremental": false,
@@ -376,7 +424,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.UnityThreadScheduler.UnityMethod.html",
-          "hash": "XeBG92de2al300tNrAdy2wcC8d842n7BpingVlWJEDk="
+          "hash": "0sRyigVbV6CrM032neuFQo0rDzfdtA3R8vRCBrnkAbY="
         }
       },
       "is_incremental": false,
@@ -388,19 +436,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.UnityThreadScheduler.html",
-          "hash": "GgC9LL2oB6kZF6uuq3sFiZCSgDifPhEZGe8bqgpiLxk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/IVLab.Utilities.VectorExtentions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/IVLab.Utilities.VectorExtentions.html",
-          "hash": "+Qmf9eRH20hi6P1gi4aZcTBEmPXy3qK9IG1a8OQhfPM="
+          "hash": "wav34C2wLZGXhK+Tqv0SZTpPHeFd7n8HjaD7bWpMEeM="
         }
       },
       "is_incremental": false,
@@ -412,7 +448,19 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.VirtualSpace.html",
-          "hash": "chtE218QF09Xs1DVF4oAG+PgasBcVjpXg70IRKKBfE4="
+          "hash": "X9klbcg5B7MV0zFLSBfsWAcBx+eZ0tEZBboOmU4i8/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IVLab.Utilities.XROMMCoordinates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IVLab.Utilities.XROMMCoordinates.html",
+          "hash": "x8mwO8/qRN7pDX3tOHdNDoHhQIb95q6wHINfzrxGgpk="
         }
       },
       "is_incremental": false,
@@ -424,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.html",
-          "hash": "P42SoCen9MG1hfTmN6GwQPS2oDYIqRu47WNTC4TqjYg="
+          "hash": "oCBGPmmIIFahOUS5J8csEvbhe/qtoKitnMXs/LXaAbc="
         }
       },
       "is_incremental": false,
@@ -436,7 +484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Js3LpRnfZ8y13bnWGRSsZXD2+OohyVssG0dhBMAVuII="
+          "hash": "y6dzN+LelQK5N85+uMs10uAXpFjGp5o7HRZEkEJQOOw="
         }
       },
       "is_incremental": false,
@@ -492,7 +540,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "akyb85EnDES5R6YqgqXnp0WNAXjo/9b29X+KKn5vXLI="
+          "hash": "rrR0eC1eu3goU4dd7WAIKO6q6rkPOhow6WVtYX2krXI="
         }
       },
       "is_incremental": false,
@@ -502,19 +550,17 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 34,
-          "skipped_file_count": 0
+          "total_file_count": 38,
+          "skipped_file_count": 38
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
