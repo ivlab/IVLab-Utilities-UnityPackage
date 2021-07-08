@@ -44,6 +44,18 @@ namespace IVLab.Utilities
         ///     importing new data objects with a common reference frame and the
         ///     new one is bigger than the previous one.
         /// </summary>
+        /// <param name="container">The resulting bounds will be contained
+        /// within these bounds</param>
+        /// <param name="thisDataSpaceBounds">The original bounds (in data
+        /// space) of this data object (the thing we're trying to contain inside
+        /// <param name="boundsAll">The current bounds of all data objects (in
+        /// room [container] space). Not modified if the data space is not
+        /// expanded.</param>
+        /// <param name="transform">The resulting transformation between data
+        /// and room space (not modified if not expanded).</param>
+        /// `container`)</param>
+        /// <param name="dataSpaceBoundsAll">In data space, the current bounds
+        /// of all data objects together.</param>
         /// <returns>
         ///     Boolean whether or not the bounds were expanded.
         /// </returns>
@@ -55,25 +67,25 @@ namespace IVLab.Utilities
             ref Bounds dataSpaceBoundsAll // In data space, the current bounds of all data objects together
         )
         {
+            float originalDataContainerSize = dataSpaceBoundsAll.size.magnitude;
+            dataSpaceBoundsAll.Encapsulate(thisDataSpaceBounds);
+            bool dataSpaceExpanded = dataSpaceBoundsAll.size.magnitude >= originalDataContainerSize;
+
             // Get the scale and bounds after trying to fit the dataset within the
             // DataContainer
             Matrix4x4 tmpTransform;
             Bounds containedBounds;
-            NormalizeWithinBounds.Normalize(container, thisDataSpaceBounds, out tmpTransform, out containedBounds);
+            NormalizeWithinBounds.Normalize(container, dataSpaceBoundsAll, out tmpTransform, out containedBounds);
 
             // If the new bounds would exceed the size of the current data
             // bounds, reassign the data transform
-            bool expand = thisDataSpaceBounds.size.x > dataSpaceBoundsAll.size.x ||
-                thisDataSpaceBounds.size.y > dataSpaceBoundsAll.size.y ||
-                thisDataSpaceBounds.size.z > dataSpaceBoundsAll.size.z;
-            if (expand)
+            if (dataSpaceExpanded)
             {
                 boundsAll.Encapsulate(containedBounds);
                 transform = tmpTransform;
             }
-            dataSpaceBoundsAll.Encapsulate(thisDataSpaceBounds);
 
-            return expand;
+            return dataSpaceExpanded;
         }
     }
 }
