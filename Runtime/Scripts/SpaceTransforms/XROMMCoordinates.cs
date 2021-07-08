@@ -18,7 +18,7 @@ namespace IVLab.Utilities
 	///   Forward = +Z
 	///   Right = +X
 	/// </summary>
-    class XROMMCoordinates
+    public class XROMMCoordinates
     {
         static CoordConversion.CoordSystem xrommCS = new CoordConversion.CoordSystem(
             CoordConversion.CoordSystem.Handedness.RightHanded, 
