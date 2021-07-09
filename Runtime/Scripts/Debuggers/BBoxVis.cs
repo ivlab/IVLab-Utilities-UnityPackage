@@ -56,6 +56,17 @@ namespace IVLab.Utilities
             }
         }
 
+        /// <summary>
+        /// Clear all bounding boxes from visualization
+        /// </summary>
+        public void Clear()
+        {
+            this.colors.Clear();
+            this.names.Clear();
+            this.bounds.Clear();
+            this.localToWorldMatrices.Clear();
+        }
+
         void OnDrawGizmos()
         {
             if (bounds.Count != localToWorldMatrices.Count)
