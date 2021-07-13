@@ -144,7 +144,7 @@ namespace IVLab.Utilities
             // Unity's convention of up = +Y and forward = +Z.
             if ((origCS.upAxis != CoordSystem.Axis.PosY) || (origCS.forwardAxis != CoordSystem.Axis.PosZ))
             {
-                v = Quaternion.LookRotation(origCS.forwardVector, origCS.upVector) * v;
+                v = Quaternion.Inverse(Quaternion.LookRotation(origCS.forwardVector, origCS.upVector)) * v;
             }
             return v;
         }
@@ -174,7 +174,7 @@ namespace IVLab.Utilities
             // Unity's convention of up = +Y and forward = +Z.
             if ((origCS.upAxis != CoordSystem.Axis.PosY) || (origCS.forwardAxis != CoordSystem.Axis.PosZ))
             {
-                q = Quaternion.LookRotation(origCS.forwardVector, origCS.upVector) * q;
+                q = Quaternion.Inverse(Quaternion.LookRotation(origCS.forwardVector, origCS.upVector)) * q;
             }
             return q;
         }
@@ -213,7 +213,7 @@ namespace IVLab.Utilities
 			// convention of up = +Y and forward = +Z line up with the convention used in newCS.
             if ((newCS.upAxis != CoordSystem.Axis.PosY) || (newCS.forwardAxis != CoordSystem.Axis.PosZ))
             {
-                v = Quaternion.Inverse(Quaternion.LookRotation(newCS.forwardVector, newCS.upVector)) * v;
+                v = Quaternion.LookRotation(newCS.forwardVector, newCS.upVector) * v;
             }
             return v;
         }
@@ -243,7 +243,7 @@ namespace IVLab.Utilities
 			// axes with Unity's convention of up = +Y and forward = +Z.
             if ((newCS.upAxis != CoordSystem.Axis.PosY) || (newCS.forwardAxis != CoordSystem.Axis.PosZ))
             {
-                q = Quaternion.Inverse(Quaternion.LookRotation(newCS.forwardVector, newCS.upVector)) * q;
+                q = Quaternion.LookRotation(newCS.forwardVector, newCS.upVector) * q;
             }
             return q;
         }
