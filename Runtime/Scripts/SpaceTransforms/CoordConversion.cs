@@ -68,7 +68,7 @@ namespace IVLab.Utilities
     ///   +Z = Up
 	///
     /// </summary>
-    class CoordConversion
+    public class CoordConversion
     {
         /// <summary>
 		/// This small internal class defines a coordinate system convention based on knowing 3 things:
