@@ -1,6 +1,94 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Global
+  name: Global
+  href: api/Global.html
+  name.vb: ''
+  fullName: Global
+  fullName.vb: ''
+  nameWithType: Global
+  nameWithType.vb: ''
+- uid: Global.DictionaryExtentions
+  name: DictionaryExtentions
+  href: api/Global.DictionaryExtentions.html
+  commentId: T:Global.DictionaryExtentions
+  fullName: DictionaryExtentions
+  nameWithType: DictionaryExtentions
+- uid: Global.DictionaryExtentions.TryGetValue*
+  name: TryGetValue
+  href: api/Global.DictionaryExtentions.html#Global_DictionaryExtentions_TryGetValue_
+  commentId: Overload:Global.DictionaryExtentions.TryGetValue
+  isSpec: "True"
+  fullName: DictionaryExtentions.TryGetValue
+  nameWithType: DictionaryExtentions.TryGetValue
+- uid: Global.DictionaryExtentions.TryGetValue``2(Dictionary{``0,``1},``0)
+  name: TryGetValue<T1, T2>(Dictionary<T1, T2>, T1)
+  href: api/Global.DictionaryExtentions.html#Global_DictionaryExtentions_TryGetValue__2_Dictionary___0___1____0_
+  commentId: M:Global.DictionaryExtentions.TryGetValue``2(Dictionary{``0,``1},``0)
+  name.vb: TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
+  fullName: DictionaryExtentions.TryGetValue<T1, T2>(Dictionary<T1, T2>, T1)
+  fullName.vb: DictionaryExtentions.TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
+  nameWithType: DictionaryExtentions.TryGetValue<T1, T2>(Dictionary<T1, T2>, T1)
+  nameWithType.vb: DictionaryExtentions.TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
+- uid: Global.VectorExtentions
+  name: VectorExtentions
+  href: api/Global.VectorExtentions.html
+  commentId: T:Global.VectorExtentions
+  fullName: VectorExtentions
+  nameWithType: VectorExtentions
+- uid: Global.VectorExtentions.MaxComponent(Vector3)
+  name: MaxComponent(Vector3)
+  href: api/Global.VectorExtentions.html#Global_VectorExtentions_MaxComponent_Vector3_
+  commentId: M:Global.VectorExtentions.MaxComponent(Vector3)
+  fullName: VectorExtentions.MaxComponent(Vector3)
+  nameWithType: VectorExtentions.MaxComponent(Vector3)
+- uid: Global.VectorExtentions.MaxComponent*
+  name: MaxComponent
+  href: api/Global.VectorExtentions.html#Global_VectorExtentions_MaxComponent_
+  commentId: Overload:Global.VectorExtentions.MaxComponent
+  isSpec: "True"
+  fullName: VectorExtentions.MaxComponent
+  nameWithType: VectorExtentions.MaxComponent
+- uid: Global.VectorExtentions.MinComponent(Vector3)
+  name: MinComponent(Vector3)
+  href: api/Global.VectorExtentions.html#Global_VectorExtentions_MinComponent_Vector3_
+  commentId: M:Global.VectorExtentions.MinComponent(Vector3)
+  fullName: VectorExtentions.MinComponent(Vector3)
+  nameWithType: VectorExtentions.MinComponent(Vector3)
+- uid: Global.VectorExtentions.MinComponent*
+  name: MinComponent
+  href: api/Global.VectorExtentions.html#Global_VectorExtentions_MinComponent_
+  commentId: Overload:Global.VectorExtentions.MinComponent
+  isSpec: "True"
+  fullName: VectorExtentions.MinComponent
+  nameWithType: VectorExtentions.MinComponent
+- uid: Global.VectorExtentions.Reciprocal(Vector3)
+  name: Reciprocal(Vector3)
+  href: api/Global.VectorExtentions.html#Global_VectorExtentions_Reciprocal_Vector3_
+  commentId: M:Global.VectorExtentions.Reciprocal(Vector3)
+  fullName: VectorExtentions.Reciprocal(Vector3)
+  nameWithType: VectorExtentions.Reciprocal(Vector3)
+- uid: Global.VectorExtentions.Reciprocal*
+  name: Reciprocal
+  href: api/Global.VectorExtentions.html#Global_VectorExtentions_Reciprocal_
+  commentId: Overload:Global.VectorExtentions.Reciprocal
+  isSpec: "True"
+  fullName: VectorExtentions.Reciprocal
+  nameWithType: VectorExtentions.Reciprocal
+- uid: Global.VectorExtentions.ToHomogeneous(Vector3)
+  name: ToHomogeneous(Vector3)
+  href: api/Global.VectorExtentions.html#Global_VectorExtentions_ToHomogeneous_Vector3_
+  commentId: M:Global.VectorExtentions.ToHomogeneous(Vector3)
+  fullName: VectorExtentions.ToHomogeneous(Vector3)
+  nameWithType: VectorExtentions.ToHomogeneous(Vector3)
+- uid: Global.VectorExtentions.ToHomogeneous*
+  name: ToHomogeneous
+  href: api/Global.VectorExtentions.html#Global_VectorExtentions_ToHomogeneous_
+  commentId: Overload:Global.VectorExtentions.ToHomogeneous
+  isSpec: "True"
+  fullName: VectorExtentions.ToHomogeneous
+  nameWithType: VectorExtentions.ToHomogeneous
 - uid: IVLab.Utilities
   name: IVLab.Utilities
   href: api/IVLab.Utilities.html
@@ -595,28 +683,6 @@ references:
   isSpec: "True"
   fullName: IVLab.Utilities.DataSpace.DataTransform
   nameWithType: DataSpace.DataTransform
-- uid: IVLab.Utilities.DictionaryExtentions
-  name: DictionaryExtentions
-  href: api/IVLab.Utilities.DictionaryExtentions.html
-  commentId: T:IVLab.Utilities.DictionaryExtentions
-  fullName: IVLab.Utilities.DictionaryExtentions
-  nameWithType: DictionaryExtentions
-- uid: IVLab.Utilities.DictionaryExtentions.TryGetValue*
-  name: TryGetValue
-  href: api/IVLab.Utilities.DictionaryExtentions.html#IVLab_Utilities_DictionaryExtentions_TryGetValue_
-  commentId: Overload:IVLab.Utilities.DictionaryExtentions.TryGetValue
-  isSpec: "True"
-  fullName: IVLab.Utilities.DictionaryExtentions.TryGetValue
-  nameWithType: DictionaryExtentions.TryGetValue
-- uid: IVLab.Utilities.DictionaryExtentions.TryGetValue``2(Dictionary{``0,``1},``0)
-  name: TryGetValue<T1, T2>(Dictionary<T1, T2>, T1)
-  href: api/IVLab.Utilities.DictionaryExtentions.html#IVLab_Utilities_DictionaryExtentions_TryGetValue__2_Dictionary___0___1____0_
-  commentId: M:IVLab.Utilities.DictionaryExtentions.TryGetValue``2(Dictionary{``0,``1},``0)
-  name.vb: TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
-  fullName: IVLab.Utilities.DictionaryExtentions.TryGetValue<T1, T2>(Dictionary<T1, T2>, T1)
-  fullName.vb: IVLab.Utilities.DictionaryExtentions.TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
-  nameWithType: DictionaryExtentions.TryGetValue<T1, T2>(Dictionary<T1, T2>, T1)
-  nameWithType.vb: DictionaryExtentions.TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
 - uid: IVLab.Utilities.EscapeToQuit
   name: EscapeToQuit
   href: api/IVLab.Utilities.EscapeToQuit.html
@@ -759,6 +825,77 @@ references:
   isSpec: "True"
   fullName: IVLab.Utilities.IBoundable.Bounds
   nameWithType: IBoundable.Bounds
+- uid: IVLab.Utilities.LHtoRHConversion
+  name: LHtoRHConversion
+  href: api/IVLab.Utilities.LHtoRHConversion.html
+  commentId: T:IVLab.Utilities.LHtoRHConversion
+  fullName: IVLab.Utilities.LHtoRHConversion
+  nameWithType: LHtoRHConversion
+- uid: IVLab.Utilities.LHtoRHConversion.ConvertLeftHandToRightHand(Vector3,Quaternion)
+  name: ConvertLeftHandToRightHand(Vector3, Quaternion)
+  href: api/IVLab.Utilities.LHtoRHConversion.html#IVLab_Utilities_LHtoRHConversion_ConvertLeftHandToRightHand_Vector3_Quaternion_
+  commentId: M:IVLab.Utilities.LHtoRHConversion.ConvertLeftHandToRightHand(Vector3,Quaternion)
+  fullName: IVLab.Utilities.LHtoRHConversion.ConvertLeftHandToRightHand(Vector3, Quaternion)
+  nameWithType: LHtoRHConversion.ConvertLeftHandToRightHand(Vector3, Quaternion)
+- uid: IVLab.Utilities.LHtoRHConversion.ConvertLeftHandToRightHand*
+  name: ConvertLeftHandToRightHand
+  href: api/IVLab.Utilities.LHtoRHConversion.html#IVLab_Utilities_LHtoRHConversion_ConvertLeftHandToRightHand_
+  commentId: Overload:IVLab.Utilities.LHtoRHConversion.ConvertLeftHandToRightHand
+  isSpec: "True"
+  fullName: IVLab.Utilities.LHtoRHConversion.ConvertLeftHandToRightHand
+  nameWithType: LHtoRHConversion.ConvertLeftHandToRightHand
+- uid: IVLab.Utilities.LHtoRHConversion.ConvertLeftToRighGraphically(Vector3,Quaternion)
+  name: ConvertLeftToRighGraphically(Vector3, Quaternion)
+  href: api/IVLab.Utilities.LHtoRHConversion.html#IVLab_Utilities_LHtoRHConversion_ConvertLeftToRighGraphically_Vector3_Quaternion_
+  commentId: M:IVLab.Utilities.LHtoRHConversion.ConvertLeftToRighGraphically(Vector3,Quaternion)
+  fullName: IVLab.Utilities.LHtoRHConversion.ConvertLeftToRighGraphically(Vector3, Quaternion)
+  nameWithType: LHtoRHConversion.ConvertLeftToRighGraphically(Vector3, Quaternion)
+- uid: IVLab.Utilities.LHtoRHConversion.ConvertLeftToRighGraphically*
+  name: ConvertLeftToRighGraphically
+  href: api/IVLab.Utilities.LHtoRHConversion.html#IVLab_Utilities_LHtoRHConversion_ConvertLeftToRighGraphically_
+  commentId: Overload:IVLab.Utilities.LHtoRHConversion.ConvertLeftToRighGraphically
+  isSpec: "True"
+  fullName: IVLab.Utilities.LHtoRHConversion.ConvertLeftToRighGraphically
+  nameWithType: LHtoRHConversion.ConvertLeftToRighGraphically
+- uid: IVLab.Utilities.LHtoRHConversion.getRHTrans(GameObject)
+  name: getRHTrans(GameObject)
+  href: api/IVLab.Utilities.LHtoRHConversion.html#IVLab_Utilities_LHtoRHConversion_getRHTrans_GameObject_
+  commentId: M:IVLab.Utilities.LHtoRHConversion.getRHTrans(GameObject)
+  fullName: IVLab.Utilities.LHtoRHConversion.getRHTrans(GameObject)
+  nameWithType: LHtoRHConversion.getRHTrans(GameObject)
+- uid: IVLab.Utilities.LHtoRHConversion.getRHTrans*
+  name: getRHTrans
+  href: api/IVLab.Utilities.LHtoRHConversion.html#IVLab_Utilities_LHtoRHConversion_getRHTrans_
+  commentId: Overload:IVLab.Utilities.LHtoRHConversion.getRHTrans
+  isSpec: "True"
+  fullName: IVLab.Utilities.LHtoRHConversion.getRHTrans
+  nameWithType: LHtoRHConversion.getRHTrans
+- uid: IVLab.Utilities.LHtoRHConversion.UnityToJointTrack(GameObject)
+  name: UnityToJointTrack(GameObject)
+  href: api/IVLab.Utilities.LHtoRHConversion.html#IVLab_Utilities_LHtoRHConversion_UnityToJointTrack_GameObject_
+  commentId: M:IVLab.Utilities.LHtoRHConversion.UnityToJointTrack(GameObject)
+  fullName: IVLab.Utilities.LHtoRHConversion.UnityToJointTrack(GameObject)
+  nameWithType: LHtoRHConversion.UnityToJointTrack(GameObject)
+- uid: IVLab.Utilities.LHtoRHConversion.UnityToJointTrack*
+  name: UnityToJointTrack
+  href: api/IVLab.Utilities.LHtoRHConversion.html#IVLab_Utilities_LHtoRHConversion_UnityToJointTrack_
+  commentId: Overload:IVLab.Utilities.LHtoRHConversion.UnityToJointTrack
+  isSpec: "True"
+  fullName: IVLab.Utilities.LHtoRHConversion.UnityToJointTrack
+  nameWithType: LHtoRHConversion.UnityToJointTrack
+- uid: IVLab.Utilities.LHtoRHConversion.XYZtoZXY(Vector3)
+  name: XYZtoZXY(Vector3)
+  href: api/IVLab.Utilities.LHtoRHConversion.html#IVLab_Utilities_LHtoRHConversion_XYZtoZXY_Vector3_
+  commentId: M:IVLab.Utilities.LHtoRHConversion.XYZtoZXY(Vector3)
+  fullName: IVLab.Utilities.LHtoRHConversion.XYZtoZXY(Vector3)
+  nameWithType: LHtoRHConversion.XYZtoZXY(Vector3)
+- uid: IVLab.Utilities.LHtoRHConversion.XYZtoZXY*
+  name: XYZtoZXY
+  href: api/IVLab.Utilities.LHtoRHConversion.html#IVLab_Utilities_LHtoRHConversion_XYZtoZXY_
+  commentId: Overload:IVLab.Utilities.LHtoRHConversion.XYZtoZXY
+  isSpec: "True"
+  fullName: IVLab.Utilities.LHtoRHConversion.XYZtoZXY
+  nameWithType: LHtoRHConversion.XYZtoZXY
 - uid: IVLab.Utilities.NormalizeMeshScale
   name: NormalizeMeshScale
   href: api/IVLab.Utilities.NormalizeMeshScale.html
@@ -917,6 +1054,51 @@ references:
   isSpec: "True"
   fullName: IVLab.Utilities.PooledObject.PoolName
   nameWithType: PooledObject.PoolName
+- uid: IVLab.Utilities.RHtoLHConversion
+  name: RHtoLHConversion
+  href: api/IVLab.Utilities.RHtoLHConversion.html
+  commentId: T:IVLab.Utilities.RHtoLHConversion
+  fullName: IVLab.Utilities.RHtoLHConversion
+  nameWithType: RHtoLHConversion
+- uid: IVLab.Utilities.RHtoLHConversion.negateX(Vector3)
+  name: negateX(Vector3)
+  href: api/IVLab.Utilities.RHtoLHConversion.html#IVLab_Utilities_RHtoLHConversion_negateX_Vector3_
+  commentId: M:IVLab.Utilities.RHtoLHConversion.negateX(Vector3)
+  fullName: IVLab.Utilities.RHtoLHConversion.negateX(Vector3)
+  nameWithType: RHtoLHConversion.negateX(Vector3)
+- uid: IVLab.Utilities.RHtoLHConversion.negateX*
+  name: negateX
+  href: api/IVLab.Utilities.RHtoLHConversion.html#IVLab_Utilities_RHtoLHConversion_negateX_
+  commentId: Overload:IVLab.Utilities.RHtoLHConversion.negateX
+  isSpec: "True"
+  fullName: IVLab.Utilities.RHtoLHConversion.negateX
+  nameWithType: RHtoLHConversion.negateX
+- uid: IVLab.Utilities.RHtoLHConversion.RHzUpVector3ToLHyUpVector3(Vector3)
+  name: RHzUpVector3ToLHyUpVector3(Vector3)
+  href: api/IVLab.Utilities.RHtoLHConversion.html#IVLab_Utilities_RHtoLHConversion_RHzUpVector3ToLHyUpVector3_Vector3_
+  commentId: M:IVLab.Utilities.RHtoLHConversion.RHzUpVector3ToLHyUpVector3(Vector3)
+  fullName: IVLab.Utilities.RHtoLHConversion.RHzUpVector3ToLHyUpVector3(Vector3)
+  nameWithType: RHtoLHConversion.RHzUpVector3ToLHyUpVector3(Vector3)
+- uid: IVLab.Utilities.RHtoLHConversion.RHzUpVector3ToLHyUpVector3*
+  name: RHzUpVector3ToLHyUpVector3
+  href: api/IVLab.Utilities.RHtoLHConversion.html#IVLab_Utilities_RHtoLHConversion_RHzUpVector3ToLHyUpVector3_
+  commentId: Overload:IVLab.Utilities.RHtoLHConversion.RHzUpVector3ToLHyUpVector3
+  isSpec: "True"
+  fullName: IVLab.Utilities.RHtoLHConversion.RHzUpVector3ToLHyUpVector3
+  nameWithType: RHtoLHConversion.RHzUpVector3ToLHyUpVector3
+- uid: IVLab.Utilities.RHtoLHConversion.ToLeftHanded(Quaternion)
+  name: ToLeftHanded(Quaternion)
+  href: api/IVLab.Utilities.RHtoLHConversion.html#IVLab_Utilities_RHtoLHConversion_ToLeftHanded_Quaternion_
+  commentId: M:IVLab.Utilities.RHtoLHConversion.ToLeftHanded(Quaternion)
+  fullName: IVLab.Utilities.RHtoLHConversion.ToLeftHanded(Quaternion)
+  nameWithType: RHtoLHConversion.ToLeftHanded(Quaternion)
+- uid: IVLab.Utilities.RHtoLHConversion.ToLeftHanded*
+  name: ToLeftHanded
+  href: api/IVLab.Utilities.RHtoLHConversion.html#IVLab_Utilities_RHtoLHConversion_ToLeftHanded_
+  commentId: Overload:IVLab.Utilities.RHtoLHConversion.ToLeftHanded
+  isSpec: "True"
+  fullName: IVLab.Utilities.RHtoLHConversion.ToLeftHanded
+  nameWithType: RHtoLHConversion.ToLeftHanded
 - uid: IVLab.Utilities.RoomSpace
   name: RoomSpace
   href: api/IVLab.Utilities.RoomSpace.html
@@ -1427,67 +1609,65 @@ references:
   commentId: F:IVLab.Utilities.UnityThreadScheduler.UnityMethod.Update
   fullName: IVLab.Utilities.UnityThreadScheduler.UnityMethod.Update
   nameWithType: UnityThreadScheduler.UnityMethod.Update
-- uid: IVLab.Utilities.VectorExtentions
-  name: VectorExtentions
-  href: api/IVLab.Utilities.VectorExtentions.html
-  commentId: T:IVLab.Utilities.VectorExtentions
-  fullName: IVLab.Utilities.VectorExtentions
-  nameWithType: VectorExtentions
-- uid: IVLab.Utilities.VectorExtentions.MaxComponent(Vector3)
-  name: MaxComponent(Vector3)
-  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_MaxComponent_Vector3_
-  commentId: M:IVLab.Utilities.VectorExtentions.MaxComponent(Vector3)
-  fullName: IVLab.Utilities.VectorExtentions.MaxComponent(Vector3)
-  nameWithType: VectorExtentions.MaxComponent(Vector3)
-- uid: IVLab.Utilities.VectorExtentions.MaxComponent*
-  name: MaxComponent
-  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_MaxComponent_
-  commentId: Overload:IVLab.Utilities.VectorExtentions.MaxComponent
-  isSpec: "True"
-  fullName: IVLab.Utilities.VectorExtentions.MaxComponent
-  nameWithType: VectorExtentions.MaxComponent
-- uid: IVLab.Utilities.VectorExtentions.MinComponent(Vector3)
-  name: MinComponent(Vector3)
-  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_MinComponent_Vector3_
-  commentId: M:IVLab.Utilities.VectorExtentions.MinComponent(Vector3)
-  fullName: IVLab.Utilities.VectorExtentions.MinComponent(Vector3)
-  nameWithType: VectorExtentions.MinComponent(Vector3)
-- uid: IVLab.Utilities.VectorExtentions.MinComponent*
-  name: MinComponent
-  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_MinComponent_
-  commentId: Overload:IVLab.Utilities.VectorExtentions.MinComponent
-  isSpec: "True"
-  fullName: IVLab.Utilities.VectorExtentions.MinComponent
-  nameWithType: VectorExtentions.MinComponent
-- uid: IVLab.Utilities.VectorExtentions.Reciprocal(Vector3)
-  name: Reciprocal(Vector3)
-  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_Reciprocal_Vector3_
-  commentId: M:IVLab.Utilities.VectorExtentions.Reciprocal(Vector3)
-  fullName: IVLab.Utilities.VectorExtentions.Reciprocal(Vector3)
-  nameWithType: VectorExtentions.Reciprocal(Vector3)
-- uid: IVLab.Utilities.VectorExtentions.Reciprocal*
-  name: Reciprocal
-  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_Reciprocal_
-  commentId: Overload:IVLab.Utilities.VectorExtentions.Reciprocal
-  isSpec: "True"
-  fullName: IVLab.Utilities.VectorExtentions.Reciprocal
-  nameWithType: VectorExtentions.Reciprocal
-- uid: IVLab.Utilities.VectorExtentions.ToHomogeneous(Vector3)
-  name: ToHomogeneous(Vector3)
-  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_ToHomogeneous_Vector3_
-  commentId: M:IVLab.Utilities.VectorExtentions.ToHomogeneous(Vector3)
-  fullName: IVLab.Utilities.VectorExtentions.ToHomogeneous(Vector3)
-  nameWithType: VectorExtentions.ToHomogeneous(Vector3)
-- uid: IVLab.Utilities.VectorExtentions.ToHomogeneous*
-  name: ToHomogeneous
-  href: api/IVLab.Utilities.VectorExtentions.html#IVLab_Utilities_VectorExtentions_ToHomogeneous_
-  commentId: Overload:IVLab.Utilities.VectorExtentions.ToHomogeneous
-  isSpec: "True"
-  fullName: IVLab.Utilities.VectorExtentions.ToHomogeneous
-  nameWithType: VectorExtentions.ToHomogeneous
 - uid: IVLab.Utilities.VirtualSpace
   name: VirtualSpace
   href: api/IVLab.Utilities.VirtualSpace.html
   commentId: T:IVLab.Utilities.VirtualSpace
   fullName: IVLab.Utilities.VirtualSpace
   nameWithType: VirtualSpace
+- uid: IVLab.Utilities.XROMMCoordinates
+  name: XROMMCoordinates
+  href: api/IVLab.Utilities.XROMMCoordinates.html
+  commentId: T:IVLab.Utilities.XROMMCoordinates
+  fullName: IVLab.Utilities.XROMMCoordinates
+  nameWithType: XROMMCoordinates
+- uid: IVLab.Utilities.XROMMCoordinates.FromUnity(Matrix4x4)
+  name: FromUnity(Matrix4x4)
+  href: api/IVLab.Utilities.XROMMCoordinates.html#IVLab_Utilities_XROMMCoordinates_FromUnity_Matrix4x4_
+  commentId: M:IVLab.Utilities.XROMMCoordinates.FromUnity(Matrix4x4)
+  fullName: IVLab.Utilities.XROMMCoordinates.FromUnity(Matrix4x4)
+  nameWithType: XROMMCoordinates.FromUnity(Matrix4x4)
+- uid: IVLab.Utilities.XROMMCoordinates.FromUnity(Quaternion)
+  name: FromUnity(Quaternion)
+  href: api/IVLab.Utilities.XROMMCoordinates.html#IVLab_Utilities_XROMMCoordinates_FromUnity_Quaternion_
+  commentId: M:IVLab.Utilities.XROMMCoordinates.FromUnity(Quaternion)
+  fullName: IVLab.Utilities.XROMMCoordinates.FromUnity(Quaternion)
+  nameWithType: XROMMCoordinates.FromUnity(Quaternion)
+- uid: IVLab.Utilities.XROMMCoordinates.FromUnity(Vector3)
+  name: FromUnity(Vector3)
+  href: api/IVLab.Utilities.XROMMCoordinates.html#IVLab_Utilities_XROMMCoordinates_FromUnity_Vector3_
+  commentId: M:IVLab.Utilities.XROMMCoordinates.FromUnity(Vector3)
+  fullName: IVLab.Utilities.XROMMCoordinates.FromUnity(Vector3)
+  nameWithType: XROMMCoordinates.FromUnity(Vector3)
+- uid: IVLab.Utilities.XROMMCoordinates.FromUnity*
+  name: FromUnity
+  href: api/IVLab.Utilities.XROMMCoordinates.html#IVLab_Utilities_XROMMCoordinates_FromUnity_
+  commentId: Overload:IVLab.Utilities.XROMMCoordinates.FromUnity
+  isSpec: "True"
+  fullName: IVLab.Utilities.XROMMCoordinates.FromUnity
+  nameWithType: XROMMCoordinates.FromUnity
+- uid: IVLab.Utilities.XROMMCoordinates.ToUnity(Matrix4x4)
+  name: ToUnity(Matrix4x4)
+  href: api/IVLab.Utilities.XROMMCoordinates.html#IVLab_Utilities_XROMMCoordinates_ToUnity_Matrix4x4_
+  commentId: M:IVLab.Utilities.XROMMCoordinates.ToUnity(Matrix4x4)
+  fullName: IVLab.Utilities.XROMMCoordinates.ToUnity(Matrix4x4)
+  nameWithType: XROMMCoordinates.ToUnity(Matrix4x4)
+- uid: IVLab.Utilities.XROMMCoordinates.ToUnity(Quaternion)
+  name: ToUnity(Quaternion)
+  href: api/IVLab.Utilities.XROMMCoordinates.html#IVLab_Utilities_XROMMCoordinates_ToUnity_Quaternion_
+  commentId: M:IVLab.Utilities.XROMMCoordinates.ToUnity(Quaternion)
+  fullName: IVLab.Utilities.XROMMCoordinates.ToUnity(Quaternion)
+  nameWithType: XROMMCoordinates.ToUnity(Quaternion)
+- uid: IVLab.Utilities.XROMMCoordinates.ToUnity(Vector3)
+  name: ToUnity(Vector3)
+  href: api/IVLab.Utilities.XROMMCoordinates.html#IVLab_Utilities_XROMMCoordinates_ToUnity_Vector3_
+  commentId: M:IVLab.Utilities.XROMMCoordinates.ToUnity(Vector3)
+  fullName: IVLab.Utilities.XROMMCoordinates.ToUnity(Vector3)
+  nameWithType: XROMMCoordinates.ToUnity(Vector3)
+- uid: IVLab.Utilities.XROMMCoordinates.ToUnity*
+  name: ToUnity
+  href: api/IVLab.Utilities.XROMMCoordinates.html#IVLab_Utilities_XROMMCoordinates_ToUnity_
+  commentId: Overload:IVLab.Utilities.XROMMCoordinates.ToUnity
+  isSpec: "True"
+  fullName: IVLab.Utilities.XROMMCoordinates.ToUnity
+  nameWithType: XROMMCoordinates.ToUnity

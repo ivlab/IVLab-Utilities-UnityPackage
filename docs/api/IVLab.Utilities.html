@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace IVLab.Utilities
    | IVLab Unity Utilities ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../resources/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -122,8 +122,6 @@ like a planetarium.</p>
 </section>
       <h4><a class="xref" href="IVLab.Utilities.DataSpace.html">DataSpace</a></h4>
       <section></section>
-      <h4><a class="xref" href="IVLab.Utilities.DictionaryExtentions.html">DictionaryExtentions</a></h4>
-      <section></section>
       <h4><a class="xref" href="IVLab.Utilities.EscapeToQuit.html">EscapeToQuit</a></h4>
       <section><p>Attach this script to any GameObject to stop the application when the
 user presses <code>esc</code>.</p>
@@ -139,6 +137,8 @@ you wish to be trigger-able from the Unity editor.</p>
       <section><p>Object pool to be used when trying to avoid unnecessary allocations in
 managed C#.</p>
 </section>
+      <h4><a class="xref" href="IVLab.Utilities.LHtoRHConversion.html">LHtoRHConversion</a></h4>
+      <section></section>
       <h4><a class="xref" href="IVLab.Utilities.NormalizeMeshScale.html">NormalizeMeshScale</a></h4>
       <section><p>Use this utility when you have a GIGANTIC mesh that you need to normalize
 into room space, say 2x2x2 meters. NOTE: This is ONLY for use with
@@ -150,6 +150,8 @@ meshes. Take a look at NormalizeWithinBounds.cs for a more generic version.</p>
       <h4><a class="xref" href="IVLab.Utilities.ObjectRecycler.html">ObjectRecycler</a></h4>
       <section></section>
       <h4><a class="xref" href="IVLab.Utilities.PooledObject.html">PooledObject</a></h4>
+      <section></section>
+      <h4><a class="xref" href="IVLab.Utilities.RHtoLHConversion.html">RHtoLHConversion</a></h4>
       <section></section>
       <h4><a class="xref" href="IVLab.Utilities.RoomSpace.html">RoomSpace</a></h4>
       <section></section>
@@ -174,10 +176,22 @@ UnityThreadScheduler needs to either be attached to a GameObject, or
 <code>UnityThreadScheduler.GetInstance()</code> needs to be called somewhere in the
 code in order to use it.</p>
 </section>
-      <h4><a class="xref" href="IVLab.Utilities.VectorExtentions.html">VectorExtentions</a></h4>
-      <section></section>
       <h4><a class="xref" href="IVLab.Utilities.VirtualSpace.html">VirtualSpace</a></h4>
       <section></section>
+      <h4><a class="xref" href="IVLab.Utilities.XROMMCoordinates.html">XROMMCoordinates</a></h4>
+      <section><p>Uses the CoordConversion class to provide routines for converting from XROMM coordinates
+to Unity coordinates.</p>
+<p>XROMM coordinates are:
+Right-Handed
+Up = +Z
+Forward = +Y
+Right = +X</p>
+<p>Unity coordinates are:
+Left-Handed
+Up = +Y
+Forward = +Z
+Right = +X</p>
+</section>
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="IVLab.Utilities.IBoundable.html">IBoundable</a></h4>
