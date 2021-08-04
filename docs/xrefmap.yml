@@ -95,6 +95,38 @@ references:
   commentId: N:IVLab.Utilities
   fullName: IVLab.Utilities
   nameWithType: IVLab.Utilities
+- uid: IVLab.Utilities.BBoxVis
+  name: BBoxVis
+  href: api/IVLab.Utilities.BBoxVis.html
+  commentId: T:IVLab.Utilities.BBoxVis
+  fullName: IVLab.Utilities.BBoxVis
+  nameWithType: BBoxVis
+- uid: IVLab.Utilities.BBoxVis.AddBBox(System.String,Bounds,Matrix4x4)
+  name: AddBBox(String, Bounds, Matrix4x4)
+  href: api/IVLab.Utilities.BBoxVis.html#IVLab_Utilities_BBoxVis_AddBBox_System_String_Bounds_Matrix4x4_
+  commentId: M:IVLab.Utilities.BBoxVis.AddBBox(System.String,Bounds,Matrix4x4)
+  fullName: IVLab.Utilities.BBoxVis.AddBBox(System.String, Bounds, Matrix4x4)
+  nameWithType: BBoxVis.AddBBox(String, Bounds, Matrix4x4)
+- uid: IVLab.Utilities.BBoxVis.AddBBox*
+  name: AddBBox
+  href: api/IVLab.Utilities.BBoxVis.html#IVLab_Utilities_BBoxVis_AddBBox_
+  commentId: Overload:IVLab.Utilities.BBoxVis.AddBBox
+  isSpec: "True"
+  fullName: IVLab.Utilities.BBoxVis.AddBBox
+  nameWithType: BBoxVis.AddBBox
+- uid: IVLab.Utilities.BBoxVis.Clear
+  name: Clear()
+  href: api/IVLab.Utilities.BBoxVis.html#IVLab_Utilities_BBoxVis_Clear
+  commentId: M:IVLab.Utilities.BBoxVis.Clear
+  fullName: IVLab.Utilities.BBoxVis.Clear()
+  nameWithType: BBoxVis.Clear()
+- uid: IVLab.Utilities.BBoxVis.Clear*
+  name: Clear
+  href: api/IVLab.Utilities.BBoxVis.html#IVLab_Utilities_BBoxVis_Clear_
+  commentId: Overload:IVLab.Utilities.BBoxVis.Clear
+  isSpec: "True"
+  fullName: IVLab.Utilities.BBoxVis.Clear
+  nameWithType: BBoxVis.Clear
 - uid: IVLab.Utilities.Boundable
   name: Boundable
   href: api/IVLab.Utilities.Boundable.html
@@ -603,6 +635,211 @@ references:
   isSpec: "True"
   fullName: IVLab.Utilities.ContainBoundables.UpdateScale
   nameWithType: ContainBoundables.UpdateScale
+- uid: IVLab.Utilities.CoordConversion
+  name: CoordConversion
+  href: api/IVLab.Utilities.CoordConversion.html
+  commentId: T:IVLab.Utilities.CoordConversion
+  fullName: IVLab.Utilities.CoordConversion
+  nameWithType: CoordConversion
+- uid: IVLab.Utilities.CoordConversion.CoordSystem
+  name: CoordConversion.CoordSystem
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.html
+  commentId: T:IVLab.Utilities.CoordConversion.CoordSystem
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem
+  nameWithType: CoordConversion.CoordSystem
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.#ctor(IVLab.Utilities.CoordConversion.CoordSystem.Handedness,IVLab.Utilities.CoordConversion.CoordSystem.Axis,IVLab.Utilities.CoordConversion.CoordSystem.Axis)
+  name: CoordSystem(CoordConversion.CoordSystem.Handedness, CoordConversion.CoordSystem.Axis, CoordConversion.CoordSystem.Axis)
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.html#IVLab_Utilities_CoordConversion_CoordSystem__ctor_IVLab_Utilities_CoordConversion_CoordSystem_Handedness_IVLab_Utilities_CoordConversion_CoordSystem_Axis_IVLab_Utilities_CoordConversion_CoordSystem_Axis_
+  commentId: M:IVLab.Utilities.CoordConversion.CoordSystem.#ctor(IVLab.Utilities.CoordConversion.CoordSystem.Handedness,IVLab.Utilities.CoordConversion.CoordSystem.Axis,IVLab.Utilities.CoordConversion.CoordSystem.Axis)
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.CoordSystem(IVLab.Utilities.CoordConversion.CoordSystem.Handedness, IVLab.Utilities.CoordConversion.CoordSystem.Axis, IVLab.Utilities.CoordConversion.CoordSystem.Axis)
+  nameWithType: CoordConversion.CoordSystem.CoordSystem(CoordConversion.CoordSystem.Handedness, CoordConversion.CoordSystem.Axis, CoordConversion.CoordSystem.Axis)
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.#ctor*
+  name: CoordSystem
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.html#IVLab_Utilities_CoordConversion_CoordSystem__ctor_
+  commentId: Overload:IVLab.Utilities.CoordConversion.CoordSystem.#ctor
+  isSpec: "True"
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.CoordSystem
+  nameWithType: CoordConversion.CoordSystem.CoordSystem
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.Axis
+  name: CoordConversion.CoordSystem.Axis
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.Axis.html
+  commentId: T:IVLab.Utilities.CoordConversion.CoordSystem.Axis
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.Axis
+  nameWithType: CoordConversion.CoordSystem.Axis
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.Axis.NegX
+  name: NegX
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.Axis.html#IVLab_Utilities_CoordConversion_CoordSystem_Axis_NegX
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.Axis.NegX
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.Axis.NegX
+  nameWithType: CoordConversion.CoordSystem.Axis.NegX
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.Axis.NegY
+  name: NegY
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.Axis.html#IVLab_Utilities_CoordConversion_CoordSystem_Axis_NegY
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.Axis.NegY
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.Axis.NegY
+  nameWithType: CoordConversion.CoordSystem.Axis.NegY
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.Axis.NegZ
+  name: NegZ
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.Axis.html#IVLab_Utilities_CoordConversion_CoordSystem_Axis_NegZ
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.Axis.NegZ
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.Axis.NegZ
+  nameWithType: CoordConversion.CoordSystem.Axis.NegZ
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.Axis.PosX
+  name: PosX
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.Axis.html#IVLab_Utilities_CoordConversion_CoordSystem_Axis_PosX
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.Axis.PosX
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.Axis.PosX
+  nameWithType: CoordConversion.CoordSystem.Axis.PosX
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.Axis.PosY
+  name: PosY
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.Axis.html#IVLab_Utilities_CoordConversion_CoordSystem_Axis_PosY
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.Axis.PosY
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.Axis.PosY
+  nameWithType: CoordConversion.CoordSystem.Axis.PosY
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.Axis.PosZ
+  name: PosZ
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.Axis.html#IVLab_Utilities_CoordConversion_CoordSystem_Axis_PosZ
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.Axis.PosZ
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.Axis.PosZ
+  nameWithType: CoordConversion.CoordSystem.Axis.PosZ
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.forwardAxis
+  name: forwardAxis
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.html#IVLab_Utilities_CoordConversion_CoordSystem_forwardAxis
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.forwardAxis
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.forwardAxis
+  nameWithType: CoordConversion.CoordSystem.forwardAxis
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.forwardVector
+  name: forwardVector
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.html#IVLab_Utilities_CoordConversion_CoordSystem_forwardVector
+  commentId: P:IVLab.Utilities.CoordConversion.CoordSystem.forwardVector
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.forwardVector
+  nameWithType: CoordConversion.CoordSystem.forwardVector
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.forwardVector*
+  name: forwardVector
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.html#IVLab_Utilities_CoordConversion_CoordSystem_forwardVector_
+  commentId: Overload:IVLab.Utilities.CoordConversion.CoordSystem.forwardVector
+  isSpec: "True"
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.forwardVector
+  nameWithType: CoordConversion.CoordSystem.forwardVector
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.handedness
+  name: handedness
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.html#IVLab_Utilities_CoordConversion_CoordSystem_handedness
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.handedness
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.handedness
+  nameWithType: CoordConversion.CoordSystem.handedness
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.Handedness
+  name: CoordConversion.CoordSystem.Handedness
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.Handedness.html
+  commentId: T:IVLab.Utilities.CoordConversion.CoordSystem.Handedness
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.Handedness
+  nameWithType: CoordConversion.CoordSystem.Handedness
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.Handedness.LeftHanded
+  name: LeftHanded
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.Handedness.html#IVLab_Utilities_CoordConversion_CoordSystem_Handedness_LeftHanded
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.Handedness.LeftHanded
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.Handedness.LeftHanded
+  nameWithType: CoordConversion.CoordSystem.Handedness.LeftHanded
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.Handedness.RightHanded
+  name: RightHanded
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.Handedness.html#IVLab_Utilities_CoordConversion_CoordSystem_Handedness_RightHanded
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.Handedness.RightHanded
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.Handedness.RightHanded
+  nameWithType: CoordConversion.CoordSystem.Handedness.RightHanded
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.upAxis
+  name: upAxis
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.html#IVLab_Utilities_CoordConversion_CoordSystem_upAxis
+  commentId: F:IVLab.Utilities.CoordConversion.CoordSystem.upAxis
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.upAxis
+  nameWithType: CoordConversion.CoordSystem.upAxis
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.upVector
+  name: upVector
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.html#IVLab_Utilities_CoordConversion_CoordSystem_upVector
+  commentId: P:IVLab.Utilities.CoordConversion.CoordSystem.upVector
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.upVector
+  nameWithType: CoordConversion.CoordSystem.upVector
+- uid: IVLab.Utilities.CoordConversion.CoordSystem.upVector*
+  name: upVector
+  href: api/IVLab.Utilities.CoordConversion.CoordSystem.html#IVLab_Utilities_CoordConversion_CoordSystem_upVector_
+  commentId: Overload:IVLab.Utilities.CoordConversion.CoordSystem.upVector
+  isSpec: "True"
+  fullName: IVLab.Utilities.CoordConversion.CoordSystem.upVector
+  nameWithType: CoordConversion.CoordSystem.upVector
+- uid: IVLab.Utilities.CoordConversion.FromUnity(Matrix4x4,IVLab.Utilities.CoordConversion.CoordSystem)
+  name: FromUnity(Matrix4x4, CoordConversion.CoordSystem)
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_FromUnity_Matrix4x4_IVLab_Utilities_CoordConversion_CoordSystem_
+  commentId: M:IVLab.Utilities.CoordConversion.FromUnity(Matrix4x4,IVLab.Utilities.CoordConversion.CoordSystem)
+  fullName: IVLab.Utilities.CoordConversion.FromUnity(Matrix4x4, IVLab.Utilities.CoordConversion.CoordSystem)
+  nameWithType: CoordConversion.FromUnity(Matrix4x4, CoordConversion.CoordSystem)
+- uid: IVLab.Utilities.CoordConversion.FromUnity(Quaternion,IVLab.Utilities.CoordConversion.CoordSystem)
+  name: FromUnity(Quaternion, CoordConversion.CoordSystem)
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_FromUnity_Quaternion_IVLab_Utilities_CoordConversion_CoordSystem_
+  commentId: M:IVLab.Utilities.CoordConversion.FromUnity(Quaternion,IVLab.Utilities.CoordConversion.CoordSystem)
+  fullName: IVLab.Utilities.CoordConversion.FromUnity(Quaternion, IVLab.Utilities.CoordConversion.CoordSystem)
+  nameWithType: CoordConversion.FromUnity(Quaternion, CoordConversion.CoordSystem)
+- uid: IVLab.Utilities.CoordConversion.FromUnity(Vector3,IVLab.Utilities.CoordConversion.CoordSystem)
+  name: FromUnity(Vector3, CoordConversion.CoordSystem)
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_FromUnity_Vector3_IVLab_Utilities_CoordConversion_CoordSystem_
+  commentId: M:IVLab.Utilities.CoordConversion.FromUnity(Vector3,IVLab.Utilities.CoordConversion.CoordSystem)
+  fullName: IVLab.Utilities.CoordConversion.FromUnity(Vector3, IVLab.Utilities.CoordConversion.CoordSystem)
+  nameWithType: CoordConversion.FromUnity(Vector3, CoordConversion.CoordSystem)
+- uid: IVLab.Utilities.CoordConversion.FromUnity*
+  name: FromUnity
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_FromUnity_
+  commentId: Overload:IVLab.Utilities.CoordConversion.FromUnity
+  isSpec: "True"
+  fullName: IVLab.Utilities.CoordConversion.FromUnity
+  nameWithType: CoordConversion.FromUnity
+- uid: IVLab.Utilities.CoordConversion.GetRotation(Matrix4x4)
+  name: GetRotation(Matrix4x4)
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_GetRotation_Matrix4x4_
+  commentId: M:IVLab.Utilities.CoordConversion.GetRotation(Matrix4x4)
+  fullName: IVLab.Utilities.CoordConversion.GetRotation(Matrix4x4)
+  nameWithType: CoordConversion.GetRotation(Matrix4x4)
+- uid: IVLab.Utilities.CoordConversion.GetRotation*
+  name: GetRotation
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_GetRotation_
+  commentId: Overload:IVLab.Utilities.CoordConversion.GetRotation
+  isSpec: "True"
+  fullName: IVLab.Utilities.CoordConversion.GetRotation
+  nameWithType: CoordConversion.GetRotation
+- uid: IVLab.Utilities.CoordConversion.GetTranslation(Matrix4x4)
+  name: GetTranslation(Matrix4x4)
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_GetTranslation_Matrix4x4_
+  commentId: M:IVLab.Utilities.CoordConversion.GetTranslation(Matrix4x4)
+  fullName: IVLab.Utilities.CoordConversion.GetTranslation(Matrix4x4)
+  nameWithType: CoordConversion.GetTranslation(Matrix4x4)
+- uid: IVLab.Utilities.CoordConversion.GetTranslation*
+  name: GetTranslation
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_GetTranslation_
+  commentId: Overload:IVLab.Utilities.CoordConversion.GetTranslation
+  isSpec: "True"
+  fullName: IVLab.Utilities.CoordConversion.GetTranslation
+  nameWithType: CoordConversion.GetTranslation
+- uid: IVLab.Utilities.CoordConversion.ToUnity(Matrix4x4,IVLab.Utilities.CoordConversion.CoordSystem)
+  name: ToUnity(Matrix4x4, CoordConversion.CoordSystem)
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_ToUnity_Matrix4x4_IVLab_Utilities_CoordConversion_CoordSystem_
+  commentId: M:IVLab.Utilities.CoordConversion.ToUnity(Matrix4x4,IVLab.Utilities.CoordConversion.CoordSystem)
+  fullName: IVLab.Utilities.CoordConversion.ToUnity(Matrix4x4, IVLab.Utilities.CoordConversion.CoordSystem)
+  nameWithType: CoordConversion.ToUnity(Matrix4x4, CoordConversion.CoordSystem)
+- uid: IVLab.Utilities.CoordConversion.ToUnity(Quaternion,IVLab.Utilities.CoordConversion.CoordSystem)
+  name: ToUnity(Quaternion, CoordConversion.CoordSystem)
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_ToUnity_Quaternion_IVLab_Utilities_CoordConversion_CoordSystem_
+  commentId: M:IVLab.Utilities.CoordConversion.ToUnity(Quaternion,IVLab.Utilities.CoordConversion.CoordSystem)
+  fullName: IVLab.Utilities.CoordConversion.ToUnity(Quaternion, IVLab.Utilities.CoordConversion.CoordSystem)
+  nameWithType: CoordConversion.ToUnity(Quaternion, CoordConversion.CoordSystem)
+- uid: IVLab.Utilities.CoordConversion.ToUnity(Vector3,IVLab.Utilities.CoordConversion.CoordSystem)
+  name: ToUnity(Vector3, CoordConversion.CoordSystem)
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_ToUnity_Vector3_IVLab_Utilities_CoordConversion_CoordSystem_
+  commentId: M:IVLab.Utilities.CoordConversion.ToUnity(Vector3,IVLab.Utilities.CoordConversion.CoordSystem)
+  fullName: IVLab.Utilities.CoordConversion.ToUnity(Vector3, IVLab.Utilities.CoordConversion.CoordSystem)
+  nameWithType: CoordConversion.ToUnity(Vector3, CoordConversion.CoordSystem)
+- uid: IVLab.Utilities.CoordConversion.ToUnity*
+  name: ToUnity
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_ToUnity_
+  commentId: Overload:IVLab.Utilities.CoordConversion.ToUnity
+  isSpec: "True"
+  fullName: IVLab.Utilities.CoordConversion.ToUnity
+  nameWithType: CoordConversion.ToUnity
 - uid: IVLab.Utilities.CUIColorPicker
   name: CUIColorPicker
   href: api/IVLab.Utilities.CUIColorPicker.html

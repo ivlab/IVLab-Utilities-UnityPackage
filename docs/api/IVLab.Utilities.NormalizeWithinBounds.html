@@ -173,12 +173,22 @@ new one is bigger than the previous one.</p>
       <tr>
         <td><span class="xref">Bounds</span></td>
         <td><span class="parametername">container</span></td>
-        <td></td>
+        <td><p>The resulting bounds will be contained
+within these bounds</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Bounds</span></td>
         <td><span class="parametername">thisDataSpaceBounds</span></td>
-        <td></td>
+        <td><p>The original bounds (in data
+space) of this data object (the thing we&apos;re trying to contain inside
+<param name="boundsAll">The current bounds of all data objects (in
+room [container] space). Not modified if the data space is not
+expanded.
+<param name="transform">The resulting transformation between data
+and room space (not modified if not expanded).
+<code>container</code>)</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Bounds</span></td>
@@ -193,7 +203,9 @@ new one is bigger than the previous one.</p>
       <tr>
         <td><span class="xref">Bounds</span></td>
         <td><span class="parametername">dataSpaceBoundsAll</span></td>
-        <td></td>
+        <td><p>In data space, the current bounds
+of all data objects together.</p>
+</td>
       </tr>
     </tbody>
   </table>

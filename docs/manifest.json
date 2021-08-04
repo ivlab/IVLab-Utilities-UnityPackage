@@ -60,6 +60,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/IVLab.Utilities.BBoxVis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IVLab.Utilities.BBoxVis.html",
+          "hash": "XakX2dpFmkpvdebFW3UStd8w7s071APqfetlfxLxXfM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/IVLab.Utilities.Boundable.yml",
       "output": {
         ".html": {
@@ -204,6 +216,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/IVLab.Utilities.CoordConversion.CoordSystem.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IVLab.Utilities.CoordConversion.CoordSystem.Axis.html",
+          "hash": "B+hNJNewEb2d+AR8OAFz2HbNxYH5v+VQC8vMMQacNj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IVLab.Utilities.CoordConversion.CoordSystem.Handedness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IVLab.Utilities.CoordConversion.CoordSystem.Handedness.html",
+          "hash": "xW/gmliwh2s8UDwLInPGkQP7ZEm7rTyH8kez+4HlsWI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IVLab.Utilities.CoordConversion.CoordSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IVLab.Utilities.CoordConversion.CoordSystem.html",
+          "hash": "WY0QC8Upe9bt/u0HU2w0cavfnaJN86wZNzKtHCBNq50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IVLab.Utilities.CoordConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IVLab.Utilities.CoordConversion.html",
+          "hash": "5FFGkUzKHLBt4Cbe5FiJ66mzivCbntUc74p4lZiuNFw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/IVLab.Utilities.DataSpace.yml",
       "output": {
         ".html": {
@@ -304,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.NormalizeWithinBounds.html",
-          "hash": "rRsQeZyu+qzyfyVQKjnZR/YKwNC7BCGpoD36qKI6u9I="
+          "hash": "iemtWvUthhourHrWn/G32xTxq9t9vwLW/45ym7KvHa8="
         }
       },
       "is_incremental": false,
@@ -376,7 +436,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.Singleton-1.html",
-          "hash": "C3Yi14AZY0pwUIRQDtM5OpAfia3WQAoBaNUYw+exQWo="
+          "hash": "Y6NulHaTZEcb/wI9+hiaE31gip75Zf0+mPBM5mb4kEk="
         }
       },
       "is_incremental": false,
@@ -472,7 +532,7 @@
       "output": {
         ".html": {
           "relative_path": "api/IVLab.Utilities.html",
-          "hash": "oCBGPmmIIFahOUS5J8csEvbhe/qtoKitnMXs/LXaAbc="
+          "hash": "cupksnU3cxqt3Fvv2xfwRzGf7+tWVCv0HQo5n6fytyo="
         }
       },
       "is_incremental": false,
@@ -484,7 +544,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "y6dzN+LelQK5N85+uMs10uAXpFjGp5o7HRZEkEJQOOw="
+          "hash": "rfPL9MfzCzBdqLkQDIrb7gNEjLBIPvRgJ2/IFxjiwNM="
         }
       },
       "is_incremental": false,
@@ -559,8 +619,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 38,
-          "skipped_file_count": 38
+          "total_file_count": 43,
+          "skipped_file_count": 11
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
