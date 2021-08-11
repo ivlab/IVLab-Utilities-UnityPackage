@@ -147,7 +147,6 @@ namespace IVLab.Utilities
             await RunJob(funcJob, method);
 
             // HACK: If the job returned a Task, assume we want to wait for that task before we move on...
-            Debug.Log(funcJob.result.GetType());
             if (funcJob.result.GetType().BaseType == typeof(Task))
             {
                 Task taskResult = funcJob.result as Task;
