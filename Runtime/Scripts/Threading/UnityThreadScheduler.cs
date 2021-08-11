@@ -98,7 +98,7 @@ namespace IVLab.Utilities
                 lock (queuedJobsPerMethod[method])
                 {
                     job = queuedJobsPerMethod[method].Dequeue();
-                    //Debug.Log(job.GetHashCode() + " Dequed @ " + job.stopwatch.ElapsedMilliseconds + " ms");
+                    // Debug.Log(job.GetHashCode() + " Dequed @ " + job.stopwatch.ElapsedMilliseconds + " ms");
 
                 }
                 UnityThread_ProcessJob(job);
@@ -115,9 +115,9 @@ namespace IVLab.Utilities
             {
                 queuedJobsPerMethod[method].Enqueue(job);
             }
-            //Debug.Log(job.GetHashCode() +  " Queued @ " + job.stopwatch.ElapsedMilliseconds + " ms");
+            // Debug.Log(job.GetHashCode() +  " Queued @ " + job.stopwatch.ElapsedMilliseconds + " ms");
             while (job.done == false) await Task.Delay(5);
-            //Debug.Log(job.GetHashCode() + " Done @ " + job.stopwatch.ElapsedMilliseconds + " ms");
+            // Debug.Log(job.GetHashCode() + " Done @ " + job.stopwatch.ElapsedMilliseconds + " ms");
 
             if (job.exception != null)
                 throw job.exception;
@@ -131,8 +131,8 @@ namespace IVLab.Utilities
             {
                 queuedJobsPerMethod[method].Enqueue(job);
             }
-            //Debug.Log(job.GetHashCode() +  " Queued @ " + job.stopwatch.ElapsedMilliseconds + " ms");
-            //Debug.Log(job.GetHashCode() + " Done @ " + job.stopwatch.ElapsedMilliseconds + " ms");
+            // Debug.Log(job.GetHashCode() +  " Queued @ " + job.stopwatch.ElapsedMilliseconds + " ms");
+            // Debug.Log(job.GetHashCode() + " Done @ " + job.stopwatch.ElapsedMilliseconds + " ms");
 
             if (job.exception != null)
                 throw job.exception;
@@ -142,7 +142,17 @@ namespace IVLab.Utilities
         {
             var funcJob = new UnityThreadJobFunc<T>();
             funcJob.work = work;
+
+            // First, await the beginning/invocation of the work
             await RunJob(funcJob, method);
+
+            // HACK: If the job returned a Task, assume we want to wait for that task before we move on...
+            Debug.Log(funcJob.result.GetType());
+            if (funcJob.result.GetType().BaseType == typeof(Task))
+            {
+                Task taskResult = funcJob.result as Task;
+                await taskResult;
+            }
             return funcJob.result;
 
         }
