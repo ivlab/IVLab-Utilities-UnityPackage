@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 0.00001
   panSpeed: 0.00005
+  zoomSpeed: 0.001
   rotationWidget: {fileID: 7460582750192422818}
   truckWidget: {fileID: 7460582750313089129}
   panWidget: {fileID: 7460582750924608086}
@@ -316,7 +317,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 244ca46bd62efbb4c8392acaea8e0525, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73906845623f4604e888d5b83471200e, type: 2}
+      objectReference: {fileID: 2100000, guid: 732af548cbbc9d74d9fa41a04489a1b3, type: 2}
     - target: {fileID: 919132149155446097, guid: 244ca46bd62efbb4c8392acaea8e0525, type: 3}
       propertyPath: m_Name
       value: pan_arrow
@@ -502,15 +503,15 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 25d53f6f3eb6a1643a8266d4041a9d36, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3c6d6127f04d9b746bb407f38948af01, type: 2}
+      objectReference: {fileID: 2100000, guid: ca3e9359448b1644eae11937196afd2d, type: 2}
     - target: {fileID: -7635826562936255635, guid: 25d53f6f3eb6a1643a8266d4041a9d36, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 06329b08f74fec64590d6e6eb3e2c7b5, type: 2}
+      objectReference: {fileID: 2100000, guid: 8b653cfa3fe0fd247ac151a7a4de4cdb, type: 2}
     - target: {fileID: -7635826562936255635, guid: 25d53f6f3eb6a1643a8266d4041a9d36, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 0179d83741a568a45be18301bd73793c, type: 2}
+      objectReference: {fileID: 2100000, guid: 4e7159454018f11469bf37c017ca8388, type: 2}
     - target: {fileID: 919132149155446097, guid: 25d53f6f3eb6a1643a8266d4041a9d36, type: 3}
       propertyPath: m_Name
       value: rotation_axes
@@ -601,7 +602,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 1c2f2d74a039d3046b53348321b6b466, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 73906845623f4604e888d5b83471200e, type: 2}
+      objectReference: {fileID: 2100000, guid: 732af548cbbc9d74d9fa41a04489a1b3, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c2f2d74a039d3046b53348321b6b466, type: 3}
       propertyPath: m_Name
       value: truck_arrow
