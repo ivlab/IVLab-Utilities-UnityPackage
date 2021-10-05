@@ -126,7 +126,7 @@ namespace IVLab.Utilities
             }
         }
 
-        public const CoordSystem UnityCS = new CoordSystem(
+        public static CoordSystem UnityCS = new CoordSystem(
             CoordSystem.Handedness.LeftHanded,
             CoordSystem.Axis.PosY,
             CoordSystem.Axis.PosZ
