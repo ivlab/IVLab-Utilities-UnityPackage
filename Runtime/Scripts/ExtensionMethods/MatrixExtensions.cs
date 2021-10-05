@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 public static class MatrixExtensions
@@ -14,7 +15,22 @@ public static class MatrixExtensions
         upwards.y = matrix.m11;
         upwards.z = matrix.m21;
 
-        return Quaternion.LookRotation(forward, upwards);
+        float[] all = new float[] {
+            matrix.m02,
+            matrix.m12,
+            matrix.m22,
+            matrix.m01,
+            matrix.m11,
+            matrix.m21,
+        };
+        if (all.Any((f) => float.IsNaN(f)))
+        {
+            return Quaternion.identity;
+        }
+        else
+        {
+            return Quaternion.LookRotation(forward, upwards);
+        }
     }
 
     public static Vector3 ExtractPosition(this Matrix4x4 matrix)
