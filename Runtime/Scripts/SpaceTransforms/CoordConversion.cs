@@ -192,8 +192,8 @@ namespace IVLab.Utilities
         /// </summary>
         public static Matrix4x4 ToUnity(Matrix4x4 origMat, CoordSystem origCS)
         {
-            Quaternion newRot = ToUnity(GetRotation(origMat), origCS);
-            Vector3 newTrans = ToUnity(GetTranslation(origMat), origCS);
+            Quaternion newRot = ToUnity(origMat.ExtractRotation(), origCS);
+            Vector3 newTrans = ToUnity(origMat.ExtractPosition(), origCS);
             Matrix4x4 newMatrix = Matrix4x4.identity;
             newMatrix.SetTRS(newTrans, newRot, Vector3.one);
             return newMatrix;
@@ -216,7 +216,7 @@ namespace IVLab.Utilities
                 v = new Vector3(-v[0], v[1], v[2]);
             }
             // Now v is in the correct handedness for the new CS.  If needed, apply a rotation to make Unity's
-			// convention of up = +Y and forward = +Z line up with the convention used in newCS.
+            // convention of up = +Y and forward = +Z line up with the convention used in newCS.
             if ((newCS.upAxis != CoordSystem.Axis.PosY) || (newCS.forwardAxis != CoordSystem.Axis.PosZ))
             {
                 v = Quaternion.LookRotation(newCS.forwardVector, newCS.upVector) * v;
@@ -246,7 +246,7 @@ namespace IVLab.Utilities
             }
 
             // Now q is in the same handedness as newCS.  If needed apply a rotation to align the up and forward
-			// axes with Unity's convention of up = +Y and forward = +Z.
+            // axes with Unity's convention of up = +Y and forward = +Z.
             if ((newCS.upAxis != CoordSystem.Axis.PosY) || (newCS.forwardAxis != CoordSystem.Axis.PosZ))
             {
                 q = Quaternion.LookRotation(newCS.forwardVector, newCS.upVector) * q;
@@ -260,35 +260,12 @@ namespace IVLab.Utilities
         /// </summary>
         public static Matrix4x4 FromUnity(Matrix4x4 unityMat, CoordSystem newCS)
         {
-            Quaternion newRot = ToUnity(GetRotation(unityMat), newCS);
-            Vector3 newTrans = ToUnity(GetTranslation(unityMat), newCS);
+            Quaternion newRot = ToUnity(unityMat.ExtractRotation(), newCS);
+            Vector3 newTrans = ToUnity(unityMat.ExtractPosition(), newCS);
             Matrix4x4 newMatrix = Matrix4x4.identity;
             newMatrix.SetTRS(newTrans, newRot, Vector3.one);
             return newMatrix;
             // Previously: return new Matrix4x4(newRot, newTrans);
         }
-
-
-        /// <summary>
-        /// Utility to convert the rotational component (upper 3x3) of a transformation matrix to a
-        /// quaternion.
-        /// </summary>
-        public static Quaternion GetRotation(Matrix4x4 m)
-        {
-            // column 2 is the Z axis, which is the Forward dir
-            // column 1 is the Y axis, which is the Up dir
-            return Quaternion.LookRotation(m.GetColumn(2), m.GetColumn(1));
-        }
-
-        /// <summary>
-        /// Utility to convert the translational component (right column) of a transformation matrix to a
-        /// vector.
-        /// </summary>
-        public static Vector3 GetTranslation(Matrix4x4 m)
-        {
-            // column 3 is the translational part of the matrix
-            return m.GetColumn(3);
-        }
     }
-
 }
