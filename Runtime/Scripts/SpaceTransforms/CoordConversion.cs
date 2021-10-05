@@ -126,6 +126,12 @@ namespace IVLab.Utilities
             }
         }
 
+        public const CoordSystem UnityCS = new CoordSystem(
+            CoordSystem.Handedness.LeftHanded,
+            CoordSystem.Axis.PosY,
+            CoordSystem.Axis.PosZ
+        );
+
 
         /// <summary>
 		/// Converts a point or vector defined according to the provided origCS coordinate system convention into
@@ -144,7 +150,7 @@ namespace IVLab.Utilities
             // Unity's convention of up = +Y and forward = +Z.
             if ((origCS.upAxis != CoordSystem.Axis.PosY) || (origCS.forwardAxis != CoordSystem.Axis.PosZ))
             {
-                v = Quaternion.Inverse(Quaternion.LookRotation(origCS.forwardVector, origCS.upVector)) * v;
+                v = Quaternion.Inverse(Quaternion.LookRotation(UnityCS.upVector, origCS.upVector)) * v;
             }
             return v;
         }
