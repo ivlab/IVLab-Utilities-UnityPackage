@@ -2,277 +2,277 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/Global.DictionaryExtentions.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/Global.MatrixExtensions.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/Global.TransformExtensions.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/Global.VectorExtentions.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/Global.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.BBoxVis.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.Boundable.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.BoundsExtentions.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.BoundsOutline.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.ByteCompression.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.ByteMethods.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.CameraFrustumGizmo.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.ClickAndDragCamera.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.ClickAndDragRotation.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.ColormapUtilities.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.ColorUtilities.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.ContainBoundables.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.CoordConversion.CoordSystem.Axis.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.CoordConversion.CoordSystem.Handedness.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.CoordConversion.CoordSystem.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.CoordConversion.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.CUIColorPicker.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.DataSpace.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.EscapeToQuit.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.FunctionDebugger.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.FunctionDebuggerAttribute.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.GenericObjectPool.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.IBoundable.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.LHtoRHConversion.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.NormalizeMeshScale.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.NormalizeWithinBounds.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.ObjectRecycler.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.PooledObject.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.RHtoLHConversion.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.RoomSpace.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.Screenshot.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.Singleton-1.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.StreamMethods.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.TextureUtilities.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.TransformDebugger.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.UnityThreadScheduler.UnityMethod.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.UnityThreadScheduler.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.VirtualSpace.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.XROMMCoordinates.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/api/IVLab.Utilities.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://pages.github.umn.edu/ivlab-cs/IVLab-Utilities-UnityPackage/index.html</loc>
-    <lastmod>2021-10-08T12:10:50-05:00</lastmod>
+    <lastmod>2021-10-08T12:23:39-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
