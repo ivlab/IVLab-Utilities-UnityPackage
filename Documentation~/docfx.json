@@ -21,7 +21,7 @@
         "globalMetadata": {
             "_appTitle": "IVLab Unity Utilities",
             "_appFooter": "IVLab Unity Utilities",
-            "_appLogoPath": "resources/IVLab.svg",
+            "_appLogoPath": "docs/resources/IVLab.svg",
             "_appFaviconPath": "resources/favicon.ico",
             "_enableSearch": true
         },

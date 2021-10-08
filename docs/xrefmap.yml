@@ -31,6 +31,83 @@ references:
   fullName.vb: DictionaryExtentions.TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
   nameWithType: DictionaryExtentions.TryGetValue<T1, T2>(Dictionary<T1, T2>, T1)
   nameWithType.vb: DictionaryExtentions.TryGetValue(Of T1, T2)(Dictionary(Of T1, T2), T1)
+- uid: Global.MatrixExtensions
+  name: MatrixExtensions
+  href: api/Global.MatrixExtensions.html
+  commentId: T:Global.MatrixExtensions
+  fullName: MatrixExtensions
+  nameWithType: MatrixExtensions
+- uid: Global.MatrixExtensions.ExtractPosition(Matrix4x4)
+  name: ExtractPosition(Matrix4x4)
+  href: api/Global.MatrixExtensions.html#Global_MatrixExtensions_ExtractPosition_Matrix4x4_
+  commentId: M:Global.MatrixExtensions.ExtractPosition(Matrix4x4)
+  fullName: MatrixExtensions.ExtractPosition(Matrix4x4)
+  nameWithType: MatrixExtensions.ExtractPosition(Matrix4x4)
+- uid: Global.MatrixExtensions.ExtractPosition*
+  name: ExtractPosition
+  href: api/Global.MatrixExtensions.html#Global_MatrixExtensions_ExtractPosition_
+  commentId: Overload:Global.MatrixExtensions.ExtractPosition
+  isSpec: "True"
+  fullName: MatrixExtensions.ExtractPosition
+  nameWithType: MatrixExtensions.ExtractPosition
+- uid: Global.MatrixExtensions.ExtractRotation(Matrix4x4)
+  name: ExtractRotation(Matrix4x4)
+  href: api/Global.MatrixExtensions.html#Global_MatrixExtensions_ExtractRotation_Matrix4x4_
+  commentId: M:Global.MatrixExtensions.ExtractRotation(Matrix4x4)
+  fullName: MatrixExtensions.ExtractRotation(Matrix4x4)
+  nameWithType: MatrixExtensions.ExtractRotation(Matrix4x4)
+- uid: Global.MatrixExtensions.ExtractRotation*
+  name: ExtractRotation
+  href: api/Global.MatrixExtensions.html#Global_MatrixExtensions_ExtractRotation_
+  commentId: Overload:Global.MatrixExtensions.ExtractRotation
+  isSpec: "True"
+  fullName: MatrixExtensions.ExtractRotation
+  nameWithType: MatrixExtensions.ExtractRotation
+- uid: Global.MatrixExtensions.ExtractScale(Matrix4x4)
+  name: ExtractScale(Matrix4x4)
+  href: api/Global.MatrixExtensions.html#Global_MatrixExtensions_ExtractScale_Matrix4x4_
+  commentId: M:Global.MatrixExtensions.ExtractScale(Matrix4x4)
+  fullName: MatrixExtensions.ExtractScale(Matrix4x4)
+  nameWithType: MatrixExtensions.ExtractScale(Matrix4x4)
+- uid: Global.MatrixExtensions.ExtractScale*
+  name: ExtractScale
+  href: api/Global.MatrixExtensions.html#Global_MatrixExtensions_ExtractScale_
+  commentId: Overload:Global.MatrixExtensions.ExtractScale
+  isSpec: "True"
+  fullName: MatrixExtensions.ExtractScale
+  nameWithType: MatrixExtensions.ExtractScale
+- uid: Global.TransformExtensions
+  name: TransformExtensions
+  href: api/Global.TransformExtensions.html
+  commentId: T:Global.TransformExtensions
+  fullName: TransformExtensions
+  nameWithType: TransformExtensions
+- uid: Global.TransformExtensions.FromMatrix(Transform,Matrix4x4)
+  name: FromMatrix(Transform, Matrix4x4)
+  href: api/Global.TransformExtensions.html#Global_TransformExtensions_FromMatrix_Transform_Matrix4x4_
+  commentId: M:Global.TransformExtensions.FromMatrix(Transform,Matrix4x4)
+  fullName: TransformExtensions.FromMatrix(Transform, Matrix4x4)
+  nameWithType: TransformExtensions.FromMatrix(Transform, Matrix4x4)
+- uid: Global.TransformExtensions.FromMatrix*
+  name: FromMatrix
+  href: api/Global.TransformExtensions.html#Global_TransformExtensions_FromMatrix_
+  commentId: Overload:Global.TransformExtensions.FromMatrix
+  isSpec: "True"
+  fullName: TransformExtensions.FromMatrix
+  nameWithType: TransformExtensions.FromMatrix
+- uid: Global.TransformExtensions.SetGlobalScale(Transform,Vector3)
+  name: SetGlobalScale(Transform, Vector3)
+  href: api/Global.TransformExtensions.html#Global_TransformExtensions_SetGlobalScale_Transform_Vector3_
+  commentId: M:Global.TransformExtensions.SetGlobalScale(Transform,Vector3)
+  fullName: TransformExtensions.SetGlobalScale(Transform, Vector3)
+  nameWithType: TransformExtensions.SetGlobalScale(Transform, Vector3)
+- uid: Global.TransformExtensions.SetGlobalScale*
+  name: SetGlobalScale
+  href: api/Global.TransformExtensions.html#Global_TransformExtensions_SetGlobalScale_
+  commentId: Overload:Global.TransformExtensions.SetGlobalScale
+  isSpec: "True"
+  fullName: TransformExtensions.SetGlobalScale
+  nameWithType: TransformExtensions.SetGlobalScale
 - uid: Global.VectorExtentions
   name: VectorExtentions
   href: api/Global.VectorExtentions.html
@@ -789,32 +866,6 @@ references:
   isSpec: "True"
   fullName: IVLab.Utilities.CoordConversion.FromUnity
   nameWithType: CoordConversion.FromUnity
-- uid: IVLab.Utilities.CoordConversion.GetRotation(Matrix4x4)
-  name: GetRotation(Matrix4x4)
-  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_GetRotation_Matrix4x4_
-  commentId: M:IVLab.Utilities.CoordConversion.GetRotation(Matrix4x4)
-  fullName: IVLab.Utilities.CoordConversion.GetRotation(Matrix4x4)
-  nameWithType: CoordConversion.GetRotation(Matrix4x4)
-- uid: IVLab.Utilities.CoordConversion.GetRotation*
-  name: GetRotation
-  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_GetRotation_
-  commentId: Overload:IVLab.Utilities.CoordConversion.GetRotation
-  isSpec: "True"
-  fullName: IVLab.Utilities.CoordConversion.GetRotation
-  nameWithType: CoordConversion.GetRotation
-- uid: IVLab.Utilities.CoordConversion.GetTranslation(Matrix4x4)
-  name: GetTranslation(Matrix4x4)
-  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_GetTranslation_Matrix4x4_
-  commentId: M:IVLab.Utilities.CoordConversion.GetTranslation(Matrix4x4)
-  fullName: IVLab.Utilities.CoordConversion.GetTranslation(Matrix4x4)
-  nameWithType: CoordConversion.GetTranslation(Matrix4x4)
-- uid: IVLab.Utilities.CoordConversion.GetTranslation*
-  name: GetTranslation
-  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_GetTranslation_
-  commentId: Overload:IVLab.Utilities.CoordConversion.GetTranslation
-  isSpec: "True"
-  fullName: IVLab.Utilities.CoordConversion.GetTranslation
-  nameWithType: CoordConversion.GetTranslation
 - uid: IVLab.Utilities.CoordConversion.ToUnity(Matrix4x4,IVLab.Utilities.CoordConversion.CoordSystem)
   name: ToUnity(Matrix4x4, CoordConversion.CoordSystem)
   href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_ToUnity_Matrix4x4_IVLab_Utilities_CoordConversion_CoordSystem_
@@ -840,6 +891,12 @@ references:
   isSpec: "True"
   fullName: IVLab.Utilities.CoordConversion.ToUnity
   nameWithType: CoordConversion.ToUnity
+- uid: IVLab.Utilities.CoordConversion.UnityCS
+  name: UnityCS
+  href: api/IVLab.Utilities.CoordConversion.html#IVLab_Utilities_CoordConversion_UnityCS
+  commentId: F:IVLab.Utilities.CoordConversion.UnityCS
+  fullName: IVLab.Utilities.CoordConversion.UnityCS
+  nameWithType: CoordConversion.UnityCS
 - uid: IVLab.Utilities.CUIColorPicker
   name: CUIColorPicker
   href: api/IVLab.Utilities.CUIColorPicker.html

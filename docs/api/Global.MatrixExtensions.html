@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Boundable
+    <title>Class MatrixExtensions
    | IVLab Unity Utilities </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Boundable
+    <meta name="title" content="Class MatrixExtensions
    | IVLab Unity Utilities ">
     <meta name="generator" content="docfx 2.58.4.0">
     
@@ -78,35 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="IVLab.Utilities.Boundable">
+            <article class="content wrap" id="_content" data-uid="Global.MatrixExtensions">
   
   
-  <h1 id="IVLab_Utilities_Boundable" data-uid="IVLab.Utilities.Boundable" class="text-break">Class Boundable
+  <h1 id="Global_MatrixExtensions" data-uid="Global.MatrixExtensions" class="text-break">Class MatrixExtensions
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Boundable</span></div>
+    <div class="level1"><span class="xref">MatrixExtensions</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="IVLab.Utilities.html">IVLab.Utilities</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="IVLab_Utilities_Boundable_syntax">Syntax</h5>
+  <h5 id="Global_MatrixExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Boundable</code></pre>
+    <pre><code class="lang-csharp hljs">public static class MatrixExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="IVLab_Utilities_Boundable_EncapsulateAll_" data-uid="IVLab.Utilities.Boundable.EncapsulateAll*"></a>
-  <h4 id="IVLab_Utilities_Boundable_EncapsulateAll_IEnumerable_IVLab_Utilities_IBoundable__" data-uid="IVLab.Utilities.Boundable.EncapsulateAll(IEnumerable{IVLab.Utilities.IBoundable})">EncapsulateAll(IEnumerable&lt;IBoundable&gt;)</h4>
+  <a id="Global_MatrixExtensions_ExtractPosition_" data-uid="Global.MatrixExtensions.ExtractPosition*"></a>
+  <h4 id="Global_MatrixExtensions_ExtractPosition_Matrix4x4_" data-uid="Global.MatrixExtensions.ExtractPosition(Matrix4x4)">ExtractPosition(Matrix4x4)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Bounds EncapsulateAll(IEnumerable&lt;IBoundable&gt; boundables)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector3 ExtractPosition(this Matrix4x4 matrix)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,8 +119,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="IVLab.Utilities.IBoundable.html">IBoundable</a>&gt;</td>
-        <td><span class="parametername">boundables</span></td>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">matrix</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -135,7 +135,91 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Bounds</span></td>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_MatrixExtensions_ExtractRotation_" data-uid="Global.MatrixExtensions.ExtractRotation*"></a>
+  <h4 id="Global_MatrixExtensions_ExtractRotation_Matrix4x4_" data-uid="Global.MatrixExtensions.ExtractRotation(Matrix4x4)">ExtractRotation(Matrix4x4)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion ExtractRotation(this Matrix4x4 matrix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">matrix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_MatrixExtensions_ExtractScale_" data-uid="Global.MatrixExtensions.ExtractScale*"></a>
+  <h4 id="Global_MatrixExtensions_ExtractScale_Matrix4x4_" data-uid="Global.MatrixExtensions.ExtractScale(Matrix4x4)">ExtractScale(Matrix4x4)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 ExtractScale(this Matrix4x4 matrix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">matrix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
         <td></td>
       </tr>
     </tbody>
