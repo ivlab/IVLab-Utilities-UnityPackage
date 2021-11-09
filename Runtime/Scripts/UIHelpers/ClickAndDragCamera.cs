@@ -223,8 +223,9 @@ public class ClickAndDragCamera : MonoBehaviour
         axesWidget.transform.localPosition = camPos;
         axesWidget.SetActive(showWidgets);
 
-        // Set the rotation of the axes widget so it lines up with global xyz
+        // Set the rotation of the axes and rotation widgets so they line up with global xyz
         axesWidget.transform.rotation = Quaternion.identity;
+        rotationWidget.transform.rotation = Quaternion.identity;
 
         // Set visibility of other widgets
         rotationWidget.SetActive(showWidgets && (rotate || orbit));
