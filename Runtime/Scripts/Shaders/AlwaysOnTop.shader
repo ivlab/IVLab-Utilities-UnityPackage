@@ -11,8 +11,13 @@ Shader "Unlit/AlwaysOnTop"
 		}
 
 		LOD 100
+
+		// Render on top of all other objects by ignoring z test
 		ZWrite Off
 		ZTest Always
+
+		// Write to depth buffer
+		UsePass "Legacy Shaders/VertexLit/SHADOWCASTER"
 
 		Pass {
 			CGPROGRAM
