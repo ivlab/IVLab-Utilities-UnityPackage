@@ -7,17 +7,13 @@ Shader "Unlit/AlwaysOnTop"
 	SubShader{
 		Tags {
 			"RenderType" = "Opaque"
-			"Queue" = "Transparent+1"
+			"Queue" = "Transparent+2"  // Volumes are rendered +1, so render this +2
 		}
 
 		LOD 100
 
-		// Render on top of all other objects by ignoring z test
-		ZWrite Off
+		// Render on top of all other objects by always passing z test
 		ZTest Always
-
-		// Write to depth buffer
-		UsePass "Legacy Shaders/VertexLit/SHADOWCASTER"
 
 		Pass {
 			CGPROGRAM
