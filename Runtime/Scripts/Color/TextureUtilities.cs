@@ -16,6 +16,44 @@ namespace IVLab.Utilities
     public static class TextureUtilities
     {
         /// <summary>
+        /// Create a texture gradient (series of distinct textures), stacked vertically.
+        /// For example, if we have 3 textures: 1024x100, 2048x100, and
+        /// 1024x100, the resulting image will be 2048x300. By default, all
+        /// textures are scaled to the max width.
+        /// </summary>
+        public static Texture2D MakeTextureGradientVertical(List<Texture2D> textures)
+        {
+            // Calculate the resulting width/height
+            int maxWidth = textures.Select((tex) => tex.width).Max();
+            int totalHeight = textures.Select((tex) => tex.height).Sum();
+
+            if (textures.Count == 0)
+            {
+                Debug.LogError("Must be at least one texture in texture gradient");
+                return null;
+            }
+
+            List<Color> finalPixels = new List<Color>();
+
+            // For every texture, scale horizontally if necessary and add the pixels
+            foreach (Texture2D tex in textures)
+            {
+                Texture2D rescaled = tex;
+                if (tex.width != maxWidth)
+                {
+                    rescaled = ScaleTexture(rescaled, maxWidth, tex.height);
+                    Debug.LogWarning("Texture scaled when making texture gradient, resulting gradient may not be optimal");
+                }
+                finalPixels.AddRange(rescaled.GetPixels());
+            }
+
+            Texture2D finalImage = new Texture2D(maxWidth, totalHeight);
+            finalImage.SetPixels(finalPixels.ToArray());
+            finalImage.Apply();
+            return finalImage;
+        }
+
+        /// <summary>
         ///     Make a gradient out of a set of textures. Textures will be squashed
         ///     together horizontally with no resizing.
         /// </summary>
