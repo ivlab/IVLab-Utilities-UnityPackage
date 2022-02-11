@@ -44,16 +44,21 @@ namespace IVLab.Utilities
         ///     }
         /// }
         /// </code></example>
-        public void AddBBox(string name, Bounds bounds, Matrix4x4 localToWorldMatrix)
+        public void AddBBox(Color c, string name, Bounds bounds, Matrix4x4 localToWorldMatrix)
         {
             if (!names.Contains(name))
             {
-                Color c = Random.ColorHSV();
                 this.colors.Add(c);
                 this.names.Add(name);
                 this.bounds.Add(bounds);
                 this.localToWorldMatrices.Add(localToWorldMatrix);
             }
+        }
+
+        public void AddBBox(string name, Bounds bounds, Matrix4x4 localToWorldMatrix)
+        {
+            Color c = Random.ColorHSV();
+            AddBBox(c, name, bounds, localToWorldMatrix);
         }
 
         /// <summary>
