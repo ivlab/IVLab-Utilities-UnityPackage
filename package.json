@@ -3,5 +3,12 @@
     "displayName": "IVLab Utilities",
     "version": "0.1.0",
     "unity": "2020.1",
-    "description": "A collection of useful scripts for building unity projects in the Interactive Visualization Lab."
+    "description": "A collection of useful scripts for building unity projects in the Interactive Visualization Lab.",
+    "samples": [
+        {
+            "displayName": "Package Builder",
+            "description": "This sample contains a scene and script to build custom tarball packages out of packages from other sources (e.g., git packages or local packages)",
+            "path": "Samples~/PackageBuilder"
+        }
+    ]
 }
