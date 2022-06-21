@@ -10,5 +10,8 @@
             "description": "This sample contains a scene and script to build custom tarball packages out of packages from other sources (e.g., git packages or local packages)",
             "path": "Samples~/PackageBuilder"
         }
-    ]
+    ],
+    "author": {
+        "name" : "IVLab"
+    }
 }
