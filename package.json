@@ -11,7 +11,5 @@
             "path": "Samples~/PackageBuilder"
         }
     ],
-    "author": {
-        "name" : "IVLab"
-    }
+    "author": { "name": "IVLab", "email": "ivlab-admin@umn.edu", "url": "https://ivlab.cs.umn.edu" }
 }
