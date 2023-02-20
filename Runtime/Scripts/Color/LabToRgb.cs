@@ -32,7 +32,7 @@ namespace IVLab.Utilities
     /// <summary>
     /// Conversions for RGB and CIE Lab color spaces and Unity color objects
     /// </summary>
-    class Lab2Rgb {
+    public class Lab2Rgb {
         public static List<float> color2list(Color color)
         {
             return new List<float> {
