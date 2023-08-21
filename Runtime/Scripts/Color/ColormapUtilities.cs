@@ -103,6 +103,7 @@ namespace IVLab.Utilities {
 
     public class ColormapUtilities
     {
+        [Obsolete("Method is obsolete. Use the Colormap class instead.")]
         public static Texture2D ColormapFromXML(string xmlText, int texWidth, int texHeight)
         {
             // Read XML file and produce a Texture2D
@@ -129,6 +130,7 @@ namespace IVLab.Utilities {
             return CreateTextureFromColormap(colormap, texWidth, texHeight);
         }
 
+        [Obsolete("Method is obsolete. Use the Colormap class instead.")]
         public static Texture2D ColormapFromFile(string filePath, int texWidth=1024, int texHeight=100)
         {
             string extention = Path.GetExtension(filePath);
@@ -158,6 +160,7 @@ namespace IVLab.Utilities {
 
         // Given a colormap, create a texture by drawing a bunch of little
         // rectangles
+        [Obsolete("Method is obsolete. Use the Colormap class instead.")]
         private static Texture2D CreateTextureFromColormap(ColormapInternal colormap, int texWidth=1024, int texHeight=1)
         {
             // Create our texture and get its width
@@ -187,6 +190,7 @@ namespace IVLab.Utilities {
             return image;
         }
 
+        [Obsolete("Method is obsolete. Use the Colormap class instead.")]
         public static void SaveTextureAsPng(string path, Texture2D texture)
         {
             byte[] pngBytes = texture.EncodeToPNG();
